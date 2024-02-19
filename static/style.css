@@ -6,6 +6,10 @@
   background-color: orange;
 }
 
+.yellow{
+  background-color: #FFD700;
+}
+
 .height-700{
   height: 700px;
 }
@@ -13,4 +17,9 @@
 .cao-banner{
   background-image: url("https://media.istockphoto.com/id/933911650/pt/foto/multiple-dog-breeds-in-a-row-web-banner.jpg?s=1024x1024&w=is&k=20&c=TmPjcK5GYElW5-se8MXrK9ppJ1UhIzQliIlj6RFoUmo=");
   background-size: contain;
+}
+
+.square-img{
+  width: 500px;
+  height: 500px;
 }
