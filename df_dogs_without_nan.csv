@@ -1,0 +1,1351 @@
+,breed_primary,breed_secondary,breed_mixed,breed_unknown,color_primary,color_secondary,age,sex,size,coat,fixed,house_trained,special_needs,shots_current,env_children,env_dogs,env_cats
+241,Australian Cattle Dog / Blue Heeler,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,False,False,True,False,True,False
+246,Shih Tzu,Pug,True,False,Black,Gray / Blue / Silver,Senior,Female,Small,Wire,True,True,False,True,True,True,True
+357,Pit Bull Terrier,American Bulldog,True,False,Brown / Chocolate,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,True
+374,Cairn Terrier,Shih Tzu,True,False,Merle (Red),Yellow / Tan / Blond / Fawn,Young,Male,Small,Medium,False,True,False,False,True,True,True
+378,Chihuahua,Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+379,Terrier,Chihuahua,True,False,Brown / Chocolate,White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+457,Border Collie,Beagle,True,False,Black,White / Cream,Senior,Male,Medium,Short,True,True,False,True,False,True,False
+458,Rottweiler,Shepherd,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Medium,True,True,False,True,False,True,False
+460,Chihuahua,Mixed Breed,True,False,Black,White / Cream,Adult,Female,Small,Short,True,True,False,True,True,True,False
+586,American Bulldog,Pit Bull Terrier,True,False,Bicolor,Gray / Blue / Silver,Senior,Male,Large,Short,False,True,False,True,False,True,False
+587,American Bulldog,Pit Bull Terrier,True,False,Bicolor,Brown / Chocolate,Senior,Male,Large,Short,True,True,False,True,False,False,False
+590,Pointer,Pit Bull Terrier,True,False,Brindle,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,False,True,False
+1073,Border Collie,Dalmatian,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,True,False,True,True,True,True
+1225,Catahoula Leopard Dog,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Adult,Male,Medium,Short,True,True,True,True,True,True,True
+1242,Dachshund,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Small,Short,True,True,False,True,True,True,True
+1254,Terrier,Shih Tzu,True,False,Black,Gray / Blue / Silver,Adult,Male,Small,Long,True,False,False,True,False,True,True
+1354,Hound,Doberman Pinscher,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+1357,Hound,Doberman Pinscher,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+1431,Terrier,Pug,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+1432,Terrier,Pug,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+1526,Pointer,German Shorthaired Pointer,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,True,True,True,True,True
+1550,Pit Bull Terrier,Labrador Retriever,True,False,Golden,White / Cream,Senior,Female,Large,Short,True,True,False,True,True,True,True
+1554,English Bulldog,American Bulldog,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,False,False
+1671,Staffordshire Bull Terrier,Mixed Breed,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+1769,Pomeranian,Terrier,True,False,Apricot / Beige,White / Cream,Adult,Male,Small,Long,True,False,False,True,True,True,False
+1831,American Staffordshire Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Short,True,True,False,True,True,True,False
+1895,Labrador Retriever,Husky,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+1966,Hound,Pit Bull Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,False,False,False,True,True,True,True
+2187,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+2188,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+2190,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+2225,Dachshund,Miniature Pinscher,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Small,Short,True,False,False,True,True,True,True
+2258,Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+2279,Pit Bull Terrier,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,False
+2337,Rat Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,False,False,True,True,True,True
+2338,Rat Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,True,False,False,True,True,True,True
+2339,Rat Terrier,Chihuahua,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Small,Short,True,False,False,True,True,True,True
+2340,Rat Terrier,Chihuahua,True,False,Brown / Chocolate,Red / Chestnut / Orange,Baby,Male,Small,Short,True,False,False,True,True,True,True
+2512,Weimaraner,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,False,False
+2580,German Shepherd Dog,Shepherd,True,False,Black,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,True,True
+2609,Staffordshire Bull Terrier,Labrador Retriever,True,False,Bicolor,Black,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+2617,Pit Bull Terrier,Mixed Breed,True,False,Brown / Chocolate,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+2647,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,False,True,True,True
+2658,Terrier,Labrador Retriever,True,False,Gray / Blue / Silver,"Tricolor (Brown, Black, & White)",Adult,Female,Small,Short,True,True,False,True,False,False,False
+2764,Hound,Shepherd,True,False,Bicolor,Brown / Chocolate,Young,Male,Medium,Short,True,False,False,True,True,True,True
+2809,Mixed Breed,Terrier,True,False,Gray / Blue / Silver,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+2810,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,False,True,True,True
+3030,Chihuahua,Dachshund,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,True,False,True,True,True,True
+3031,Chihuahua,Dachshund,True,False,Black,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+3476,Australian Shepherd,Great Pyrenees,True,False,Apricot / Beige,Red / Chestnut / Orange,Young,Female,Large,Medium,True,False,False,False,True,True,True
+3490,Labrador Retriever,Hound,True,False,Brown / Chocolate,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,True,True
+3676,Chihuahua,Dachshund,True,False,Bicolor,Brown / Chocolate,Baby,Male,Small,Short,True,False,False,True,True,True,True
+3694,Chihuahua,Dachshund,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+3835,Border Collie,Australian Shepherd,True,False,Black,White / Cream,Senior,Female,Large,Medium,True,True,False,True,True,True,False
+3837,Shar-Pei,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,True,False
+4050,Cattle Dog,Australian Shepherd,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+4149,Cattle Dog,Shepherd,True,False,Brindle,Brown / Chocolate,Adult,Female,Medium,Medium,True,True,False,True,True,True,True
+4437,Chihuahua,Italian Greyhound,True,False,Black,Gray / Blue / Silver,Senior,Female,Small,Short,True,True,False,True,True,True,True
+4468,Beagle,Fox Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Small,Short,True,True,False,True,True,True,True
+4493,Australian Shepherd,Cattle Dog,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+4532,Shepherd,Mixed Breed,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,True
+4573,Chihuahua,Dachshund,True,False,Brown / Chocolate,White / Cream,Adult,Male,Small,Short,True,True,False,True,False,True,True
+4612,Border Collie,Australian Shepherd,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+4613,Australian Shepherd,Border Collie,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+4625,Bull Terrier,Staffordshire Bull Terrier,True,False,Black,Brown / Chocolate,Adult,Male,Extra Large,Short,True,True,False,False,False,True,False
+4898,Chihuahua,Fox Terrier,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Small,Short,True,False,False,True,True,True,False
+5016,Australian Cattle Dog / Blue Heeler,Pit Bull Terrier,True,False,Red / Chestnut / Orange,Red / Chestnut / Orange,Adult,Female,Medium,Medium,True,True,False,True,False,False,False
+5120,Pit Bull Terrier,Shar-Pei,True,False,Red / Chestnut / Orange,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,True,False
+5209,Pit Bull Terrier,Mastiff,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,False,False
+5279,American Bulldog,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+5381,Miniature Pinscher,Rat Terrier,True,False,Golden,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+5448,American Staffordshire Terrier,Mastiff,True,False,Black,Brindle,Adult,Male,Large,Short,True,True,False,True,False,False,False
+5450,Corgi,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,True,True,True
+5496,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Short,True,True,False,True,False,True,True
+5623,Dachshund,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Short,True,True,False,True,False,True,True
+5626,Cattle Dog,Rottweiler,True,False,Black,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,False,False
+5627,Cattle Dog,Rottweiler,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Medium,True,True,False,True,True,False,False
+5636,Pit Bull Terrier,Boxer,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Large,Short,True,True,True,True,False,False,False
+5684,Beagle,Chihuahua,True,False,Yellow / Tan / Blond / Fawn,Brown / Chocolate,Adult,Male,Small,Short,True,False,False,True,True,True,True
+5717,Papillon,Chihuahua,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Adult,Female,Small,Short,True,True,False,True,False,False,True
+5742,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+5749,Hound,Pit Bull Terrier,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,False
+5752,Boxer,Pit Bull Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+5753,American Staffordshire Terrier,Labrador Retriever,True,False,White / Cream,Apricot / Beige,Adult,Female,Large,Short,True,True,False,True,True,True,True
+6541,German Shepherd Dog,Husky,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Medium,True,True,False,True,False,True,False
+6574,Schnauzer,Terrier,True,False,Black,White / Cream,Adult,Female,Small,Medium,True,True,False,True,True,True,True
+6758,Rottweiler,Pit Bull Terrier,True,False,Black,Brown / Chocolate,Adult,Male,Large,Short,True,True,True,True,False,True,False
+6788,Brittany Spaniel,Irish Setter,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Long,True,True,True,True,False,False,False
+6802,Pit Bull Terrier,Dutch Shepherd,True,False,Brindle,White / Cream,Senior,Female,Medium,Short,True,True,True,True,False,True,False
+6875,Terrier,Poodle,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Small,Medium,True,True,False,True,True,True,True
+6923,Labrador Retriever,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+6925,Labrador Retriever,Border Collie,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+7148,Australian Cattle Dog / Blue Heeler,Shepherd,True,False,Bicolor,Merle (Blue),Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+7260,Labrador Retriever,Hound,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+7270,Cairn Terrier,Maltese,True,False,Apricot / Beige,Golden,Baby,Female,Small,Medium,False,False,False,True,True,True,True
+7282,Pit Bull Terrier,Mixed Breed,True,False,Apricot / Beige,Bicolor,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+7285,Toy Fox Terrier,Mixed Breed,True,False,Black,White / Cream,Adult,Female,Small,Medium,False,True,False,False,False,False,False
+7322,Mastiff,Catahoula Leopard Dog,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+7405,Weimaraner,Hound,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,False
+7537,Labrador Retriever,Hound,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+7615,Treeing Walker Coonhound,Hound,True,False,Apricot / Beige,Bicolor,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+7652,German Shepherd Dog,Australian Cattle Dog / Blue Heeler,True,False,Apricot / Beige,White / Cream,Young,Female,Large,Short,True,True,False,True,True,True,False
+7771,Pug,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,False,True,True,True
+8045,Siberian Husky,Alaskan Malamute,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Long,True,True,False,False,False,True,False
+8409,Australian Cattle Dog / Blue Heeler,American Staffordshire Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+8425,American Staffordshire Terrier,Border Collie,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+8664,Labrador Retriever,Terrier,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+8689,Labrador Retriever,Shepherd,True,False,Bicolor,Black,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+8694,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+8697,Australian Cattle Dog / Blue Heeler,Labrador Retriever,True,False,Apricot / Beige,Brindle,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+8703,Labrador Retriever,Terrier,True,False,Gray / Blue / Silver,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+8731,Pit Bull Terrier,Labrador Retriever,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,True
+8748,Cattle Dog,Labrador Retriever,True,False,Apricot / Beige,Bicolor,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+8824,German Shepherd Dog,Hound,True,False,Bicolor,Black,Adult,Female,Medium,Medium,True,False,False,True,True,True,True
+8835,Cattle Dog,Hound,True,False,Black,Merle (Blue),Young,Female,Large,Medium,True,True,False,True,True,True,True
+8910,Labrador Retriever,Husky,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+9001,Pit Bull Terrier,Terrier,True,False,Brindle,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+9015,Hound,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+9017,Hound,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+9037,Labrador Retriever,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+9123,Chesapeake Bay Retriever,Cattle Dog,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Medium,True,True,False,True,True,True,True
+9130,Golden Retriever,Shepherd,True,False,Bicolor,Brindle,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+9135,Catahoula Leopard Dog,Cattle Dog,True,False,Apricot / Beige,Black,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+9157,Jack Russell Terrier,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+9255,Labrador Retriever,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,True,True
+9258,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,True
+9274,Border Collie,Boxer,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+9278,Pointer,Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+9279,Dalmatian,Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Hairless,True,True,False,True,True,True,True
+9284,Hound,Mixed Breed,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+9296,Boxer,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+9297,Boxer,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+9344,Australian Cattle Dog / Blue Heeler,Shepherd,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+9350,Australian Cattle Dog / Blue Heeler,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+9351,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+9354,Australian Cattle Dog / Blue Heeler,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+9372,Feist,Dachshund,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+9437,Boxer,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,True,True
+9450,Great Pyrenees,Anatolian Shepherd,True,False,Gray / Blue / Silver,White / Cream,Baby,Female,Large,Medium,False,False,False,True,True,True,True
+9451,Great Pyrenees,Anatolian Shepherd,True,False,Black,White / Cream,Baby,Female,Extra Large,Medium,False,False,False,True,True,True,True
+9454,Great Pyrenees,Anatolian Shepherd,True,False,Black,White / Cream,Baby,Male,Extra Large,Medium,False,False,False,True,True,True,True
+9455,Labrador Retriever,Whippet,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+9456,Shepherd,Boxer,True,False,Bicolor,Brown / Chocolate,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+9488,Labrador Retriever,Whippet,True,False,Apricot / Beige,Golden,Baby,Female,Small,Short,True,True,False,True,True,True,True
+9492,Chihuahua,Jack Russell Terrier,True,False,Apricot / Beige,Golden,Young,Female,Small,Short,True,False,True,True,True,True,True
+9518,American Staffordshire Terrier,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,True,True,True,True,False
+9579,Saint Bernard,Chow Chow,True,False,Black,Bicolor,Senior,Female,Large,Medium,True,True,False,True,True,True,True
+9616,Labrador Retriever,Pointer,True,False,Brown / Chocolate,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,True
+9636,Chihuahua,Pomeranian,True,False,Golden,Red / Chestnut / Orange,Adult,Female,Small,Medium,True,False,False,True,True,True,True
+9684,German Shepherd Dog,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Medium,True,False,False,True,True,True,True
+9685,German Shepherd Dog,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Medium,True,False,False,True,True,True,True
+9687,German Shepherd Dog,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Medium,True,False,False,True,True,True,True
+9689,Australian Shepherd,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Short,True,False,False,True,True,True,True
+9690,Australian Shepherd,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+9717,Shepherd,Pit Bull Terrier,True,False,Harlequin,White / Cream,Young,Female,Medium,Medium,True,True,False,True,True,True,True
+9761,Black Labrador Retriever,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+9767,Labrador Retriever,Whippet,True,False,Golden,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+9783,Feist,Rat Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+9907,Dachshund,Beagle,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Medium,True,False,False,True,True,True,True
+9908,Dachshund,Beagle,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Medium,True,False,False,True,True,True,True
+9909,Dachshund,Beagle,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Medium,True,False,False,True,True,True,True
+9910,German Shepherd Dog,Labrador Retriever,True,False,Golden,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+9919,Boxer,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+9922,German Shepherd Dog,Catahoula Leopard Dog,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Large,Short,True,False,False,True,True,True,True
+9948,Boston Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+9955,Labrador Retriever,Dalmatian,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+9957,Labrador Retriever,Dalmatian,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+9969,Labrador Retriever,Pit Bull Terrier,True,False,Black,Harlequin,Baby,Male,Large,Short,False,True,False,True,True,True,True
+10025,Plott Hound,Labrador Retriever,True,False,Brindle,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+10075,Catahoula Leopard Dog,Boxer,True,False,Black,Brindle,Baby,Female,Large,Short,True,False,False,True,True,True,True
+10077,Catahoula Leopard Dog,Boxer,True,False,Brindle,Brown / Chocolate,Baby,Female,Large,Short,True,False,False,True,True,True,True
+10083,Manchester Terrier,Doberman Pinscher,True,False,Black,Red / Chestnut / Orange,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+10128,Spaniel,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+10189,Labrador Retriever,Hound,True,False,Black,White / Cream,Young,Male,Large,Short,True,False,False,True,True,True,False
+10283,Labrador Retriever,Terrier,True,False,Black,Red / Chestnut / Orange,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+10289,Labrador Retriever,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+10303,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+10306,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+10307,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+10309,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+10311,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+10356,Labrador Retriever,Boxer,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,True,True,False,False,False
+10388,Rottweiler,German Shepherd Dog,True,False,Bicolor,Black,Baby,Male,Medium,Medium,True,True,False,True,True,True,True
+10441,Retriever,Mixed Breed,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+10624,Shepherd,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+10638,Shepherd,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+10642,Collie,Mixed Breed,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+10661,Hound,Rottweiler,True,False,Black,Red / Chestnut / Orange,Senior,Male,Large,Short,True,False,False,True,False,False,True
+10704,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+10705,Shepherd,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+10706,Labrador Retriever,Shepherd,True,False,Black,Brown / Chocolate,Young,Female,Medium,Short,True,False,False,False,True,True,True
+10772,Labrador Retriever,American Staffordshire Terrier,True,False,Apricot / Beige,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Short,True,True,False,True,True,True,True
+10792,Chihuahua,Terrier,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+10850,Rat Terrier,Feist,True,False,Gray / Blue / Silver,Red / Chestnut / Orange,Baby,Male,Small,Short,True,True,False,True,True,True,True
+10851,Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+10856,Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,True,False,True,True,True,True
+10872,Chihuahua,Beagle,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Short,True,False,False,True,True,True,False
+10903,Black Labrador Retriever,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+10904,Hound,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+10924,Black Mouth Cur,Mixed Breed,True,False,Black,Brown / Chocolate,Adult,Male,Medium,Medium,True,True,False,True,True,True,True
+10935,Black Labrador Retriever,Australian Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+11014,Beagle,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+11046,Boxer,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+11059,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,Golden,Adult,Female,Medium,Short,False,False,False,True,True,True,True
+11162,Hound,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+11183,Hound,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+11212,Foxhound,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+11245,American Staffordshire Terrier,American Bulldog,True,False,Gray / Blue / Silver,White / Cream,Senior,Male,Large,Short,True,True,False,True,True,True,True
+11258,Labrador Retriever,Rhodesian Ridgeback,True,False,Bicolor,Brown / Chocolate,Baby,Male,Large,Short,True,False,False,True,True,True,True
+11259,Labrador Retriever,Rhodesian Ridgeback,True,False,Bicolor,Brown / Chocolate,Baby,Male,Large,Short,True,False,False,True,True,True,True
+11304,Yorkshire Terrier,Maltese,True,False,Bicolor,White / Cream,Adult,Female,Small,Long,True,True,False,True,True,True,True
+11314,Australian Cattle Dog / Blue Heeler,Cattle Dog,True,False,Merle (Blue),Merle (Red),Young,Male,Medium,Short,True,False,False,True,False,True,False
+11355,Boxer,Labrador Retriever,True,False,Brown / Chocolate,"Tricolor (Brown, Black, & White)",Adult,Male,Medium,Short,True,True,False,True,True,True,True
+11368,Pit Bull Terrier,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Short,True,False,False,True,True,True,True
+11386,Cairn Terrier,Terrier,True,False,Black,White / Cream,Adult,Male,Small,Wire,True,True,False,True,False,True,True
+11476,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,False,True,True,True
+11477,Labrador Retriever,Plott Hound,True,False,Bicolor,Black,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+11527,Shepherd,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,False,False,True,True,True,True
+11562,Shih Tzu,Maltese,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Medium,True,True,False,True,True,True,True
+11571,Miniature Pinscher,Chihuahua,True,False,Merle (Red),White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+11584,Black Labrador Retriever,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+11620,German Shepherd Dog,Labrador Retriever,True,False,Bicolor,Black,Young,Female,Medium,Short,True,True,False,True,True,True,True
+11630,Jack Russell Terrier,Shih Tzu,True,False,Brown / Chocolate,White / Cream,Young,Male,Small,Wire,True,True,False,True,True,True,True
+11633,Retriever,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+11638,Mixed Breed,Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,True,False
+11693,Catahoula Leopard Dog,Shepherd,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+11694,Dachshund,Chihuahua,True,False,Black,Brown / Chocolate,Young,Male,Small,Short,True,True,False,True,True,True,True
+11717,Carolina Dog,Beagle,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+11763,Feist,Dachshund,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Small,Short,True,True,False,True,True,True,True
+11781,Yorkshire Terrier,Shih Tzu,True,False,Apricot / Beige,Bicolor,Adult,Male,Small,Long,True,True,True,True,True,True,True
+11802,Cattle Dog,Collie,True,False,Bicolor,White / Cream,Young,Female,Medium,Medium,True,False,False,True,True,True,True
+11804,Beagle,Black Labrador Retriever,True,False,Bicolor,White / Cream,Young,Male,Medium,Medium,True,False,False,True,True,True,True
+11805,Border Collie,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+11883,Border Collie,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+11884,Border Collie,Mixed Breed,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+11888,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,True,True
+11937,Black Labrador Retriever,German Shepherd Dog,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+11942,Terrier,Feist,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,False,False,True,True,True,True
+11943,Terrier,Feist,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,False,False,True,True,True,True
+11946,Chihuahua,Jack Russell Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+11947,Jack Russell Terrier,Chihuahua,True,False,Black,White / Cream,Young,Female,Small,Short,True,False,False,True,True,True,True
+11948,Chihuahua,Jack Russell Terrier,True,False,Black,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,True
+11981,Boston Terrier,Basenji,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+12005,American Staffordshire Terrier,Mixed Breed,True,False,Brindle,White / Cream,Adult,Male,Large,Short,True,False,False,True,False,False,False
+12031,Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+12039,Pit Bull Terrier,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+12062,Australian Shepherd,Catahoula Leopard Dog,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+12127,Beagle,Labrador Retriever,True,False,Black,Brindle,Young,Female,Medium,Short,True,True,False,True,True,True,True
+12209,Pit Bull Terrier,Labrador Retriever,True,False,Brindle,Gray / Blue / Silver,Young,Female,Medium,Short,True,True,False,True,True,True,True
+12224,Yorkshire Terrier,Wirehaired Terrier,True,False,Golden,Gray / Blue / Silver,Young,Male,Small,Wire,True,True,False,True,True,True,True
+12225,Mixed Breed,Hound,True,False,Apricot / Beige,Black,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+12237,Basenji,Jack Russell Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Small,Short,True,True,False,True,True,True,False
+12266,Shepherd,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+12319,Chihuahua,Terrier,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Small,Short,True,True,False,True,False,True,True
+12321,Beagle,Hound,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+12322,Great Pyrenees,Mastiff,True,False,Brindle,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+12378,Labrador Retriever,American Staffordshire Terrier,True,False,Brindle,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,False
+12435,Hound,Mixed Breed,True,False,Black,White / Cream,Young,Female,Large,Short,True,False,False,True,True,True,True
+12497,German Shepherd Dog,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Large,Short,True,True,False,True,True,True,True
+12507,Labrador Retriever,Shepherd,True,False,Golden,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Medium,True,True,False,True,True,True,False
+12630,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+12652,Chihuahua,Miniature Pinscher,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,True,False,False,True,True,True,True
+12653,Hound,Whippet,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,False,True,False
+12679,Hound,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,True
+12688,Pit Bull Terrier,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Large,Short,True,False,False,True,True,True,True
+12816,Pit Bull Terrier,Mixed Breed,True,False,Brindle,White / Cream,Adult,Male,Large,Short,False,True,False,True,True,False,False
+12845,Yorkshire Terrier,Shih Tzu,True,False,Apricot / Beige,Golden,Adult,Female,Small,Long,True,False,True,False,False,True,True
+12847,Great Pyrenees,Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Large,Short,False,True,False,True,True,True,True
+12871,American Staffordshire Terrier,Hound,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+12873,Shepherd,Black Mouth Cur,True,False,Bicolor,Black,Baby,Male,Large,Medium,False,False,False,True,True,True,True
+12875,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,False,True
+12876,Coonhound,Australian Cattle Dog / Blue Heeler,True,False,Merle (Red),White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+12900,Miniature Pinscher,Chihuahua,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,False,False,True,True,True,True
+12935,Chihuahua,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Small,Short,True,True,False,True,True,True,True
+12963,Chihuahua,Miniature Pinscher,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Adult,Female,Small,Short,True,True,False,True,True,True,True
+12964,Wirehaired Terrier,Jack Russell Terrier,True,False,Brown / Chocolate,White / Cream,Young,Male,Small,Wire,True,True,False,True,True,True,True
+12985,American Staffordshire Terrier,American Bulldog,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,False
+13035,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+13074,Australian Cattle Dog / Blue Heeler,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Large,Short,True,False,False,True,True,True,True
+13083,Terrier,Schnauzer,True,False,Black,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,False,False
+13103,Beagle,Hound,True,False,Bicolor,Black,Senior,Male,Medium,Short,True,True,False,True,False,True,True
+13105,Great Pyrenees,Anatolian Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Large,Medium,True,True,False,True,True,True,True
+13107,Great Pyrenees,Anatolian Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Large,Medium,True,True,False,True,True,True,True
+13129,Pit Bull Terrier,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,True,True,True,True,False,True,False
+13144,German Shepherd Dog,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Male,Large,Medium,True,False,False,True,True,True,True
+13184,Bichon Frise,Shih Tzu,True,False,Black,White / Cream,Senior,Female,Small,Curly,True,True,False,True,False,True,True
+13200,American Bulldog,Shepherd,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+13210,Chocolate Labrador Retriever,Pit Bull Terrier,True,False,Bicolor,Brown / Chocolate,Young,Male,Medium,Short,True,True,False,True,True,True,True
+13213,Beagle,Jack Russell Terrier,True,False,Golden,White / Cream,Adult,Male,Small,Short,True,False,False,False,True,True,True
+13288,American Staffordshire Terrier,Hound,True,False,Brindle,White / Cream,Baby,Male,Medium,Short,True,True,True,True,True,True,True
+13329,Mixed Breed,American Staffordshire Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,False,False,True,False
+13386,English Bulldog,Pit Bull Terrier,True,False,Gray / Blue / Silver,"Tricolor (Brown, Black, & White)",Adult,Female,Large,Short,True,True,False,True,False,False,False
+13431,American Staffordshire Terrier,Pointer,True,False,Brown / Chocolate,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+13447,Rough Collie,Shepherd,True,False,Sable,White / Cream,Baby,Male,Large,Long,True,True,False,True,False,True,False
+13480,Carolina Dog,Terrier,True,False,Black,White / Cream,Young,Female,Medium,Medium,True,False,False,True,True,True,True
+13536,Beagle,Hound,True,False,Bicolor,"Tricolor (Brown, Black, & White)",Young,Female,Medium,Short,True,True,False,True,True,True,False
+13553,Pit Bull Terrier,Staffordshire Bull Terrier,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+13580,Australian Cattle Dog / Blue Heeler,Australian Shepherd,True,False,Black,Merle (Blue),Young,Female,Medium,Short,True,False,False,True,True,True,True
+13633,Great Pyrenees,Anatolian Shepherd,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Extra Large,Medium,True,True,False,True,True,True,True
+13667,Pointer,Coonhound,True,False,Black,White / Cream,Adult,Male,Medium,Short,False,True,False,False,True,False,False
+13682,Terrier,American Bulldog,True,False,Apricot / Beige,White / Cream,Young,Female,Large,Short,True,True,False,True,False,False,False
+13685,Mixed Breed,Great Dane,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,False,True
+13710,Spaniel,Hound,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Medium,False,True,False,False,True,True,True
+13816,American Staffordshire Terrier,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+13817,Chihuahua,Dachshund,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Small,Short,True,True,False,True,True,True,True
+13824,Rat Terrier,Chinese Crested Dog,True,False,Black,White / Cream,Adult,Female,Small,Long,True,True,False,True,True,True,False
+13832,Labrador Retriever,Pit Bull Terrier,True,False,Apricot / Beige,Bicolor,Young,Male,Medium,Short,True,True,False,True,False,False,False
+13852,Boxer,American Bulldog,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,True,True,True,True,False
+13905,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+13907,Pug,Chihuahua,True,False,Black,Brown / Chocolate,Adult,Male,Small,Short,True,True,False,True,True,True,True
+13919,Boxer,Pit Bull Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,False,False,False
+13929,Jack Russell Terrier,Chihuahua,True,False,Apricot / Beige,White / Cream,Young,Male,Small,Short,False,False,False,False,True,True,True
+13948,Siberian Husky,German Shepherd Dog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Medium,True,True,False,True,False,False,False
+13949,Boxer,Terrier,True,False,Apricot / Beige,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+13976,Chihuahua,Rat Terrier,True,False,Brown / Chocolate,White / Cream,Senior,Male,Small,Short,True,True,False,True,True,True,True
+13996,Great Pyrenees,Australian Shepherd,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Large,Medium,True,True,False,True,True,True,True
+14012,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,False,True,True,True,True
+14102,Spaniel,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,True,True
+14134,American Staffordshire Terrier,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Senior,Female,Large,Short,True,True,False,True,True,False,False
+14145,German Shepherd Dog,Husky,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,False,False,False,False,False,False
+14168,Labrador Retriever,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,True
+14171,Shepherd,American Staffordshire Terrier,True,False,Apricot / Beige,Golden,Young,Female,Medium,Medium,True,True,True,True,True,True,True
+14172,Jack Russell Terrier,Pit Bull Terrier,True,False,Golden,Red / Chestnut / Orange,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+14190,Boxer,Mixed Breed,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+14242,Boxer,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+14253,Saluki,Greyhound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,True,False,True,False,False,False
+14314,American Staffordshire Terrier,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,False,False,True,False,True,True
+14324,Cattle Dog,Hound,True,False,Merle (Blue),Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,False,False,False
+14340,Beagle,Basenji,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+14420,Beagle,Shepherd,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,False,False
+14483,Labrador Retriever,Feist,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+14501,Shepherd,Pit Bull Terrier,True,False,Bicolor,White / Cream,Senior,Male,Large,Short,True,False,False,True,True,True,False
+14504,Basset Hound,Corgi,True,False,Bicolor,Black,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+14527,Chihuahua,Dachshund,True,False,Apricot / Beige,White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+14534,Boxer,Cattle Dog,True,False,Brindle,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,False,False
+14541,Wirehaired Terrier,Chihuahua,True,False,Black,Yellow / Tan / Blond / Fawn,Senior,Female,Small,Short,True,False,False,True,True,True,True
+14543,Terrier,Boxer,True,False,Brindle,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,False
+14587,Labrador Retriever,Hound,True,False,Golden,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+14594,Chihuahua,Shiba Inu,True,False,Apricot / Beige,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+14600,German Shepherd Dog,Mixed Breed,True,False,Black,White / Cream,Young,Female,Extra Large,Short,True,False,False,True,False,False,False
+14650,Pug,Chihuahua,True,False,Brown / Chocolate,White / Cream,Baby,Female,Small,Short,True,False,False,True,True,True,True
+14653,American Staffordshire Terrier,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+14661,Great Dane,Pit Bull Terrier,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,False,False
+14706,German Shepherd Dog,Mastiff,True,False,Black,Gray / Blue / Silver,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+14777,Dutch Shepherd,Pit Bull Terrier,True,False,Black,Brindle,Young,Male,Large,Short,True,True,False,True,True,True,False
+14782,Pit Bull Terrier,Great Dane,True,False,Black,Brindle,Adult,Female,Large,Short,True,True,False,True,False,False,False
+14788,Feist,Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+14821,Hound,Terrier,True,False,Brindle,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+14868,Pit Bull Terrier,Shepherd,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+14965,American Staffordshire Terrier,Great Dane,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,False,True,False,True,False
+14967,Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Adult,Male,Medium,Short,True,True,True,True,False,False,False
+14989,Irish Wolfhound,German Wirehaired Pointer,True,False,Yellow / Tan / Blond / Fawn,Black,Young,Female,Large,Medium,True,True,False,True,False,False,False
+15026,Chihuahua,Miniature Pinscher,True,False,Black,White / Cream,Adult,Male,Small,Short,True,True,False,True,False,True,True
+15029,Jack Russell Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Female,Small,Short,True,True,False,True,False,False,True
+15034,American Staffordshire Terrier,American Bulldog,True,False,White / Cream,Black,Adult,Male,Large,Short,True,True,False,True,False,False,False
+15060,Anatolian Shepherd,Great Pyrenees,True,False,Apricot / Beige,White / Cream,Young,Male,Extra Large,Medium,True,True,False,True,False,False,False
+15079,Terrier,Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+15099,Great Dane,Terrier,True,False,Golden,White / Cream,Adult,Male,Large,Short,True,False,False,True,False,False,False
+15121,American Staffordshire Terrier,Siberian Husky,True,False,White / Cream,Red / Chestnut / Orange,Senior,Male,Medium,Short,True,True,False,True,False,False,False
+15128,Labrador Retriever,Border Collie,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+15141,Pointer,Terrier,True,False,White / Cream,Brown / Chocolate,Adult,Female,Large,Medium,True,False,False,True,False,False,False
+15181,American Staffordshire Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Adult,Female,Large,Short,True,True,False,True,False,False,False
+15182,Boxer,American Staffordshire Terrier,True,False,Yellow / Tan / Blond / Fawn,Black,Adult,Female,Medium,Short,True,False,False,True,False,False,False
+15202,Hound,Pit Bull Terrier,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+15260,Beagle,Mastiff,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+15263,Pointer,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,True,False
+15267,Labrador Retriever,Rottweiler,True,False,Black,Yellow / Tan / Blond / Fawn,Senior,Female,Medium,Short,True,True,True,True,False,False,False
+15650,Beagle,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Small,Short,True,True,False,True,True,True,True
+15699,Jack Russell Terrier,Whippet,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+15700,Jack Russell Terrier,Whippet,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+15701,Jack Russell Terrier,Whippet,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+15747,Dalmatian,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+15761,Chihuahua,Terrier,True,False,Gray / Blue / Silver,White / Cream,Baby,Female,Small,Short,False,False,False,True,True,True,True
+15837,Whippet,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+15961,Boxer,American Bulldog,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+15962,Boxer,American Bulldog,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+16103,Labrador Retriever,Hound,True,False,Golden,White / Cream,Young,Male,Medium,Short,True,True,False,True,False,True,True
+16133,Labrador Retriever,Basset Hound,True,False,Black,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,True,True
+16297,Jack Russell Terrier,Beagle,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Medium,True,False,False,True,True,True,True
+16480,Beagle,Rat Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Small,Short,True,False,False,True,True,True,True
+16482,Pit Bull Terrier,Boxer,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,False,True,True,True
+16489,Labrador Retriever,Boxer,True,False,Black,Brindle,Baby,Male,Medium,Short,False,True,False,True,True,True,True
+16514,Plott Hound,Labrador Retriever,True,False,Black,Brindle,Young,Female,Large,Short,True,True,False,True,True,True,True
+16723,Boxer,Terrier,True,False,Golden,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+16750,Labrador Retriever,Husky,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+16821,Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,True
+17048,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+17099,Great Pyrenees,Hound,True,False,Golden,White / Cream,Baby,Male,Large,Short,True,True,False,True,True,True,True
+17200,Feist,Rat Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Small,Short,True,False,False,True,True,True,True
+17214,Miniature Pinscher,Chihuahua,True,False,Bicolor,Black,Senior,Female,Small,Short,True,True,False,True,True,True,True
+17232,Hound,Shepherd,True,False,Bicolor,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+17262,Boxer,Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+17474,Labrador Retriever,Hound,True,False,Brindle,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+17475,Labrador Retriever,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+17518,American Staffordshire Terrier,Mixed Breed,True,False,Apricot / Beige,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,True
+17524,Beagle,Rat Terrier,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Medium,True,False,False,True,True,True,True
+17703,Dalmatian,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Medium,True,False,False,True,True,True,True
+17724,Cocker Spaniel,Beagle,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+17982,Husky,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,True,True,False,True,True,True,False
+17995,Pit Bull Terrier,Boxer,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Short,True,True,False,True,False,True,True
+18039,Manchester Terrier,Beagle,True,False,Black,Brindle,Young,Female,Small,Short,False,True,False,True,True,True,True
+18102,Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+18129,Great Pyrenees,Spitz,True,False,Gray / Blue / Silver,White / Cream,Baby,Male,Large,Long,False,False,False,True,True,True,True
+18130,Great Pyrenees,Spitz,True,False,Black,White / Cream,Baby,Female,Large,Long,False,False,False,True,True,True,True
+18132,Boxer,Labrador Retriever,True,False,Brindle,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+18238,Dachshund,Chihuahua,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,False,False,True,False,True,True
+18285,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Young,Male,Large,Short,True,False,False,True,True,True,False
+18366,Australian Cattle Dog / Blue Heeler,Catahoula Leopard Dog,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+18457,Dalmatian,Boxer,True,False,Black,White / Cream,Senior,Male,Medium,Medium,True,True,False,True,True,True,True
+18487,Black Labrador Retriever,Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+18488,Labrador Retriever,Basset Hound,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Large,Short,True,True,False,True,True,True,True
+18506,Husky,German Shepherd Dog,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,False
+18548,Cattle Dog,Plott Hound,True,False,White / Cream,Brindle,Adult,Female,Medium,Short,False,False,False,True,True,True,False
+18573,Great Dane,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,False
+18576,Pit Bull Terrier,Mixed Breed,True,False,Black,Brindle,Senior,Female,Large,Short,True,True,False,True,False,True,False
+18625,Pit Bull Terrier,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Male,Medium,Short,True,True,False,True,True,False,False
+18626,Pit Bull Terrier,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Female,Medium,Short,True,True,False,True,True,False,False
+18670,Hound,Great Pyrenees,True,False,Black,Brown / Chocolate,Baby,Male,Large,Short,True,True,False,True,True,True,True
+18726,Shepherd,Chow Chow,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,True,False,True,False,False,False
+18738,Boxer,Mixed Breed,True,False,Black,White / Cream,Adult,Male,Large,Short,False,False,False,True,False,False,False
+18766,Catahoula Leopard Dog,Pit Bull Terrier,True,False,Brindle,Gray / Blue / Silver,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+18805,Mountain Cur,Pit Bull Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+19048,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,False,False,True,False,False,False
+19052,Poodle,Bull Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+19059,Pit Bull Terrier,Boxer,True,False,Bicolor,Black,Young,Male,Medium,Short,True,True,False,True,True,False,False
+19217,Dalmatian,American Staffordshire Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,False,True,True
+19218,Rottweiler,Cattle Dog,True,False,Black,Brown / Chocolate,Young,Female,Large,Medium,True,True,False,True,False,False,False
+19283,Dachshund,Beagle,True,False,Black,Brindle,Adult,Female,Small,Short,True,False,False,True,True,True,True
+19324,Labrador Retriever,Chow Chow,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,False,True,False,False,False
+19327,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+19391,Basset Hound,Labrador Retriever,True,False,White / Cream,Black,Young,Male,Medium,Short,True,False,False,True,True,True,False
+19425,Black Mouth Cur,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,False,True
+19482,Chihuahua,Mixed Breed,True,False,Apricot / Beige,White / Cream,Adult,Female,Small,Short,True,True,False,True,True,True,True
+19543,Collie,Shepherd,True,False,Black,Brown / Chocolate,Adult,Male,Medium,Long,True,False,True,True,True,True,True
+19706,German Shepherd Dog,Basset Hound,True,False,Brown / Chocolate,Black,Young,Female,Medium,Medium,True,True,False,True,False,False,False
+19716,American Staffordshire Terrier,Mixed Breed,True,False,White / Cream,Black,Adult,Male,Large,Short,True,True,False,True,False,True,False
+19732,American Staffordshire Terrier,Pit Bull Terrier,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,True
+19788,American Staffordshire Terrier,Pit Bull Terrier,True,False,White / Cream,Apricot / Beige,Adult,Male,Large,Short,True,True,False,True,True,True,False
+19835,Labrador Retriever,Australian Cattle Dog / Blue Heeler,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,True,True,True,False,False,False
+19853,Pit Bull Terrier,American Bulldog,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,True
+19859,Collie,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Medium,True,True,True,True,False,True,False
+19899,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+19902,Irish Wolfhound,Labrador Retriever,True,False,Black,Gray / Blue / Silver,Adult,Male,Large,Medium,True,False,False,True,False,False,False
+19931,Border Collie,Airedale Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Wire,True,True,True,True,False,False,False
+19943,German Shepherd Dog,Labrador Retriever,True,False,Black,Brown / Chocolate,Adult,Male,Large,Medium,True,True,False,True,True,True,False
+19944,Labrador Retriever,German Shepherd Dog,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+19948,Labrador Retriever,American Staffordshire Terrier,True,False,White / Cream,Brown / Chocolate,Adult,Male,Large,Short,True,True,False,True,True,False,False
+19956,Boxer,American Staffordshire Terrier,True,False,Brindle,White / Cream,Adult,Female,Large,Short,True,False,False,True,True,True,False
+20097,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+20098,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20099,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+20100,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20102,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+20103,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20104,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20105,Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20180,Border Collie,Husky,True,False,Black,White / Cream,Young,Female,Medium,Medium,True,True,False,True,True,True,True
+20312,Labrador Retriever,Hound,True,False,Brindle,Brown / Chocolate,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+20313,Labrador Retriever,Hound,True,False,Golden,Red / Chestnut / Orange,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+20315,Labrador Retriever,Hound,True,False,Apricot / Beige,Golden,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+20414,Spaniel,Mixed Breed,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+20416,Spaniel,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+20417,Spaniel,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+20418,Spaniel,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+20463,Pit Bull Terrier,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+20466,Dachshund,Basset Hound,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+20585,Basenji,Italian Greyhound,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+20633,Hound,Basenji,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+20718,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+20724,Dachshund,Mixed Breed,True,False,Apricot / Beige,Golden,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+20809,Yorkshire Terrier,Terrier,True,False,Apricot / Beige,Black,Young,Male,Small,Medium,True,True,False,True,True,True,False
+20811,Shepherd,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+20856,Hound,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+20944,Beagle,Labrador Retriever,True,False,"Tricolor (Brown, Black, & White)",Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+21013,Black Mouth Cur,German Shepherd Dog,True,False,Apricot / Beige,Black,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+21016,Akita,Husky,True,False,Gray / Blue / Silver,White / Cream,Senior,Male,Large,Medium,True,True,False,True,True,False,False
+21027,Hound,Labrador Retriever,True,False,"Tricolor (Brown, Black, & White)",Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+21036,Chihuahua,Feist,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Female,Small,Short,True,True,True,True,True,True,True
+21067,Hound,Labrador Retriever,True,False,Apricot / Beige,Black,Baby,Female,Large,Short,True,False,False,True,True,True,True
+21076,Hound,Labrador Retriever,True,False,Bicolor,Black,Baby,Female,Large,Short,True,False,False,True,True,True,True
+21078,Hound,Labrador Retriever,True,False,Apricot / Beige,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Short,True,False,False,True,True,True,True
+21081,Hound,Labrador Retriever,True,False,Black,Brindle,Baby,Male,Large,Short,True,False,False,True,True,True,True
+21131,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,True,False,True,True,True,True
+21194,German Wirehaired Pointer,Cattle Dog,True,False,Black,Gray / Blue / Silver,Baby,Female,Medium,Medium,True,True,False,True,True,True,True
+21213,Retriever,Hound,True,False,Black,Gray / Blue / Silver,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+21296,Pit Bull Terrier,American Staffordshire Terrier,True,False,Brindle,Harlequin,Young,Male,Large,Short,True,True,False,True,True,True,True
+21318,Labrador Retriever,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+21354,Shepherd,Foxhound,True,False,Apricot / Beige,"Tricolor (Brown, Black, & White)",Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+21404,Hound,Terrier,True,False,Apricot / Beige,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,True,True
+21437,Pointer,Mixed Breed,True,False,Black,Harlequin,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+21449,Terrier,Pit Bull Terrier,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Young,Male,Large,Short,True,False,False,True,True,True,True
+21627,Shepherd,Cattle Dog,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Short,True,False,False,True,True,True,True
+21642,Retriever,American Bulldog,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,True,False
+21659,Great Pyrenees,Anatolian Shepherd,True,False,White / Cream,Apricot / Beige,Adult,Male,Large,Medium,True,True,False,True,True,True,True
+21698,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,White / Cream,Baby,Male,Large,Short,True,True,False,True,True,True,False
+21704,Pit Bull Terrier,American Staffordshire Terrier,True,False,Brindle,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,True,False,True,True,False,False
+21730,Shih Tzu,Poodle,True,False,Gray / Blue / Silver,White / Cream,Senior,Male,Small,Long,False,False,False,False,True,True,True
+21932,Border Collie,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+21968,Pit Bull Terrier,Staffordshire Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+21984,Akita,Wirehaired Terrier,True,False,Black,Brindle,Adult,Female,Large,Medium,True,True,False,True,True,False,True
+21988,Labrador Retriever,Poodle,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+22040,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+22085,Schnauzer,Wirehaired Terrier,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Medium,True,True,False,True,False,False,True
+22100,Pharaoh Hound,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Medium,True,True,False,True,True,True,False
+22117,Boxer,Pointer,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,False,False,False
+22166,Pit Bull Terrier,Border Collie,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,True,False
+22182,Yorkshire Terrier,Chihuahua,True,False,Apricot / Beige,White / Cream,Adult,Female,Small,Short,True,False,False,True,True,True,True
+22196,Hound,Pointer,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+22199,Labrador Retriever,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,False,False,True,True,True,True
+22238,Labrador Retriever,Pit Bull Terrier,True,False,Golden,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,False,False
+22280,Shepherd,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Medium,True,True,False,True,True,True,False
+22286,Rottweiler,German Shepherd Dog,True,False,Black,Brown / Chocolate,Young,Male,Large,Medium,True,True,True,True,False,False,False
+22289,Toy Fox Terrier,Chihuahua,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Adult,Female,Small,Short,True,False,False,True,False,True,False
+22296,Pit Bull Terrier,Labrador Retriever,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+22307,American Staffordshire Terrier,Pit Bull Terrier,True,False,Brindle,Red / Chestnut / Orange,Adult,Female,Medium,Medium,True,True,False,True,True,True,False
+22403,Corgi,Chihuahua,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Small,Short,True,False,False,True,True,True,True
+22560,Australian Shepherd,Border Collie,True,False,Black,White / Cream,Young,Female,Medium,Medium,True,False,False,True,True,True,True
+22607,Chinese Crested Dog,Yorkshire Terrier,True,False,Apricot / Beige,Brown / Chocolate,Young,Male,Small,Long,True,True,False,True,True,True,True
+22642,Lhasa Apso,Havanese,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Small,Long,True,True,False,True,True,True,True
+22645,Labrador Retriever,Greyhound,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+22658,Jack Russell Terrier,Fox Terrier,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,True,False,False,False,True,True,True
+22659,Boston Terrier,Schnauzer,True,False,Brown / Chocolate,White / Cream,Young,Female,Small,Short,True,True,False,True,True,False,False
+22660,Jack Russell Terrier,Fox Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,False,True,True,True
+22661,Jack Russell Terrier,Fox Terrier,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,True,False,False,False,True,True,True
+22712,American Bulldog,Labrador Retriever,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+22915,Boxer,American Bulldog,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,False,True,False
+22921,Dachshund,Chihuahua,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,False,False,False,True,True,True,True
+23050,Rat Terrier,Border Collie,True,False,Brown / Chocolate,Red / Chestnut / Orange,Baby,Male,Small,Short,False,True,False,True,True,True,True
+23132,Black Labrador Retriever,Catahoula Leopard Dog,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+23138,White German Shepherd,Labrador Retriever,True,False,Apricot / Beige,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Medium,True,False,False,True,True,True,True
+23151,Chocolate Labrador Retriever,Border Collie,True,False,Brown / Chocolate,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+23152,Chocolate Labrador Retriever,Border Collie,True,False,Brown / Chocolate,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+23165,Australian Shepherd,Border Collie,True,False,Gray / Blue / Silver,White / Cream,Baby,Male,Medium,Medium,False,True,True,True,True,True,True
+23211,Basset Hound,Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,False,True,True,True
+23233,American Staffordshire Terrier,Boxer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Short,True,False,False,True,True,True,False
+23447,Fox Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+23532,Labrador Retriever,American Bulldog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+23614,Black Mouth Cur,Dachshund,True,False,Bicolor,Merle (Red),Young,Male,Small,Short,True,True,False,True,True,True,True
+23675,Terrier,Feist,True,False,Apricot / Beige,Red / Chestnut / Orange,Adult,Female,Medium,Medium,True,False,False,True,True,True,True
+23751,Beagle,Basset Hound,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+23786,Beagle,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+23800,Pointer,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,True,True,True,True,True
+24155,Terrier,Hound,True,False,Apricot / Beige,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+24164,Coonhound,Mixed Breed,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+24175,Hound,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+24190,Labrador Retriever,Patterdale Terrier / Fell Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+24192,Basenji,Chihuahua,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+24289,Labrador Retriever,Harrier,True,False,"Tricolor (Brown, Black, & White)",Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+24350,Labrador Retriever,Australian Cattle Dog / Blue Heeler,True,False,Golden,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+24414,Labrador Retriever,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+24480,Australian Shepherd,Chocolate Labrador Retriever,True,False,Bicolor,Brown / Chocolate,Baby,Male,Medium,Long,True,True,False,True,True,True,True
+24483,Chihuahua,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+24505,Pit Bull Terrier,Staffordshire Bull Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+24521,American Bulldog,Shepherd,True,False,Brindle,Brown / Chocolate,Young,Female,Medium,Short,True,True,False,True,True,True,False
+24526,Dachshund,Chihuahua,True,False,Black,Brown / Chocolate,Adult,Male,Small,Short,True,True,False,True,True,True,True
+24531,Greyhound,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+24555,Shih Tzu,Poodle,True,False,Bicolor,Golden,Young,Male,Small,Medium,True,True,False,True,True,True,True
+24603,Pit Bull Terrier,Staffordshire Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+24620,Hound,American Bulldog,True,False,Apricot / Beige,White / Cream,Adult,Female,Large,Short,True,False,False,True,False,False,False
+24705,Pomeranian,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Female,Small,Medium,True,False,False,True,False,True,True
+24722,American Bulldog,Boxer,True,False,Brindle,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+24775,Poodle,Shih Tzu,True,False,Apricot / Beige,Gray / Blue / Silver,Adult,Male,Small,Curly,True,False,False,True,False,True,True
+24777,Chihuahua,Pomeranian,True,False,White / Cream,Apricot / Beige,Senior,Female,Small,Medium,True,True,False,True,False,True,True
+24800,Chihuahua,Terrier,True,False,Black,White / Cream,Adult,Male,Small,Short,True,True,False,True,False,False,False
+24912,Labrador Retriever,Black Mouth Cur,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Adult,Male,Medium,Medium,True,True,False,True,False,False,False
+24933,Pointer,Labrador Retriever,True,False,White / Cream,Black,Adult,Female,Medium,Short,True,False,False,True,True,True,False
+24949,American Staffordshire Terrier,Husky,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,False,True,True,False,False
+24972,Labrador Retriever,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,False
+25000,Australian Kelpie,Bull Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+25031,Miniature Pinscher,Chihuahua,True,False,Brown / Chocolate,Red / Chestnut / Orange,Baby,Female,Small,Medium,True,False,False,True,True,True,True
+25097,Rottweiler,Shepherd,True,False,Brindle,White / Cream,Young,Male,Large,Medium,True,True,False,True,True,True,True
+25168,Great Dane,Labrador Retriever,True,False,Bicolor,Black,Baby,Female,Large,Short,True,True,False,True,True,True,True
+25169,German Shepherd Dog,Labrador Retriever,True,False,Bicolor,Brindle,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+25170,Rottweiler,Labrador Retriever,True,False,Bicolor,Sable,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+25219,Beagle,Basset Hound,True,False,Apricot / Beige,Sable,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+25267,Pug,Beagle,True,False,Brindle,"Tricolor (Brown, Black, & White)",Adult,Female,Small,Long,True,True,False,True,True,True,True
+25270,Staffordshire Bull Terrier,American Bulldog,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,True
+25429,American Bulldog,Boxer,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,True,True,True,True,False
+25499,Shepherd,Hound,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Long,True,True,False,True,True,True,True
+25505,Mastiff,Boxer,True,False,Red / Chestnut / Orange,Sable,Adult,Female,Large,Short,False,True,False,False,True,True,True
+25642,Border Collie,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Medium,False,True,False,True,True,True,True
+25645,Boston Terrier,American Bulldog,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+25659,Labrador Retriever,Hound,True,False,Black,Harlequin,Young,Female,Medium,Short,True,True,False,True,True,True,True
+25737,American Staffordshire Terrier,Shepherd,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+25738,American Staffordshire Terrier,Shepherd,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+25751,German Shepherd Dog,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Large,Medium,True,False,False,True,True,True,True
+25859,Boston Terrier,Boxer,True,False,Bicolor,Harlequin,Young,Female,Small,Short,True,True,False,True,True,True,True
+25867,Chihuahua,Terrier,True,False,Black,Brown / Chocolate,Adult,Male,Small,Short,True,True,False,True,True,True,True
+25899,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+25963,Pit Bull Terrier,Labrador Retriever,True,False,Apricot / Beige,Golden,Adult,Male,Medium,Short,False,True,False,False,True,True,True
+25965,German Shepherd Dog,Pit Bull Terrier,True,False,Apricot / Beige,Black,Baby,Female,Large,Short,True,False,False,True,True,True,False
+25969,Husky,German Shepherd Dog,True,False,Black,Brown / Chocolate,Young,Male,Medium,Medium,True,True,False,True,True,True,True
+25971,German Shepherd Dog,Labrador Retriever,True,False,Black,Brown / Chocolate,Young,Male,Large,Medium,True,True,False,True,True,True,True
+25972,Labrador Retriever,German Shepherd Dog,True,False,Black,"Tricolor (Brown, Black, & White)",Young,Female,Large,Medium,True,True,False,True,True,True,True
+26286,Labrador Retriever,Weimaraner,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,False,False,True,True,True,True
+26298,American Bulldog,Pit Bull Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Large,Short,True,True,False,False,True,True,False
+26339,Coonhound,Labrador Retriever,True,False,Brown / Chocolate,Red / Chestnut / Orange,Baby,Male,Large,Short,True,True,False,True,True,True,True
+26341,Staffordshire Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+26420,Bull Terrier,Chocolate Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,False,True,False,True,True,True,True
+26424,American Staffordshire Terrier,Staffordshire Bull Terrier,True,False,Apricot / Beige,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+26459,American Bulldog,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,False,True,False,False,True,True,True
+26519,Labrador Retriever,Pit Bull Terrier,True,False,Black,Brindle,Young,Male,Medium,Short,False,False,False,False,True,True,True
+26559,Boxer,Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,False,True,True,True
+26563,Chocolate Labrador Retriever,Staffordshire Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+26648,Boxer,Labrador Retriever,True,False,Bicolor,Brindle,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+26757,Black Mouth Cur,Pointer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+26802,Mountain Cur,Rhodesian Ridgeback,True,False,Brown / Chocolate,Merle (Red),Adult,Female,Medium,Short,True,True,False,True,True,True,True
+26816,Boxer,Labrador Retriever,True,False,Brown / Chocolate,Black,Adult,Male,Large,Short,True,True,False,True,True,True,True
+27009,Whippet,Hound,True,False,Bicolor,Merle (Red),Adult,Female,Medium,Short,True,True,False,True,True,True,True
+27069,Husky,Labrador Retriever,True,False,Gray / Blue / Silver,Harlequin,Adult,Male,Medium,Medium,True,True,False,True,True,True,True
+27104,Border Collie,Golden Retriever,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,True,True,True,False,False
+27148,Terrier,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+27205,Labrador Retriever,Weimaraner,True,False,Bicolor,Gray / Blue / Silver,Adult,Female,Large,Short,True,True,False,True,True,True,True
+27282,Labrador Retriever,Cattle Dog,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+27297,Boxer,Pit Bull Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+27316,Dachshund,Chihuahua,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Small,Short,True,True,False,True,True,True,True
+27397,Labrador Retriever,Terrier,True,False,Bicolor,Black,Young,Female,Medium,Short,True,True,False,True,True,True,False
+27418,German Shepherd Dog,Labrador Retriever,True,False,Black,Brown / Chocolate,Young,Male,Medium,Short,True,True,False,True,True,True,True
+27659,Labrador Retriever,American Staffordshire Terrier,True,False,Black,Brindle,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+27671,American Staffordshire Terrier,Pit Bull Terrier,True,False,Apricot / Beige,Bicolor,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+27682,Pit Bull Terrier,Jack Russell Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+27689,American Staffordshire Terrier,Pit Bull Terrier,True,False,Brindle,Brown / Chocolate,Young,Male,Medium,Short,True,True,False,True,True,True,True
+27694,Pit Bull Terrier,Mixed Breed,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,False,True,True,False
+27735,German Shepherd Dog,Chow Chow,True,False,Apricot / Beige,Bicolor,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+27854,Staffordshire Bull Terrier,Boxer,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,False,False
+27892,American Bulldog,American Staffordshire Terrier,True,False,Brown / Chocolate,Merle (Red),Young,Female,Medium,Short,True,True,False,True,True,True,False
+27944,American Staffordshire Terrier,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Short,True,True,False,True,True,True,True
+27997,Chihuahua,Miniature Pinscher,True,False,Black,Red / Chestnut / Orange,Young,Female,Small,Medium,True,True,False,True,False,True,False
+28002,Labrador Retriever,Black Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+28076,Miniature Pinscher,Greyhound,True,False,Black,Brindle,Adult,Female,Small,Short,True,True,False,True,True,True,False
+28108,Rhodesian Ridgeback,Labrador Retriever,True,False,Brown / Chocolate,Red / Chestnut / Orange,Young,Female,Medium,Medium,True,True,False,True,True,True,False
+28247,American Bulldog,Hound,True,False,Brown / Chocolate,Red / Chestnut / Orange,Young,Male,Medium,Short,True,True,False,True,True,True,False
+28251,American Staffordshire Terrier,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+28285,Plott Hound,Rottweiler,True,False,Black,"Tricolor (Brown, Black, & White)",Adult,Male,Large,Short,True,True,False,True,True,True,True
+28295,Australian Shepherd,Labrador Retriever,True,False,White / Cream,Black,Adult,Female,Medium,Medium,True,True,False,True,True,False,False
+28310,Boxer,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+28326,Great Dane,Boxer,True,False,White / Cream,Brindle,Adult,Male,Large,Short,True,True,False,True,False,True,True
+28330,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+28347,Labrador Retriever,Beagle,True,False,Golden,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+28385,Labrador Retriever,Shepherd,True,False,Golden,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+28403,Labrador Retriever,Pointer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Large,Medium,True,True,False,True,True,True,True
+28546,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+28875,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,False,True,False,False
+28892,Labrador Retriever,Pointer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Large,Short,True,True,True,True,True,True,True
+28997,Pit Bull Terrier,Boxer,True,False,Yellow / Tan / Blond / Fawn,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,False,False
+29048,Rottweiler,Husky,True,False,Black,Brown / Chocolate,Adult,Male,Large,Medium,True,True,False,True,True,True,False
+29143,Labrador Retriever,Great Dane,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+29437,Jack Russell Terrier,Chihuahua,True,False,Black,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+29499,Labrador Retriever,Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,False,False
+29547,Dachshund,Chihuahua,True,False,Brown / Chocolate,White / Cream,Baby,Female,Small,Short,True,False,False,True,True,True,True
+29686,Great Pyrenees,Anatolian Shepherd,True,False,Brown / Chocolate,White / Cream,Adult,Male,Large,Long,True,False,False,True,True,True,True
+29697,Shar-Pei,Boxer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+29711,American Bulldog,American Staffordshire Terrier,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,True
+29965,American Staffordshire Terrier,Boxer,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Medium,Short,True,True,False,True,False,True,False
+30152,Chocolate Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,False,False,True,False,False,False
+30168,Black Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,False,False,False,True,False,False,False
+30218,Boston Terrier,Beagle,True,False,Black,Brindle,Baby,Male,Small,Short,True,False,False,True,True,True,True
+30219,Boston Terrier,Beagle,True,False,Black,Brindle,Baby,Male,Small,Short,True,False,False,True,True,True,True
+30220,Boston Terrier,Beagle,True,False,Black,Brindle,Baby,Male,Small,Short,True,False,False,True,True,True,True
+30418,Border Collie,Husky,True,False,Black,White / Cream,Baby,Female,Medium,Medium,False,False,False,False,True,True,True
+30422,Labrador Retriever,Husky,True,False,Apricot / Beige,White / Cream,Young,Female,Medium,Medium,True,True,False,True,True,True,True
+30452,Border Collie,Labrador Retriever,True,False,Black,"Tricolor (Brown, Black, & White)",Baby,Female,Small,Medium,True,False,False,True,True,True,True
+30522,Flat-Coated Retriever,Retriever,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,False,False,True,True,True,True
+30533,Pit Bull Terrier,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,False,False,True,True,True,True
+30549,Australian Cattle Dog / Blue Heeler,Collie,True,False,Black,Gray / Blue / Silver,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+30550,Australian Cattle Dog / Blue Heeler,Collie,True,False,Black,Gray / Blue / Silver,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+30682,Jack Russell Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,True,False,False,True,True,True,True
+30710,German Shepherd Dog,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+30732,Shepherd,Labrador Retriever,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+30736,Pit Bull Terrier,Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+30755,American Bulldog,Boxer,True,False,Brown / Chocolate,White / Cream,Senior,Female,Medium,Short,True,True,True,True,True,True,True
+30803,Pit Bull Terrier,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+30938,Pit Bull Terrier,Labrador Retriever,True,False,Brindle,Brown / Chocolate,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+30944,Cairn Terrier,Chihuahua,True,False,Brown / Chocolate,White / Cream,Adult,Male,Small,Wire,True,False,False,True,True,True,True
+30951,Boxer,Collie,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+30952,Affenpinscher,Chihuahua,True,False,Black,White / Cream,Adult,Male,Small,Long,True,False,False,True,False,False,False
+30955,Pit Bull Terrier,American Staffordshire Terrier,True,False,Brindle,Brown / Chocolate,Young,Female,Medium,Short,True,False,False,True,True,True,True
+30961,Labrador Retriever,Golden Retriever,True,False,Black,White / Cream,Young,Male,Large,Long,True,False,False,True,True,True,True
+30965,Labrador Retriever,Collie,True,False,Bicolor,Black,Baby,Male,Medium,Medium,True,False,True,True,True,True,True
+31000,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,Golden,Adult,Male,Large,Short,True,False,False,True,True,True,True
+31007,American Staffordshire Terrier,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,False,False
+31008,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,Brindle,Young,Male,Medium,Short,True,False,False,True,True,True,True
+31095,Corgi,Jack Russell Terrier,True,False,Black,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+31115,Corgi,Jack Russell Terrier,True,False,White / Cream,Golden,Young,Male,Small,Short,True,True,False,True,True,True,True
+31117,Corgi,Jack Russell Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+31118,Boston Terrier,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Small,Short,True,True,True,True,True,True,True
+31160,Hound,Plott Hound,True,False,Brindle,White / Cream,Young,Male,Large,Short,True,False,False,True,False,True,True
+31163,Yorkshire Terrier,Jack Russell Terrier,True,False,Apricot / Beige,White / Cream,Baby,Male,Small,Long,True,False,False,True,True,True,True
+31175,Pointer,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+31183,Shepherd,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+31193,American Staffordshire Terrier,Pit Bull Terrier,True,False,Black,Golden,Young,Male,Large,Short,True,False,False,True,True,True,True
+31198,Labrador Retriever,Boxer,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+31207,Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,True
+31332,Chocolate Labrador Retriever,Husky,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+31336,Rat Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Small,Short,True,True,False,True,True,True,True
+31337,Boxer,Collie,True,False,Black,Brown / Chocolate,Young,Male,Medium,Short,True,False,False,True,True,True,True
+31338,Pit Bull Terrier,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,False,False
+31340,Pit Bull Terrier,American Staffordshire Terrier,True,False,Brown / Chocolate,Golden,Young,Male,Medium,Short,True,False,False,True,True,True,False
+31354,Mixed Breed,English Pointer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,True,False,True,True,True,True
+31368,Beagle,Basset Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Male,Medium,Medium,True,True,True,True,True,True,True
+31465,Labrador Retriever,Collie,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+31495,Labrador Retriever,Boxer,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+31507,American Staffordshire Terrier,Beagle,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Large,Short,True,True,False,True,True,False,False
+31524,Rat Terrier,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,False,True,True
+31528,Labrador Retriever,Hound,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+31668,American Staffordshire Terrier,Pit Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,False,False
+31681,Miniature Pinscher,Australian Cattle Dog / Blue Heeler,True,False,Black,Brown / Chocolate,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+31732,Boxer,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,False
+31788,Saint Bernard,Mastiff,True,False,Black,Brown / Chocolate,Adult,Male,Extra Large,Medium,True,False,False,True,False,False,False
+31805,Chihuahua,Pomeranian,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,False,True,True
+31838,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,False
+31854,Chihuahua,Pomeranian,True,False,Black,White / Cream,Adult,Male,Small,Medium,True,True,False,True,True,True,True
+31871,Pit Bull Terrier,Mixed Breed,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+31893,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,False
+31911,Greyhound,Boxer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,False,False,False,False,True,True,False
+31938,American Bulldog,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,False,False
+31992,Boxer,Shepherd,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+32026,Boxer,Shepherd,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,True
+32080,Boxer,Pit Bull Terrier,True,False,Brindle,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,False,False,True,False,False,False
+32081,Collie,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Adult,Male,Medium,Short,True,False,False,True,False,False,True
+32113,Chihuahua,Rat Terrier,True,False,Black,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+32455,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,False,False,True,False
+32479,Boxer,Staffordshire Bull Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+32489,Labrador Retriever,Pug,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+32492,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,Red / Chestnut / Orange,Adult,Male,Large,Short,True,True,False,True,True,True,True
+32596,American Staffordshire Terrier,Siberian Husky,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+32600,American Staffordshire Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,True
+32611,Beagle,Pit Bull Terrier,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,False,True,True,True
+32614,Beagle,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+32620,Chihuahua,Terrier,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,False,True,False,True,True,True,True
+32633,Retriever,Collie,True,False,Red / Chestnut / Orange,"Tricolor (Brown, Black, & White)",Young,Female,Medium,Long,True,False,False,True,True,True,True
+32723,Labrador Retriever,Coonhound,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+32743,Great Pyrenees,American Eskimo Dog,True,False,Apricot / Beige,White / Cream,Adult,Male,Medium,Long,True,True,False,True,True,True,True
+32748,Labrador Retriever,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+32814,Pit Bull Terrier,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+32815,Hound,Labrador Retriever,True,False,Black,White / Cream,Young,Female,Large,Medium,True,False,False,True,True,True,True
+32822,Chihuahua,Miniature Pinscher,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Short,True,True,False,True,True,True,True
+32833,Great Dane,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Large,Short,True,True,False,True,True,True,True
+32950,English Bulldog,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+32970,Labrador Retriever,Basset Hound,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+33216,Pit Bull Terrier,Labrador Retriever,True,False,Black,Gray / Blue / Silver,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+33217,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+33243,Shepherd,Hound,True,False,Black,Red / Chestnut / Orange,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+33255,Chihuahua,Corgi,True,False,Golden,White / Cream,Adult,Female,Small,Short,True,False,True,True,True,True,True
+33281,Weimaraner,Labrador Retriever,True,False,Black,White / Cream,Young,Female,Large,Short,True,True,False,True,True,True,True
+33283,Brittany Spaniel,Terrier,True,False,Bicolor,Black,Young,Female,Medium,Long,True,True,False,True,False,True,True
+33288,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+33326,Beagle,Coonhound,True,False,Merle (Blue),Merle (Red),Adult,Female,Medium,Short,True,True,False,True,True,True,False
+33363,Boston Terrier,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+33364,Boston Terrier,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+33367,Boxer,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+33385,Chihuahua,Pomeranian,True,False,Bicolor,Brindle,Adult,Female,Small,Medium,True,True,False,True,True,True,True
+33408,Labrador Retriever,Shepherd,True,False,Black,"Tricolor (Brown, Black, & White)",Baby,Male,Large,Medium,True,True,False,True,True,True,True
+33451,Chihuahua,Dachshund,True,False,Bicolor,Black,Baby,Male,Small,Short,True,False,False,True,True,True,True
+33534,Belgian Shepherd / Sheepdog,Rottweiler,True,False,Black,Brown / Chocolate,Young,Female,Medium,Short,True,True,False,True,True,False,False
+33656,Poodle,Wirehaired Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Small,Curly,True,True,False,True,True,True,True
+33705,Redbone Coonhound,Black Mouth Cur,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Medium,Short,True,False,False,False,True,True,True
+33768,Spitz,Boxer,True,False,Brindle,White / Cream,Young,Male,Medium,Medium,True,True,False,True,False,False,False
+33796,Golden Retriever,Miniature Poodle,True,False,Golden,White / Cream,Adult,Male,Large,Long,True,True,False,True,False,False,False
+33880,Boxer,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,True,True,True,True,True
+33893,Chihuahua,Pug,True,False,Apricot / Beige,Black,Adult,Female,Small,Short,True,True,False,True,True,True,True
+33945,Feist,Chihuahua,True,False,Apricot / Beige,Golden,Adult,Female,Small,Short,False,True,False,True,False,True,True
+33971,Corgi,Shetland Sheepdog / Sheltie,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Medium,True,True,False,True,True,True,False
+34001,Terrier,Hound,True,False,Brindle,White / Cream,Young,Male,Large,Short,True,True,False,True,False,False,False
+34027,Labrador Retriever,Collie,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+34159,Black and Tan Coonhound,Rottweiler,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+34189,Great Dane,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Extra Large,Short,True,True,False,True,False,False,False
+34205,Mastiff,Boxer,True,False,Brindle,Black,Adult,Male,Large,Short,True,False,False,True,True,False,False
+34288,Hound,Dalmatian,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,True,True
+34302,Shih Tzu,Brussels Griffon,True,False,Black,Gray / Blue / Silver,Adult,Male,Small,Medium,True,True,False,True,False,True,True
+34348,Beagle,Labrador Retriever,True,False,Black,Harlequin,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+34449,Jack Russell Terrier,Bull Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+34527,Spaniel,Retriever,True,False,Black,White / Cream,Baby,Male,Large,Medium,True,False,False,True,True,True,True
+34528,Labrador Retriever,Cattle Dog,True,False,Apricot / Beige,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+34602,Shepherd,Australian Cattle Dog / Blue Heeler,True,False,Apricot / Beige,Red / Chestnut / Orange,Young,Female,Medium,Medium,True,True,False,True,True,True,True
+34609,Shepherd,Hound,True,False,Bicolor,Brown / Chocolate,Baby,Male,Large,Short,True,True,True,True,True,True,True
+34664,Terrier,Boston Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,False
+34678,Shepherd,Mixed Breed,True,False,Black,White / Cream,Baby,Female,Medium,Long,True,True,False,True,True,True,True
+34696,Shepherd,Terrier,True,False,Bicolor,Red / Chestnut / Orange,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+34741,Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Short,True,False,False,True,False,False,False
+34787,Labrador Retriever,Terrier,True,False,Bicolor,Red / Chestnut / Orange,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+34794,German Shorthaired Pointer,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,False
+34875,Boston Terrier,Australian Cattle Dog / Blue Heeler,True,False,Apricot / Beige,Merle (Red),Adult,Female,Medium,Short,True,True,False,True,True,True,True
+35018,Labrador Retriever,Pointer,True,False,Black,Brindle,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+35028,Boxer,Catahoula Leopard Dog,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+35029,Pit Bull Terrier,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+35165,Australian Cattle Dog / Blue Heeler,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35174,Pekingese,Papillon,True,False,Apricot / Beige,White / Cream,Baby,Male,Small,Short,True,True,False,True,True,True,True
+35294,Catahoula Leopard Dog,Hound,True,False,Black,Red / Chestnut / Orange,Baby,Female,Large,Short,True,False,False,True,True,True,True
+35295,Catahoula Leopard Dog,German Wirehaired Pointer,True,False,Merle (Red),White / Cream,Baby,Female,Large,Wire,True,False,False,True,True,True,True
+35296,Catahoula Leopard Dog,Hound,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+35329,Corgi,Mixed Breed,True,False,Bicolor,Black,Young,Male,Small,Medium,True,False,False,True,True,True,True
+35331,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+35333,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+35334,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+35337,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+35348,Boxer,Hound,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,False
+35367,Beagle,Jack Russell Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35369,Beagle,Jack Russell Terrier,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35373,Beagle,Jack Russell Terrier,True,False,Black,Brindle,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35374,Beagle,Jack Russell Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35376,Schnauzer,Wire Fox Terrier,True,False,Black,White / Cream,Young,Female,Medium,Wire,True,False,False,True,True,True,True
+35451,Collie,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+35452,Shepherd,Australian Shepherd,True,False,Black,Merle (Blue),Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+35481,Australian Cattle Dog / Blue Heeler,Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35482,Australian Cattle Dog / Blue Heeler,Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35487,Black Labrador Retriever,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,False
+35494,Mountain Cur,Great Dane,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+35507,Black Labrador Retriever,Husky,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+35625,Labrador Retriever,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+35626,Boxer,Labrador Retriever,True,False,Black,White / Cream,Senior,Male,Medium,Short,False,True,False,True,True,True,True
+35685,Labrador Retriever,Shepherd,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35686,Shepherd,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35687,Shepherd,Labrador Retriever,True,False,Black,Golden,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35721,Labrador Retriever,Pointer,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35730,Boxer,Hound,True,False,Apricot / Beige,Bicolor,Young,Male,Medium,Short,True,True,False,True,True,True,True
+35731,Husky,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Large,Medium,True,False,False,True,True,True,False
+35739,Mountain Cur,Border Collie,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+35762,Mountain Cur,Labrador Retriever,True,False,Black,Brindle,Baby,Female,Large,Short,True,False,False,True,True,True,True
+35763,Mountain Cur,Shepherd,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35764,Mountain Cur,Great Dane,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+35765,Mountain Cur,Great Dane,True,False,Black,Brindle,Baby,Male,Large,Short,True,False,False,True,True,True,True
+35793,Carolina Dog,Mixed Breed,True,False,Brown / Chocolate,Golden,Senior,Male,Large,Short,True,True,False,True,True,True,False
+35816,Labrador Retriever,Hound,True,False,Brown / Chocolate,"Tricolor (Brown, Black, & White)",Adult,Male,Large,Short,True,True,False,True,True,True,True
+35822,Boxer,Feist,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,True,True
+35823,Boxer,Feist,True,False,Golden,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,True
+35829,Beagle,Feist,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35861,Weimaraner,Mountain Cur,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,False,False,True,True,True,True
+35864,Beagle,Dachshund,True,False,Black,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,True
+35865,Beagle,Dachshund,True,False,Black,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,True
+35886,Cattle Dog,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35919,Mountain Cur,Feist,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+35920,Mountain Cur,Feist,True,False,Black,Brindle,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+35924,Terrier,Labrador Retriever,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,True,True,True,True,True
+35966,Cattle Dog,Pointer,True,False,Apricot / Beige,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,False,False
+35999,Australian Shepherd,Beagle,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+36041,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Medium,True,True,True,True,True,True,True
+36048,Labrador Retriever,Boxer,True,False,Black,White / Cream,Adult,Male,Large,Medium,True,True,False,True,True,True,False
+36088,Mixed Breed,Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,True,False
+36089,Jack Russell Terrier,Australian Cattle Dog / Blue Heeler,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,False,False,True,False,False,False
+36091,Dachshund,Australian Cattle Dog / Blue Heeler,True,False,Brown / Chocolate,White / Cream,Baby,Male,Small,Short,True,False,False,True,True,True,True
+36092,Dachshund,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Baby,Male,Small,Short,True,False,False,True,True,True,True
+36472,Pit Bull Terrier,Mixed Breed,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,False,True,False,False
+36656,American Staffordshire Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,False,False,False,True,True,False
+36659,Labrador Retriever,Collie,True,False,Brown / Chocolate,White / Cream,Senior,Male,Large,Short,True,True,False,True,True,True,False
+36725,American Staffordshire Terrier,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+36819,Chocolate Labrador Retriever,Pointer,True,False,Brown / Chocolate,White / Cream,Adult,Female,Large,Medium,True,True,False,True,True,False,False
+36876,Rhodesian Ridgeback,Hound,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Large,Medium,True,False,False,True,True,False,False
+36883,Boxer,Terrier,True,False,White / Cream,Brown / Chocolate,Young,Female,Medium,Short,True,False,False,True,False,False,True
+36928,Chesapeake Bay Retriever,English Springer Spaniel,True,False,Bicolor,White / Cream,Senior,Female,Medium,Medium,True,True,False,True,True,True,False
+37415,Whippet,Retriever,True,False,Apricot / Beige,Black,Young,Female,Medium,Medium,True,False,True,False,True,False,False
+37624,Parson Russell Terrier,Basset Hound,True,False,Brindle,"Tricolor (Brown, Black, & White)",Senior,Female,Medium,Short,True,True,False,True,True,True,True
+37714,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Merle (Blue),White / Cream,Young,Male,Medium,Short,True,True,False,True,True,False,False
+37843,Anatolian Shepherd,Hound,True,False,White / Cream,"Tricolor (Brown, Black, & White)",Adult,Male,Large,Short,True,True,False,True,False,True,True
+37915,Labrador Retriever,Mixed Breed,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+38184,Doberman Pinscher,Poodle,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+38185,Doberman Pinscher,Poodle,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+38201,Labrador Retriever,Beagle,True,False,Black,Golden,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+38306,Pit Bull Terrier,Mixed Breed,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,True
+38316,Beagle,Hound,True,False,Sable,White / Cream,Senior,Female,Small,Short,True,True,True,True,True,True,True
+38441,Boxer,Pit Bull Terrier,True,False,Bicolor,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+38453,Collie,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,True,False,True,True,True,True
+38523,Beagle,Terrier,True,False,Black,White / Cream,Senior,Female,Small,Short,True,True,False,True,True,True,True
+38553,Border Collie,Shepherd,True,False,Black,White / Cream,Adult,Male,Medium,Medium,True,False,False,True,True,True,True
+38569,Cocker Spaniel,Black Labrador Retriever,True,False,Black,White / Cream,Senior,Female,Medium,Short,True,True,False,True,True,True,True
+38577,Labrador Retriever,Mixed Breed,True,False,White / Cream,Gray / Blue / Silver,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+38677,Hound,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,True,False,True,True,True,True
+38712,Beagle,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Medium,True,True,False,True,False,True,True
+38722,Pointer,Cattle Dog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+38754,Harrier,Dachshund,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Large,Short,True,False,False,True,False,False,False
+38758,Boxer,Hound,True,False,Brindle,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,False,False
+39065,Collie,Great Pyrenees,True,False,Bicolor,Black,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+39132,American Staffordshire Terrier,Mastiff,True,False,Apricot / Beige,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,False,False,True,True,False,False
+39140,Pit Bull Terrier,Staffordshire Bull Terrier,True,False,Golden,Red / Chestnut / Orange,Adult,Female,Medium,Short,True,False,False,True,True,True,False
+39508,Feist,Hound,True,False,Bicolor,Black,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+39617,Pit Bull Terrier,Boxer,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+39618,Pit Bull Terrier,Boxer,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+39818,Hound,Shepherd,True,False,Black,Brindle,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+39914,German Shepherd Dog,Husky,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Medium,True,True,False,False,True,True,False
+39934,Hound,Feist,True,False,Apricot / Beige,Bicolor,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+39940,Jack Russell Terrier,Wirehaired Terrier,True,False,Black,White / Cream,Baby,Male,Small,Wire,True,True,False,True,True,True,True
+39988,Border Collie,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,True,False
+40027,Labrador Retriever,American Bulldog,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40038,American Bulldog,Australian Cattle Dog / Blue Heeler,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40040,American Bulldog,Australian Cattle Dog / Blue Heeler,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40041,American Bulldog,Australian Cattle Dog / Blue Heeler,True,False,Merle (Red),Merle (Red),Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40045,American Bulldog,Australian Cattle Dog / Blue Heeler,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40048,American Bulldog,Australian Cattle Dog / Blue Heeler,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40093,Boxer,Hound,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40097,Redbone Coonhound,Beagle,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Medium,Short,False,True,False,True,True,True,True
+40110,Labrador Retriever,Boxer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,False,True,False,False,True,True,True
+40196,Catahoula Leopard Dog,Australian Shepherd,True,False,Merle (Blue),White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+40218,Boxer,Pit Bull Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,True,True,False,True,True,True,True
+40234,Boxer,Hound,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40260,Boxer,Hound,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40271,Boxer,Shepherd,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40277,Chihuahua,Dachshund,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,False,False,False,True,True,True,True
+40278,Chihuahua,Dachshund,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Short,False,False,False,True,True,True,True
+40332,Siberian Husky,Australian Shepherd,True,False,Gray / Blue / Silver,Merle (Blue),Senior,Male,Large,Short,True,True,False,True,True,True,True
+40427,Poodle,Shih Tzu,True,False,Black,White / Cream,Adult,Female,Small,Curly,True,True,False,True,True,False,False
+40737,Labrador Retriever,Miniature Pinscher,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+40745,Black and Tan Coonhound,Hound,True,False,Black,Brindle,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40760,Collie,Boxer,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,False,True,False,True,True,True,True
+40821,Terrier,Mixed Breed,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40822,Terrier,Mixed Breed,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+40844,Pointer,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+40871,Labrador Retriever,Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,True,True,True,True,True
+40918,Black and Tan Coonhound,Doberman Pinscher,True,False,Black,Red / Chestnut / Orange,Young,Female,Large,Medium,True,True,False,True,True,True,True
+40926,American Bulldog,American Staffordshire Terrier,True,False,Brindle,White / Cream,Adult,Female,Large,Medium,True,True,False,True,True,False,False
+40975,Boxer,Hound,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+40998,Labrador Retriever,Jack Russell Terrier,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+41196,Manchester Terrier,Terrier,True,False,Bicolor,Black,Adult,Male,Small,Short,True,True,False,True,True,True,True
+41236,Dachshund,Beagle,True,False,Brown / Chocolate,Golden,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+41274,American Bulldog,Labrador Retriever,True,False,Apricot / Beige,Gray / Blue / Silver,Baby,Female,Medium,Short,False,True,False,True,True,True,True
+41275,American Bulldog,Lakeland Terrier,True,False,Apricot / Beige,Black,Baby,Female,Medium,Short,False,True,False,True,True,True,True
+41276,American Bulldog,Lakeland Terrier,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,False,True,False,True,True,True,True
+41277,American Bulldog,Lakeland Terrier,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,False,True,False,True,True,True,True
+41278,American Bulldog,Lakeland Terrier,True,False,Harlequin,White / Cream,Baby,Female,Medium,Short,False,True,False,True,True,True,True
+41279,American Bulldog,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Baby,Male,Large,Short,False,True,False,True,True,True,True
+41346,Husky,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,True,False
+41360,Pit Bull Terrier,American Bulldog,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,False,True,True,True
+41404,Dalmatian,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+41419,Boxer,American Bulldog,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+41422,Pug,Beagle,True,False,Black,Brown / Chocolate,Senior,Male,Small,Short,True,True,False,True,True,True,True
+41423,Beagle,Pug,True,False,Apricot / Beige,Black,Senior,Female,Small,Short,True,True,False,True,True,True,True
+41518,Pit Bull Terrier,Boxer,True,False,Brindle,"Tricolor (Brown, Black, & White)",Baby,Male,Large,Short,True,False,False,True,True,True,True
+41519,Pit Bull Terrier,Boxer,True,False,Black,Brindle,Baby,Male,Large,Short,True,False,False,True,True,True,True
+41624,Labrador Retriever,Retriever,True,False,Black,Brindle,Young,Male,Medium,Medium,True,True,False,True,True,True,False
+41677,Vizsla,Golden Retriever,True,False,Black,Brown / Chocolate,Adult,Male,Large,Short,True,True,False,True,True,False,False
+41681,Pit Bull Terrier,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Medium,Medium,True,False,False,True,True,True,True
+41705,Labrador Retriever,Shepherd,True,False,Black,Brown / Chocolate,Young,Male,Medium,Short,True,True,False,True,True,True,False
+41749,Black Labrador Retriever,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,True,False
+41796,Labrador Retriever,Jack Russell Terrier,True,False,Apricot / Beige,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+41813,Spaniel,Shetland Sheepdog / Sheltie,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,True,True
+41817,American Bulldog,Mastiff,True,False,Brindle,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+41838,Pointer,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,True,True,True,True,False
+41930,Pit Bull Terrier,Labrador Retriever,True,False,Brindle,White / Cream,Young,Male,Large,Short,True,True,False,True,True,False,False
+41933,Foxhound,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,False,True,True,True,True,True
+41949,Boxer,American Bulldog,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+41965,Labrador Retriever,Boxer,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+41989,Jack Russell Terrier,Pit Bull Terrier,True,False,Apricot / Beige,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+41991,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+41992,Pit Bull Terrier,Labrador Retriever,True,False,Brindle,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+41993,Pit Bull Terrier,Labrador Retriever,True,False,Black,Gray / Blue / Silver,Young,Male,Medium,Short,True,True,False,True,True,True,True
+41994,Pit Bull Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+42033,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,True,True,True,False,False
+42040,Siberian Husky,German Shepherd Dog,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+42053,West Highland White Terrier / Westie,Cairn Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Medium,True,False,True,True,True,True,False
+42064,Beagle,Basset Hound,True,False,Apricot / Beige,Black,Adult,Male,Medium,Short,True,True,True,True,True,True,True
+42080,Labrador Retriever,American Staffordshire Terrier,True,False,Black,White / Cream,Young,Female,Large,Short,True,False,False,True,True,False,False
+42123,Pit Bull Terrier,Whippet,True,False,Brindle,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,False
+42180,American Staffordshire Terrier,Hound,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+42182,Chihuahua,Dachshund,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Short,True,False,False,True,True,True,False
+42228,Catahoula Leopard Dog,Pit Bull Terrier,True,False,Merle (Blue),White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+42252,American Bulldog,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,True,True
+42255,Shar-Pei,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Short,True,False,False,True,True,True,True
+42264,American Staffordshire Terrier,Labrador Retriever,True,False,White / Cream,Apricot / Beige,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+42284,Staffordshire Bull Terrier,Terrier,True,False,Black,White / Cream,Senior,Female,Medium,Short,True,True,True,True,False,False,False
+42297,Husky,Pit Bull Terrier,True,False,Brindle,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,True,True
+42300,American Staffordshire Terrier,Basset Hound,True,False,Brown / Chocolate,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,False
+42302,English Bulldog,Boston Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+42313,Labrador Retriever,Hound,True,False,White / Cream,Brown / Chocolate,Young,Female,Medium,Short,True,False,False,True,True,True,True
+42322,Labrador Retriever,Boxer,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,True,False
+42325,Jack Russell Terrier,Labrador Retriever,True,False,White / Cream,Brown / Chocolate,Young,Female,Medium,Short,True,False,False,True,True,True,True
+42343,Boxer,Rottweiler,True,False,Black,Brown / Chocolate,Senior,Male,Medium,Short,True,True,False,True,True,True,False
+42356,Shepherd,Rottweiler,True,False,Yellow / Tan / Blond / Fawn,Black,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+42414,Australian Cattle Dog / Blue Heeler,Spaniel,True,False,Apricot / Beige,Golden,Young,Female,Medium,Short,True,False,False,True,True,True,True
+42416,English Springer Spaniel,Australian Shepherd,True,False,Black,Merle (Blue),Adult,Male,Medium,Medium,True,False,False,True,True,True,True
+42418,Border Terrier,Miniature Poodle,True,False,Golden,Gray / Blue / Silver,Baby,Male,Small,Curly,True,False,False,True,True,True,True
+42423,Miniature Pinscher,German Shepherd Dog,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,True,True,True
+42428,Australian Shepherd,Australian Cattle Dog / Blue Heeler,True,False,Merle (Blue),Red / Chestnut / Orange,Adult,Male,Medium,Medium,True,False,False,True,True,True,True
+42437,Pointer,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+42445,Australian Shepherd,Husky,True,False,Merle (Blue),Gray / Blue / Silver,Young,Male,Medium,Medium,True,False,True,True,True,True,True
+42452,Australian Shepherd,Border Collie,True,False,Black,Gray / Blue / Silver,Adult,Female,Medium,Long,True,False,False,True,True,True,True
+42465,Border Collie,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Adult,Female,Medium,Curly,True,False,False,True,True,True,True
+42606,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+42608,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+42609,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+42612,Australian Cattle Dog / Blue Heeler,Border Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+42626,Shepherd,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Medium,False,True,False,True,True,True,True
+42627,Shepherd,Hound,True,False,"Tricolor (Brown, Black, & White)",White / Cream,Baby,Female,Medium,Medium,False,True,False,True,True,True,True
+42628,Shepherd,Hound,True,False,Black,"Tricolor (Brown, Black, & White)",Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+42629,Shepherd,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+42758,Black and Tan Coonhound,Mixed Breed,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+42764,Whippet,Australian Shepherd,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+42814,Labrador Retriever,Terrier,True,False,Black,Red / Chestnut / Orange,Young,Female,Medium,Short,True,False,False,False,True,True,True
+42829,Rottweiler,German Shepherd Dog,True,False,Black,Red / Chestnut / Orange,Adult,Female,Large,Short,True,True,False,True,True,True,False
+42889,Border Terrier,Terrier,True,False,Apricot / Beige,Golden,Senior,Female,Medium,Medium,True,True,True,True,False,True,True
+42907,Treeing Walker Coonhound,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,True,False,False,True,True,True,False
+42922,Boxer,American Bulldog,True,False,Golden,White / Cream,Young,Female,Large,Short,True,True,False,True,True,True,False
+42948,Australian Shepherd,Staffordshire Bull Terrier,True,False,Black,Brindle,Adult,Female,Medium,Medium,True,False,True,True,False,False,False
+42966,Pit Bull Terrier,Australian Shepherd,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+43011,Chihuahua,Pomeranian,True,False,Golden,White / Cream,Senior,Male,Small,Long,True,True,True,True,False,False,True
+43024,Schnauzer,Poodle,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Small,Medium,True,True,False,True,True,True,False
+43145,Pointer,Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+43234,Labrador Retriever,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+43235,Labrador Retriever,Hound,True,False,Brindle,White / Cream,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+43269,German Shepherd Dog,Siberian Husky,True,False,Apricot / Beige,Bicolor,Senior,Female,Medium,Medium,True,True,False,True,False,False,False
+43316,Pit Bull Terrier,Boxer,True,False,Apricot / Beige,White / Cream,Young,Male,Large,Short,False,True,False,True,True,True,True
+43332,Black Labrador Retriever,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Medium,True,False,False,True,True,True,True
+43394,Fox Terrier,Jack Russell Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Female,Small,Short,True,True,False,True,True,True,True
+43421,Shepherd,Labrador Retriever,True,False,Black,Golden,Baby,Female,Medium,Medium,True,False,False,True,True,True,False
+43423,Pointer,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Medium,Medium,True,False,False,True,True,True,True
+43424,Pointer,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Medium,Medium,True,False,False,True,True,True,True
+43467,Redbone Coonhound,Coonhound,True,False,Black,Golden,Adult,Female,Medium,Medium,True,False,False,True,True,True,True
+43566,Labrador Retriever,Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,True,False
+43602,Basset Hound,Pointer,True,False,Black,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+43603,Basset Hound,Labrador Retriever,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+43620,Black Labrador Retriever,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Large,Medium,True,False,False,True,True,True,True
+43654,Miniature Pinscher,Chihuahua,True,False,Brown / Chocolate,"Tricolor (Brown, Black, & White)",Adult,Male,Small,Short,True,False,False,True,True,True,True
+43657,Hound,Pit Bull Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+43687,Retriever,Hound,True,False,Black,Brindle,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+43689,Border Terrier,Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Medium,Medium,False,False,False,True,True,True,False
+43746,Cattle Dog,Labrador Retriever,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,False,False,False
+43812,Japanese Chin,Miniature Schnauzer,True,False,Black,White / Cream,Adult,Female,Small,Short,True,True,False,False,False,True,True
+43838,Mixed Breed,American Staffordshire Terrier,True,False,Black,White / Cream,Senior,Male,Medium,Short,True,False,False,True,True,False,False
+43912,Siberian Husky,Boxer,True,False,Apricot / Beige,White / Cream,Baby,Female,Medium,Short,True,True,False,True,True,True,False
+43927,Terrier,Labrador Retriever,True,False,Bicolor,Black,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+43950,Great Pyrenees,Golden Retriever,True,False,Golden,White / Cream,Young,Male,Large,Long,True,True,False,True,True,True,False
+43953,Hound,Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+43968,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+44017,American Bulldog,Basenji,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+44023,Rhodesian Ridgeback,American Bulldog,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+44031,Chihuahua,Miniature Pinscher,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,True,True,False
+44064,Pit Bull Terrier,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Large,Short,True,True,False,True,True,True,False
+44068,Shih Tzu,Poodle,True,False,Apricot / Beige,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Long,True,True,False,True,False,False,False
+44141,Labrador Retriever,American Staffordshire Terrier,True,False,Black,"Tricolor (Brown, Black, & White)",Adult,Male,Large,Short,True,False,False,True,True,True,True
+44158,Labrador Retriever,Border Collie,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+44197,Pit Bull Terrier,Mixed Breed,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+44266,Boston Terrier,Chihuahua,True,False,Black,White / Cream,Young,Female,Small,Short,True,True,False,True,False,True,False
+44283,American Bulldog,Boxer,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+44313,Maltese,Shih Tzu,True,False,Apricot / Beige,White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+44325,Shih Tzu,Havanese,True,False,Black,White / Cream,Young,Male,Small,Long,True,False,False,True,False,True,True
+44392,Great Pyrenees,Border Collie,True,False,Black,White / Cream,Young,Female,Large,Medium,True,True,False,True,True,True,True
+44393,Siberian Husky,Alaskan Malamute,True,False,Merle (Red),White / Cream,Adult,Male,Large,Long,True,True,False,True,True,True,False
+44465,Pit Bull Terrier,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+44525,Coonhound,American Staffordshire Terrier,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+44568,Pit Bull Terrier,American Staffordshire Terrier,True,False,Apricot / Beige,White / Cream,Adult,Female,Large,Short,True,True,False,True,False,False,False
+44573,Pit Bull Terrier,Boxer,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,False,False
+44589,American Bulldog,English Bulldog,True,False,Brindle,Gray / Blue / Silver,Adult,Female,Large,Short,True,True,False,True,False,False,False
+44808,Chihuahua,Dachshund,True,False,Black,Brown / Chocolate,Adult,Male,Small,Short,True,True,True,True,False,False,False
+44875,Australian Cattle Dog / Blue Heeler,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Long,True,True,False,True,True,True,True
+45043,Australian Shepherd,Labrador Retriever,True,False,Golden,White / Cream,Baby,Male,Large,Medium,False,False,False,True,True,True,True
+45044,Australian Shepherd,Labrador Retriever,True,False,Bicolor,Brown / Chocolate,Baby,Male,Large,Medium,False,False,False,True,True,True,True
+45045,Pit Bull Terrier,Shepherd,True,False,Golden,White / Cream,Baby,Female,Large,Short,False,False,False,True,True,True,True
+45046,Pit Bull Terrier,Shepherd,True,False,Black,White / Cream,Baby,Male,Large,Short,False,False,False,True,True,True,True
+45146,Black Mouth Cur,Shepherd,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+45177,Dachshund,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Small,Short,True,True,False,True,True,True,True
+45206,American Staffordshire Terrier,English Bulldog,True,False,Gray / Blue / Silver,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+45226,Chihuahua,Cattle Dog,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+45320,Staffordshire Bull Terrier,American Staffordshire Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,True
+45329,West Highland White Terrier / Westie,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Wire,True,False,False,True,True,True,True
+45332,Australian Cattle Dog / Blue Heeler,Pointer,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+45335,German Shepherd Dog,Mixed Breed,True,False,Bicolor,Black,Young,Female,Medium,Long,True,True,False,True,False,True,False
+45352,Beagle,Pug,True,False,Apricot / Beige,White / Cream,Adult,Male,Small,Short,True,True,False,True,True,True,True
+45366,Italian Greyhound,Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,True,False
+45385,Collie,Labrador Retriever,True,False,Golden,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,True,True
+45454,Black Mouth Cur,Hound,True,False,Brindle,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+45455,Black Mouth Cur,Hound,True,False,Brindle,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45457,Hound,Black Mouth Cur,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45495,Dalmatian,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Adult,Female,Medium,Short,False,False,False,True,True,True,True
+45496,Dalmatian,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+45503,Terrier,Feist,True,False,Bicolor,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+45582,Beagle,German Shorthaired Pointer,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45583,Beagle,German Shorthaired Pointer,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45584,Beagle,German Shorthaired Pointer,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45585,Beagle,German Shorthaired Pointer,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+45630,American Bulldog,Shar-Pei,True,False,Black,White / Cream,Baby,Male,Large,Short,False,False,False,True,True,True,True
+45631,Labrador Retriever,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+45664,Dalmatian,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,True
+45665,Beagle,Mixed Breed,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+45751,Mastiff,Boxer,True,False,Apricot / Beige,White / Cream,Adult,Female,Extra Large,Short,True,True,False,True,True,True,False
+45894,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Senior,Female,Extra Large,Short,True,True,False,True,True,True,True
+45896,Mixed Breed,Miniature Pinscher,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+45912,Great Pyrenees,Spitz,True,False,Black,White / Cream,Baby,Male,Large,Long,False,False,False,True,True,True,True
+45913,Great Pyrenees,German Shepherd Dog,True,False,Black,Golden,Adult,Male,Extra Large,Long,True,True,False,True,False,True,True
+45936,Terrier,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Large,Short,True,False,False,True,True,False,False
+45957,Terrier,American Staffordshire Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Short,False,False,False,True,True,True,False
+45980,Labrador Retriever,Hound,True,False,Black,White / Cream,Young,Female,Medium,Medium,False,True,False,False,True,True,False
+46041,Labrador Retriever,Mixed Breed,True,False,Sable,White / Cream,Young,Male,Medium,Medium,True,False,False,True,True,True,True
+46050,Chihuahua,Pug,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Small,Short,False,True,False,True,True,False,True
+46076,American Staffordshire Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,False,True,False
+46081,Spaniel,Terrier,True,False,White / Cream,Black,Young,Male,Small,Medium,True,True,True,True,True,True,False
+46083,Jack Russell Terrier,Pit Bull Terrier,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Small,Short,True,False,False,True,False,True,False
+46092,Labrador Retriever,Great Dane,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,True
+46109,Shar-Pei,Pit Bull Terrier,True,False,White / Cream,Red / Chestnut / Orange,Young,Female,Medium,Short,True,False,False,True,False,True,True
+46110,Boxer,Pit Bull Terrier,True,False,White / Cream,Black,Adult,Male,Large,Short,True,True,True,True,False,False,False
+46360,Hound,German Shepherd Dog,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+46428,Labrador Retriever,Mastiff,True,False,Black,White / Cream,Baby,Female,Large,Short,True,False,False,True,True,True,True
+46429,Labrador Retriever,Mastiff,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+46492,Pit Bull Terrier,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+46534,Smooth Collie,Australian Shepherd,True,False,Gray / Blue / Silver,White / Cream,Senior,Female,Medium,Medium,True,True,False,True,True,True,False
+46575,Australian Cattle Dog / Blue Heeler,Australian Shepherd,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Medium,True,False,False,True,True,True,False
+46581,Shar-Pei,Labrador Retriever,True,False,Black,Gray / Blue / Silver,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+46771,Boxer,Rottweiler,True,False,Bicolor,Black,Baby,Female,Large,Short,True,False,False,True,True,True,True
+46772,Chow Chow,German Shepherd Dog,True,False,Apricot / Beige,White / Cream,Baby,Male,Large,Medium,True,True,False,True,True,True,True
+46851,Miniature Pinscher,Chihuahua,True,False,Black,White / Cream,Senior,Female,Small,Short,True,True,False,True,True,True,True
+46855,Doberman Pinscher,Terrier,True,False,Brown / Chocolate,Gray / Blue / Silver,Young,Female,Medium,Short,False,False,False,True,True,True,True
+46917,Golden Retriever,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Large,Short,True,True,False,True,True,True,False
+46987,Pit Bull Terrier,Boxer,True,False,Apricot / Beige,Red / Chestnut / Orange,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+47039,Boxer,Hound,True,False,Brown / Chocolate,Golden,Adult,Male,Large,Short,True,True,False,True,True,False,False
+47092,Pug,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,True,True,True
+47219,Shepherd,Mixed Breed,True,False,Black,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,True,False
+47239,Black and Tan Coonhound,Doberman Pinscher,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Short,True,True,True,True,False,True,False
+47279,Retriever,Terrier,True,False,Black,Brindle,Young,Male,Medium,Short,True,False,False,True,False,True,True
+47295,Pit Bull Terrier,Beagle,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,False,False
+47310,American Staffordshire Terrier,Boxer,True,False,Black,White / Cream,Baby,Female,Large,Short,True,True,False,True,True,True,True
+47344,Great Pyrenees,American Bulldog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Large,Short,True,False,False,True,True,False,False
+47421,English Setter,American Staffordshire Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+47473,Labrador Retriever,Rhodesian Ridgeback,True,False,Apricot / Beige,Golden,Young,Female,Medium,Short,True,True,False,True,True,True,False
+47498,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,False,True,True,True
+47500,Boxer,Shar-Pei,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,True,False,False
+47560,Shar-Pei,Shepherd,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+47601,Pit Bull Terrier,American Staffordshire Terrier,True,False,Brindle,Red / Chestnut / Orange,Adult,Female,Large,Short,True,True,False,True,True,True,True
+47736,Shepherd,Boxer,True,False,Black,Brindle,Adult,Male,Large,Short,True,True,False,True,True,False,False
+47802,Great Dane,Mastiff,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Large,Short,True,False,False,False,False,False,False
+47812,Labrador Retriever,Pit Bull Terrier,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Medium,True,True,False,True,True,True,False
+47822,Terrier,Wirehaired Terrier,True,False,Black,Brown / Chocolate,Young,Female,Medium,Medium,True,True,False,True,True,True,False
+47911,Boxer,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Large,Long,True,False,False,False,True,True,True
+47980,Pit Bull Terrier,Boston Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+47995,Pit Bull Terrier,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Male,Medium,Short,True,True,True,True,False,True,True
+48152,Collie,Great Pyrenees,True,False,Golden,White / Cream,Baby,Female,Medium,Medium,True,True,False,True,True,True,True
+48206,Poodle,Shih Tzu,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Small,Long,True,False,False,True,True,True,False
+48507,Basenji,Terrier,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+48517,Saluki,German Shepherd Dog,True,False,Black,Sable,Adult,Female,Large,Short,True,True,True,True,True,True,True
+48585,French Bulldog,Labrador Retriever,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+48640,Terrier,Pit Bull Terrier,True,False,Black,White / Cream,Young,Female,Small,Short,True,True,False,True,True,True,True
+48643,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,False,False,False,True,True,True,True
+48672,Great Pyrenees,Anatolian Shepherd,True,False,Gray / Blue / Silver,Yellow / Tan / Blond / Fawn,Adult,Male,Large,Long,True,True,False,True,True,True,True
+48708,Pointer,Beagle,True,False,Red / Chestnut / Orange,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,False
+48821,Staffordshire Bull Terrier,Boston Terrier,True,False,Black,Brindle,Young,Male,Medium,Short,True,True,False,True,True,True,True
+48837,Chocolate Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+48854,Boxer,Beagle,True,False,Black,Brown / Chocolate,Young,Female,Medium,Short,True,True,False,True,True,True,False
+48920,Chihuahua,Papillon,True,False,Apricot / Beige,Bicolor,Adult,Male,Small,Long,True,True,True,True,False,True,True
+48967,American Staffordshire Terrier,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Short,False,False,False,False,True,True,True
+48996,Great Pyrenees,Golden Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Medium,True,True,False,True,True,True,False
+49042,American Staffordshire Terrier,Pit Bull Terrier,True,False,Bicolor,White / Cream,Young,Female,Medium,Short,True,False,False,True,True,False,False
+49096,German Shepherd Dog,Boxer,True,False,Bicolor,Black,Adult,Male,Large,Short,True,True,False,True,True,True,True
+49115,Catahoula Leopard Dog,Pit Bull Terrier,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,True,True
+49141,Plott Hound,Mixed Breed,True,False,Brindle,White / Cream,Young,Male,Large,Short,True,True,False,True,True,True,False
+49142,Plott Hound,Mixed Breed,True,False,Bicolor,White / Cream,Young,Female,Large,Short,True,False,False,True,True,True,False
+49291,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,False
+49413,German Shepherd Dog,Boxer,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,True,False,True,True,True,False
+49414,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,True
+49422,Labrador Retriever,Boston Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+49457,Labrador Retriever,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Young,Male,Large,Short,True,False,False,True,True,True,True
+49573,Hound,Doberman Pinscher,True,False,Black,Golden,Adult,Female,Large,Short,True,True,False,True,True,True,False
+49600,Australian Cattle Dog / Blue Heeler,Australian Shepherd,True,False,Red / Chestnut / Orange,White / Cream,Young,Female,Medium,Medium,True,True,False,True,False,True,True
+49611,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,False,False,True,True,False,False
+49734,German Shepherd Dog,Border Collie,True,False,Black,White / Cream,Young,Male,Large,Medium,True,False,False,True,True,True,False
+49784,Retriever,Labrador Retriever,True,False,Black,Brindle,Adult,Male,Large,Short,True,False,False,False,False,False,False
+49793,Black Mouth Cur,Plott Hound,True,False,Brindle,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,True
+49846,Hound,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+49868,Boxer,Pit Bull Terrier,True,False,Brown / Chocolate,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,True
+49933,American Staffordshire Terrier,Boxer,True,False,Black,Brown / Chocolate,Adult,Female,Medium,Short,True,False,False,True,True,False,False
+49944,American Bulldog,Boxer,True,False,Black,White / Cream,Young,Male,Medium,Short,False,False,False,True,False,False,False
+49993,Boxer,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Senior,Female,Large,Short,True,True,False,True,False,False,False
+50062,Pit Bull Terrier,German Shepherd Dog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+50073,Pit Bull Terrier,Spaniel,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,False,False
+50200,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Brown / Chocolate,Golden,Baby,Male,Small,Short,False,False,False,True,True,True,True
+50201,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Merle (Red),"Tricolor (Brown, Black, & White)",Baby,Male,Small,Short,False,False,False,True,True,True,True
+50202,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Merle (Red),White / Cream,Baby,Male,Small,Short,False,False,False,True,True,True,True
+50203,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Gray / Blue / Silver,"Tricolor (Brown, Black, & White)",Baby,Male,Small,Short,False,False,False,True,True,True,True
+50294,Shepherd,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,False,True,False,True,True,True,True
+50297,Jack Russell Terrier,Feist,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,False,False,False,True,True,True,True
+50540,Hound,Shepherd,True,False,Apricot / Beige,White / Cream,Baby,Male,Medium,Short,False,False,False,False,True,True,True
+50720,Boxer,Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+50757,Hound,Labrador Retriever,True,False,Brown / Chocolate,Red / Chestnut / Orange,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+50807,Black Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Female,Large,Short,True,True,True,True,True,True,True
+50808,Black Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Female,Large,Short,True,True,True,True,True,True,True
+51224,Labrador Retriever,Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,False,False
+51247,Siberian Husky,Pit Bull Terrier,True,False,Black,Brown / Chocolate,Adult,Male,Large,Short,True,True,False,True,True,True,True
+51413,Chocolate Labrador Retriever,Doberman Pinscher,True,False,Bicolor,Brown / Chocolate,Young,Male,Large,Short,False,False,False,False,True,False,False
+51455,Dutch Shepherd,German Shepherd Dog,True,False,Brindle,White / Cream,Young,Male,Medium,Medium,True,True,False,True,True,True,True
+51488,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Female,Medium,Medium,True,False,False,True,True,True,True
+51573,Australian Kelpie,Shepherd,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+51574,Australian Cattle Dog / Blue Heeler,Shepherd,True,False,Black,Brindle,Young,Female,Medium,Short,True,True,False,True,True,True,True
+51593,Catahoula Leopard Dog,American Staffordshire Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+51594,Catahoula Leopard Dog,American Staffordshire Terrier,True,False,Red / Chestnut / Orange,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+51618,Chihuahua,Italian Greyhound,True,False,Golden,White / Cream,Adult,Female,Small,Short,True,False,False,True,False,True,False
+51744,Bull Terrier,American Bulldog,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Medium,Short,False,False,False,True,True,True,False
+51801,Pit Bull Terrier,Mixed Breed,True,False,Brindle,White / Cream,Young,Female,Large,Short,True,True,False,True,True,True,False
+51803,Poodle,Mixed Breed,True,False,Golden,White / Cream,Senior,Male,Medium,Medium,True,True,False,True,True,True,True
+51808,Catahoula Leopard Dog,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+51809,Catahoula Leopard Dog,Labrador Retriever,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+51810,Catahoula Leopard Dog,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+51837,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+51838,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+51840,English Springer Spaniel,Brittany Spaniel,True,False,Bicolor,Black,Young,Male,Medium,Medium,True,True,False,True,True,True,True
+51940,Rottweiler,Hound,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Large,Short,True,True,False,True,True,True,True
+51961,Staffordshire Bull Terrier,English Bulldog,True,False,Apricot / Beige,Brindle,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+51962,Shepherd,Boxer,True,False,Brown / Chocolate,Sable,Young,Female,Medium,Short,True,True,False,True,True,True,True
+51963,Shepherd,Collie,True,False,Brown / Chocolate,Gray / Blue / Silver,Young,Female,Medium,Medium,True,True,False,True,True,True,True
+51965,Border Collie,Schnauzer,True,False,Black,Gray / Blue / Silver,Baby,Male,Small,Medium,True,False,False,True,True,True,True
+51968,Shepherd,Schnauzer,True,False,Black,Brown / Chocolate,Baby,Female,Small,Medium,True,False,False,True,True,True,True
+51969,Border Collie,Schnauzer,True,False,Black,Gray / Blue / Silver,Baby,Male,Small,Medium,True,False,False,True,True,True,True
+51971,Belgian Shepherd / Malinois,Labrador Retriever,True,False,Black,Brown / Chocolate,Young,Male,Medium,Short,True,True,False,True,True,True,True
+51991,Jack Russell Terrier,Dachshund,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+52203,Catahoula Leopard Dog,Labrador Retriever,True,False,Brindle,White / Cream,Baby,Male,Medium,Medium,False,True,False,True,True,True,True
+52204,Catahoula Leopard Dog,Labrador Retriever,True,False,Brindle,Brown / Chocolate,Baby,Male,Medium,Medium,False,True,False,True,True,True,True
+52386,Labrador Retriever,Jack Russell Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+52400,Terrier,Labrador Retriever,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+52417,Cattle Dog,Beagle,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,False,False,False,False,True,True,True
+52503,Mountain Cur,Labrador Retriever,True,False,Brindle,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,False
+52558,Australian Kelpie,Shepherd,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,False,True
+52652,Boxer,Mixed Breed,True,False,Brindle,White / Cream,Senior,Male,Large,Short,True,False,False,True,True,True,True
+52725,American Bulldog,Jack Russell Terrier,True,False,Black,Red / Chestnut / Orange,Adult,Male,Medium,Short,True,False,False,True,False,False,False
+52799,Irish Wolfhound,Great Pyrenees,True,False,Black,White / Cream,Adult,Male,Extra Large,Long,False,True,False,False,True,True,False
+52801,Australian Cattle Dog / Blue Heeler,Pointer,True,False,Red / Chestnut / Orange,White / Cream,Adult,Male,Medium,Medium,True,True,False,True,True,False,False
+52820,Labrador Retriever,Hound,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+52829,Australian Shepherd,Australian Cattle Dog / Blue Heeler,True,False,Black,White / Cream,Adult,Female,Medium,Medium,True,True,False,True,True,False,False
+52833,Bull Terrier,Australian Cattle Dog / Blue Heeler,True,False,Brindle,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,True
+52834,Rottweiler,Labrador Retriever,True,False,Bicolor,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+52871,Great Dane,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+52878,Staffordshire Bull Terrier,Pit Bull Terrier,True,False,Apricot / Beige,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,False
+52909,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+52934,Border Collie,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+52935,Labrador Retriever,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+52936,Border Collie,Beagle,True,False,Black,White / Cream,Baby,Male,Medium,Medium,False,False,False,True,True,True,True
+52956,Rottweiler,Doberman Pinscher,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Large,Short,True,True,False,True,False,True,False
+52957,Husky,German Shepherd Dog,True,False,Apricot / Beige,White / Cream,Baby,Male,Large,Medium,True,False,True,True,True,True,True
+52967,Staffordshire Bull Terrier,Mixed Breed,True,False,Brindle,Gray / Blue / Silver,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+52994,Border Collie,Australian Shepherd,True,False,Black,White / Cream,Young,Male,Medium,Short,True,False,False,True,True,True,False
+53060,Jack Russell Terrier,Chihuahua,True,False,Black,White / Cream,Senior,Female,Small,Short,True,False,True,True,True,True,True
+53111,Great Dane,Great Pyrenees,True,False,Merle (Blue),White / Cream,Adult,Male,Large,Short,True,True,False,True,True,False,True
+53230,Basset Hound,Labrador Retriever,True,False,Apricot / Beige,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+53240,Black Labrador Retriever,Australian Shepherd,True,False,Black,White / Cream,Adult,Female,Large,Short,True,True,False,False,True,True,False
+53254,Hound,Terrier,True,False,Brown / Chocolate,White / Cream,Baby,Female,Medium,Short,True,False,True,True,True,True,True
+53348,Catahoula Leopard Dog,American Staffordshire Terrier,True,False,Gray / Blue / Silver,Merle (Blue),Young,Female,Medium,Short,True,True,False,True,True,False,True
+53360,Labrador Retriever,Australian Cattle Dog / Blue Heeler,True,False,White / Cream,Apricot / Beige,Young,Male,Medium,Short,True,True,True,True,True,True,False
+53425,Shepherd,Boxer,True,False,Brown / Chocolate,Black,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+53460,Shepherd,American Staffordshire Terrier,True,False,Brown / Chocolate,Red / Chestnut / Orange,Adult,Male,Large,Short,True,True,False,True,True,True,False
+53475,Labrador Retriever,Shepherd,True,False,"Tricolor (Brown, Black, & White)",Apricot / Beige,Adult,Female,Medium,Medium,True,True,False,True,True,True,True
+53490,Boxer,Border Collie,True,False,Black,White / Cream,Adult,Female,Large,Medium,True,True,False,True,True,False,False
+53491,American Bulldog,Pit Bull Terrier,True,False,White / Cream,Apricot / Beige,Adult,Male,Large,Short,True,True,False,True,True,False,False
+53502,Australian Shepherd,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+53540,Boxer,Hound,True,False,White / Cream,Brown / Chocolate,Adult,Female,Large,Short,True,True,False,True,False,False,True
+53549,Border Collie,Terrier,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+53604,Anatolian Shepherd,Great Dane,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Male,Large,Short,True,True,False,True,True,True,True
+53605,Rottweiler,Corgi,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,True
+53608,Black and Tan Coonhound,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Medium,True,True,False,True,True,True,False
+53618,Great Dane,Newfoundland Dog,True,False,Black,White / Cream,Young,Male,Extra Large,Short,True,False,False,True,True,True,True
+53710,Rat Terrier,Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Senior,Male,Medium,Short,True,True,False,True,True,True,True
+53879,Pug,Chihuahua,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Small,Short,True,True,False,True,True,True,True
+53944,Catahoula Leopard Dog,Labrador Retriever,True,False,Black,Brown / Chocolate,Adult,Female,Large,Short,True,False,False,True,True,True,True
+54008,Mastiff,Boxer,True,False,Brindle,White / Cream,Young,Male,Large,Medium,True,True,False,True,True,True,True
+54067,Border Collie,American Staffordshire Terrier,True,False,Bicolor,Black,Young,Female,Medium,Medium,True,True,True,True,True,True,True
+54102,American Bulldog,Smooth Collie,True,False,Sable,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+54111,American Staffordshire Terrier,Labrador Retriever,True,False,White / Cream,Brown / Chocolate,Adult,Female,Large,Short,True,False,False,True,False,False,False
+54324,Boxer,Hound,True,False,Brindle,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+54536,English Coonhound,Bluetick Coonhound,True,False,Gray / Blue / Silver,"Tricolor (Brown, Black, & White)",Senior,Male,Large,Short,True,False,False,True,True,True,False
+54538,English Coonhound,Mixed Breed,True,False,Red / Chestnut / Orange,"Tricolor (Brown, Black, & White)",Adult,Female,Large,Short,True,False,False,True,True,True,False
+54539,Whippet,Dalmatian,True,False,Black,White / Cream,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+54695,Pit Bull Terrier,English Bulldog,True,False,Black,White / Cream,Young,Male,Large,Short,True,True,False,True,True,False,False
+54852,Basset Hound,Labrador Retriever,True,False,Black,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,False
+54904,Husky,Shepherd,True,False,Brindle,White / Cream,Baby,Male,Large,Short,True,False,False,False,True,True,True
+54917,Border Collie,Mixed Breed,True,False,Brindle,White / Cream,Adult,Male,Medium,Medium,True,True,False,True,True,True,True
+54955,Bluetick Coonhound,Coonhound,True,False,Gray / Blue / Silver,"Tricolor (Brown, Black, & White)",Adult,Male,Medium,Short,True,False,True,True,True,True,False
+54997,Labrador Retriever,Hound,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,False,False,True,True,True,True
+55026,Great Dane,Terrier,True,False,White / Cream,Black,Adult,Female,Large,Short,True,True,False,True,True,False,False
+55141,Black Labrador Retriever,Collie,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+55177,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Medium,True,True,False,True,False,True,True
+55287,Mixed Breed,Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,False,True,False,False
+55294,Hound,Bluetick Coonhound,True,False,Bicolor,Brown / Chocolate,Adult,Male,Medium,Short,False,False,False,True,True,True,True
+55309,Boxer,Hound,True,False,Brown / Chocolate,White / Cream,Young,Male,Medium,Short,True,True,False,True,True,True,True
+55358,Pointer,Hound,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,False,True,False
+55618,Rottweiler,Golden Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Extra Large,Short,True,True,False,True,False,True,False
+55656,Shepherd,Retriever,True,False,Black,Brown / Chocolate,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+55660,Rhodesian Ridgeback,Labrador Retriever,True,False,Bicolor,Black,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+55661,Rhodesian Ridgeback,Labrador Retriever,True,False,Bicolor,Black,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+55662,Rhodesian Ridgeback,Labrador Retriever,True,False,Bicolor,Black,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+55677,Rhodesian Ridgeback,Labrador Retriever,True,False,Bicolor,Black,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+55708,Australian Shepherd,American Staffordshire Terrier,True,False,Brindle,Brown / Chocolate,Baby,Female,Medium,Short,True,True,False,True,True,True,True
+55728,Border Collie,Labrador Retriever,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+55821,Labrador Retriever,Border Collie,True,False,Apricot / Beige,Brown / Chocolate,Young,Male,Large,Short,True,True,False,True,True,True,False
+55837,Yorkshire Terrier,Maltese,True,False,Apricot / Beige,White / Cream,Adult,Female,Small,Medium,True,True,False,True,True,True,True
+55844,Labrador Retriever,Husky,True,False,Apricot / Beige,Bicolor,Baby,Male,Medium,Medium,True,True,False,True,True,True,True
+55857,Labrador Retriever,Terrier,True,False,Black,White / Cream,Baby,Female,Small,Medium,True,True,False,False,True,True,True
+55858,Labrador Retriever,Terrier,True,False,Black,White / Cream,Baby,Male,Small,Medium,True,True,False,True,True,True,True
+55909,Pit Bull Terrier,Terrier,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+55910,Pit Bull Terrier,Terrier,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+55999,Labrador Retriever,American Staffordshire Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Female,Medium,Short,True,False,False,True,True,True,True
+56004,Labrador Retriever,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Male,Large,Short,True,True,False,True,True,True,False
+56007,Terrier,Dachshund,True,False,Bicolor,Black,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+56008,Jack Russell Terrier,Bull Terrier,True,False,Bicolor,Black,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+56010,Bull Terrier,Jack Russell Terrier,True,False,Apricot / Beige,Bicolor,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+56012,Anatolian Shepherd,Labrador Retriever,True,False,Bicolor,Brown / Chocolate,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+56037,Pit Bull Terrier,Terrier,True,False,Brindle,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+56119,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+56120,Australian Cattle Dog / Blue Heeler,Dachshund,True,False,Black,Brown / Chocolate,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+56122,Australian Shepherd,Dachshund,True,False,Golden,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+56124,Australian Shepherd,Dachshund,True,False,Golden,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+56125,Australian Shepherd,Dachshund,True,False,Brown / Chocolate,White / Cream,Baby,Male,Medium,Medium,True,False,False,True,True,True,True
+56126,Australian Shepherd,Dachshund,True,False,Golden,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+56247,American Bulldog,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+56249,American Bulldog,American Staffordshire Terrier,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+56334,Dachshund,Terrier,True,False,Apricot / Beige,Golden,Adult,Male,Small,Short,True,True,False,True,True,True,True
+56336,Australian Shepherd,American Staffordshire Terrier,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Baby,Male,Large,Short,True,False,False,True,True,True,True
+56337,Great Dane,Labrador Retriever,True,False,Golden,White / Cream,Baby,Male,Medium,Short,True,True,False,True,True,True,True
+56343,Pit Bull Terrier,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+56356,Dachshund,Chihuahua,True,False,Black,Brown / Chocolate,Young,Male,Small,Short,True,True,False,True,True,True,True
+56401,Boxer,Mastiff,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,False
+56495,Boxer,Rottweiler,True,False,Brown / Chocolate,Yellow / Tan / Blond / Fawn,Young,Female,Large,Short,True,True,False,True,True,True,True
+56504,English Bulldog,Boston Terrier,True,False,Brindle,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,True
+56505,Labrador Retriever,Blue Lacy,True,False,Gray / Blue / Silver,White / Cream,Adult,Female,Large,Short,True,True,False,True,True,True,False
+56506,Yorkshire Terrier,Poodle,True,False,Gray / Blue / Silver,White / Cream,Baby,Female,Small,Curly,True,True,False,True,True,True,True
+56579,Australian Shepherd,Poodle,True,False,Apricot / Beige,Gray / Blue / Silver,Baby,Female,Medium,Long,True,True,False,True,True,True,True
+56609,Shepherd,Terrier,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,True,False,True,False,True,False
+56612,Boxer,American Staffordshire Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,False,False,False
+56636,Wirehaired Terrier,Jack Russell Terrier,True,False,Brown / Chocolate,White / Cream,Young,Male,Small,Short,True,True,False,True,True,True,True
+56638,Australian Shepherd,Brittany Spaniel,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Medium,False,True,False,False,False,True,False
+56698,Pit Bull Terrier,Cattle Dog,True,False,Brindle,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,True,True
+56712,Australian Cattle Dog / Blue Heeler,Labrador Retriever,True,False,Red / Chestnut / Orange,White / Cream,Adult,Female,Medium,Medium,True,True,True,True,True,True,True
+56732,Shepherd,Beagle,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Male,Medium,Short,True,True,False,True,True,True,False
+56777,American Staffordshire Terrier,Boxer,True,False,Brown / Chocolate,White / Cream,Adult,Male,Medium,Short,True,True,False,True,True,True,False
+56782,Mixed Breed,Labrador Retriever,True,False,Apricot / Beige,Black,Baby,Female,Medium,Medium,False,False,False,True,True,True,True
+56803,Siberian Husky,Australian Shepherd,True,False,Black,White / Cream,Adult,Female,Large,Long,True,True,False,True,True,True,True
+56838,Boxer,Alaskan Malamute,True,False,White / Cream,Yellow / Tan / Blond / Fawn,Adult,Female,Large,Medium,True,True,False,True,False,False,False
+56854,Saluki,Greyhound,True,False,Black,Brown / Chocolate,Adult,Male,Large,Medium,True,True,False,True,False,True,False
+56870,Cattle Dog,Labrador Retriever,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,False,False
+56942,Shepherd,Border Collie,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+57029,Boxer,Weimaraner,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+57030,Boxer,Weimaraner,True,False,Black,White / Cream,Baby,Male,Medium,Short,True,False,False,True,True,True,True
+57031,Boxer,Weimaraner,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+57032,Boxer,Weimaraner,True,False,Black,White / Cream,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+57057,Doberman Pinscher,Labrador Retriever,True,False,Black,Yellow / Tan / Blond / Fawn,Baby,Female,Medium,Short,True,False,False,True,True,True,True
+57118,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Female,Medium,Short,False,False,False,True,True,True,True
+57119,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+57120,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+57121,Labrador Retriever,Shepherd,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+57135,Border Collie,Australian Shepherd,True,False,Bicolor,"Tricolor (Brown, Black, & White)",Baby,Female,Medium,Medium,True,False,False,True,True,True,False
+57342,Black and Tan Coonhound,Mixed Breed,True,False,Black,Yellow / Tan / Blond / Fawn,Young,Female,Large,Short,True,True,False,True,False,True,False
+57369,German Shepherd Dog,Australian Cattle Dog / Blue Heeler,True,False,Black,Red / Chestnut / Orange,Adult,Male,Medium,Short,True,True,False,True,False,False,False
+57489,Golden Retriever,Poodle,True,False,Brown / Chocolate,Merle (Red),Baby,Male,Large,Medium,True,False,False,True,True,True,True
+57573,Labrador Retriever,Boxer,True,False,Black,White / Cream,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+57583,Mountain Cur,Terrier,True,False,Brown / Chocolate,White / Cream,Young,Female,Medium,Short,True,True,False,True,True,True,True
+57604,Husky,German Shepherd Dog,True,False,Black,White / Cream,Young,Male,Large,Medium,True,False,False,True,True,True,True
+57705,Labrador Retriever,Border Collie,True,False,Black,White / Cream,Baby,Male,Large,Short,True,False,False,True,True,True,True
+57726,Labrador Retriever,Hound,True,False,Black,"Tricolor (Brown, Black, & White)",Baby,Male,Medium,Short,True,True,False,True,True,True,True
+57776,Husky,Boxer,True,False,Red / Chestnut / Orange,Red / Chestnut / Orange,Adult,Male,Large,Medium,True,False,False,True,True,True,True
+57957,Foxhound,Labrador Retriever,True,False,Black,Red / Chestnut / Orange,Baby,Male,Medium,Short,False,False,False,True,True,True,True
+58037,Boxer,Vizsla,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,True,False,True,True,False,False
+58049,Labrador Retriever,Shepherd,True,False,"Tricolor (Brown, Black, & White)",Yellow / Tan / Blond / Fawn,Adult,Female,Large,Medium,True,True,False,True,True,True,False
+58115,Pointer,Dalmatian,True,False,White / Cream,Black,Adult,Male,Large,Short,True,True,False,True,True,False,False
+58131,Beagle,Hound,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,True,False,False,True,True,False
+58157,Labrador Retriever,Pit Bull Terrier,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,False,False
+58168,Black Labrador Retriever,Shar-Pei,True,False,Black,White / Cream,Adult,Female,Medium,Short,True,False,False,True,True,True,True
+58169,Border Collie,Black Labrador Retriever,True,False,Black,White / Cream,Adult,Male,Medium,Medium,True,False,False,True,True,True,False
+58170,Labrador Retriever,Pit Bull Terrier,True,False,Black,Yellow / Tan / Blond / Fawn,Adult,Male,Medium,Short,True,False,False,True,True,True,False
+58173,Labrador Retriever,Hound,True,False,Brown / Chocolate,White / Cream,Adult,Female,Medium,Short,True,False,False,True,False,False,False
