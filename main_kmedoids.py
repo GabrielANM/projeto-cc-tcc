@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify
 import pandas as pd
-from sklearn.cluster import KMeans
+from kmedoids import KMedoids
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from matplotlib.cm import get_cmap
+from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 
 
 app = Flask("Adoption")
@@ -22,15 +23,21 @@ def cluster_data(df):
     imputer = SimpleImputer(strategy='mean')
     df_imputed = pd.DataFrame(imputer.fit_transform(df_scaled), columns=df.columns)
     num_clusters = 6
-    kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0).fit(df_imputed)
+
+    kmedoids = KMedoids(n_clusters=num_clusters, metric='euclidean', method='pam')
+    kmedoids.fit(df_imputed.to_numpy())
     df_clustered = pd.DataFrame(df_imputed, columns=df.columns)
-    df_clustered['cluster'] = kmeans.labels_
+    df_clustered['cluster'] = kmedoids.labels_
+
+    print("Silhouette Score:", silhouette_score(df_imputed, kmedoids.labels_))
+    print("Davies-Bouldin Index:", davies_bouldin_score(df_imputed, kmedoids.labels_))
+    print("Calinski-Harabasz Index:", calinski_harabasz_score(df_imputed, kmedoids.labels_))
 
     pca = PCA(n_components=3)
     data3D = pca.fit_transform(df_clustered.drop(columns=['cluster']))
 
     fig = plt.figure(figsize=(20, 12))
-    ax = fig.add_subplot(111, projection='3d')  # Correctly create a 3D subplot
+    ax = fig.add_subplot(111, projection='3d') # Correctly create a 3D subplot
 
     cmap = get_cmap('tab20')
     colors = [cmap(i) for i in range(num_clusters)]
