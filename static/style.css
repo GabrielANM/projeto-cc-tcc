@@ -1,7 +1,3 @@
-.red {
-  background-color: red;
-}
-
 .orange {
   background-color: orange;
 }
@@ -14,12 +10,14 @@
   height: 700px;
 }
 
-.cao-banner{
-  background-image: url("https://media.istockphoto.com/id/933911650/pt/foto/multiple-dog-breeds-in-a-row-web-banner.jpg?s=1024x1024&w=is&k=20&c=TmPjcK5GYElW5-se8MXrK9ppJ1UhIzQliIlj6RFoUmo=");
-  background-size: contain;
+.border-white{
+/* text-shadow: 2px 2px white; */
+   -webkit-text-stroke-width: 1px; /* largura da borda */
+   -webkit-text-stroke-color: white; /* cor da borda */
+   -webkit-text-fill-color: black;
 }
 
-.square-img{
-  width: 500px;
-  height: 500px;
+.cao-banner{
+  background-image: url("https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia26393/racas-de-caes-cpt.jpg");
+  background-size: cover;
 }
