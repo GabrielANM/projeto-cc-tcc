@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 style="text-align: center;">Sugestões para adoção responsável</h2>
+<hr>
+<br><br>
+<table class="table table-bordered table-hover">
+	<thead class="table-dark">
+	    <tr>
+	      <th scope="col">Id</th>
+	      <th scope="col">Nome</th>
+	      <th scope="col">Idade</th>
+	      <th scope="col">Sexo</th>
+          <th scope="col">Tamanho</th>
+	      <th scope="col">Castrado</th>
+	      <th scope="col">Treinado para casa</th>
+	      <th scope="col">Necessidades especiais</th>
+	      <th scope="col">Vacinação em dia</th>
+	      <th scope="col">Convive com crianças</th>
+	      <th scope="col">Convive com cachorros</th>
+	      <th scope="col">Convive com gatos</th>
+          <th scope="col">Foto</th>
+	    </tr>
+  </thead>
+  <tbody>
+	{% for row in rows %}
+		<tr>
+			<td>{{'-'}}</td>
+			<td>{{'-'}}</td>
+			<td>{{row.age}}</td>
+			<td>{{row.sex}}</td>
+            <td>{{row.size}}</td>
+			<td>{{row.fixed}}</td>
+			<td>{{row.house_trained}}</td>
+			<td>{{row.special_needs}}</td>
+			<td>{{row.shots_current}}</td>
+			<td>{{row.env_children}}</td>
+			<td>{{row.env_dogs}}</td>
+			<td>{{row.env_cats}}</td>
+			<td>{{'-'}}</td>
+		</tr>
+	{% endfor %}
+  </tbody>
+</table>
+{% endblock conteudo %}

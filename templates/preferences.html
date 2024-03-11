@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 style="text-align: center;">Questionário de preferências para adoção responsável</h2>
+<hr>
+
+<form action="{{url_for('preferences')}}" method="POST" class="form-control">
+
+    <label for="age" class="form-label">Idade</label>
+    <input class="form-control" list="ageOptions" id="age" name="age" placeholder="Aperte aqui para selecionar">
+    <datalist id="ageOptions">
+      <option value="Filhote">
+      <option value="Jovem">
+      <option value="Adulto">
+      <option value="Idoso">
+    </datalist>
+
+	<label for="sex" class="form-label">Sexo</label>
+    <input class="form-control" list="sexOptions" id="sex" name="sex" placeholder="Aperte aqui para selecionar">
+    <datalist id="sexOptions">
+      <option value="Macho">
+      <option value="Femea">
+    </datalist>
+
+	<label for="size" class="form-label">Tamanho</label>
+    <input class="form-control" list="sizeOptions" id="size" name="size" placeholder="Aperte aqui para selecionar">
+    <datalist id="sizeOptions">
+      <option value="Pequeno">
+      <option value="Médio">
+      <option value="Grande">
+    </datalist>
+
+	<label for="fixed" class="form-label">Castrado</label>
+    <input class="form-control" list="fixedOptions" id="fixed" name="fixed" placeholder="Aperte aqui para selecionar">
+    <datalist id="fixedOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="house_trained" class="form-label">Treinado para casa</label>
+    <input class="form-control" list="house_trainedOptions" id="house_trained" name="house_trained" placeholder="Aperte aqui para selecionar">
+    <datalist id="house_trainedOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="special_needs" class="form-label">Necessidades especiais</label>
+    <input class="form-control" list="special_needsOptions" id="special_needs" name="special_needs" placeholder="Aperte aqui para selecionar">
+    <datalist id="special_needsOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="shots_current" class="form-label">Vacinação em dia</label>
+    <input class="form-control" list="shots_currentOptions" id="shots_current" name="shots_current" placeholder="Aperte aqui para selecionar">
+    <datalist id="shots_currentOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="env_children" class="form-label">Convive com crianças</label>
+    <input class="form-control" list="env_childrenOptions" id="env_children" name="env_children" placeholder="Aperte aqui para selecionar">
+    <datalist id="env_childrenOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="env_dogs" class="form-label">Convive com cachorros</label>
+    <input class="form-control" list="env_dogsOptions" id="env_dogs" name="env_dogs" placeholder="Aperte aqui para selecionar">
+    <datalist id="env_dogsOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+	<label for="env_cats" class="form-label">Convive com gatos</label>
+    <input class="form-control" list="env_catsOptions" id="env_cats" name="env_cats" placeholder="Aperte aqui para selecionar">
+    <datalist id="env_catsOptions">
+      <option value="Sim">
+      <option value="Não">
+    </datalist>
+
+    <button class="btn btn-success">Adicionar</button>
+</form>
+{% endblock conteudo %}

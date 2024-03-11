@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 style="text-align: center;">Lista de Cachorros</h2>
+<hr>
+<a href="{{url_for('add_dog')}}" class="btn btn-secondary">Adicionar Cachorro</a>
+<br><br>
+<table class="table table-bordered table-hover">
+	<thead class="table-dark">
+	    <tr>
+	      <th scope="col">Id</th>
+	      <th scope="col">Nome</th>
+	      <th scope="col">Idade</th>
+	      <th scope="col">Sexo</th>
+          <th scope="col">Tamanho</th>
+	      <th scope="col">Castrado</th>
+	      <th scope="col">Treinado para casa</th>
+	      <th scope="col">Necessidades especiais</th>
+	      <th scope="col">Vacinação em dia</th>
+	      <th scope="col">Convive com crianças</th>
+	      <th scope="col">Convive com cachorros</th>
+	      <th scope="col">Convive com gatos</th>
+          <th scope="col">Foto</th>
+	    </tr>
+  </thead>
+  <tbody>
+	{% for dog in dogs %}
+		<tr>
+			<td>{{dog.id}}</td>
+			<td>{{dog.name}}</td>
+			<td>{{dog.age}}</td>
+			<td>{{dog.sex}}</td>
+            <td>{{dog.size}}</td>
+			<td>{{dog.fixed}}</td>
+			<td>{{dog.house_trained}}</td>
+			<td>{{dog.special_needs}}</td>
+			<td>{{dog.shots_current}}</td>
+			<td>{{dog.env_children}}</td>
+			<td>{{dog.env_dogs}}</td>
+			<td>{{dog.env_cats}}</td>
+			<td>{{dog.photo}}</td>
+		</tr>
+	{% endfor %}
+  </tbody>
+</table>
+{% endblock conteudo %}
