@@ -1,6 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField, PasswordField, validators
 from flask_sqlalchemy import SQLAlchemy
 from sklearn.preprocessing import StandardScaler
+from flask_wtf.csrf import CSRFProtect
+
+from datetime import datetime
+from forms import *
+
 
 import dict
 from api.dogs_view import create_dogs_blueprint
@@ -11,6 +18,7 @@ from sklearn.impute import SimpleImputer
 app = Flask("Adoption")
 app.config['JSON_SORT_KEYS'] = False
 app.register_blueprint(create_dogs_blueprint())
+
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///adoption.sqlite3'
 db = SQLAlchemy(app)
@@ -47,9 +55,55 @@ class Dogs(db.Model):
         self.photo = photo
 
 
+class User(db.Model):
+
+    cpf = db.Column(db.String(11), primary_key=True, nullable=False)
+    name = db.Column(db.String(50), primary_key=True, nullable=False)
+    email = db.Column(db.String(40), nullable=False, unique=True)
+    phone = db.Column(db.String(13))
+    password = db.Column (db.String(50), nullable=False)
+    user_level = db.Column (db.Integer, nullable=False)
+    date_register = db.Column(db.DateTime, default=datetime.now())
+    city = db.Column(db.String(29))
+    state = db.Column(db.String(15))
+    address = db.Column(db.String(50))
+    zipCode = db.Column(db.String(10))
+
+    def __repr__(self):
+        return f'Name: {self.name}'
+
+
+
+#routes
+
+
+
 @app.route('/')
 def index():
     return render_template("index.html")
+
+@app.route("user/register", methods=["POST"])
+def user_register():
+
+    form = UserRegisterForm()
+
+
+
+    return render_template("register.html", form=form)
+
+@app.route("/user/login", methods=["POST", "GET"])
+def login():
+
+    form = LoginForm()
+
+    if form.validate_on_submit():
+
+        name = form.loginName.data
+        password = form.loginName.data
+
+        # Login with SQLAlchemy
+
+    return render_template("login.html", form=form)
 
 
 @app.route('/dogs', methods=["GET"])
@@ -137,8 +191,23 @@ def preferences():
     return render_template("preferences.html")
 
 
+
+
+
 if __name__ == "__main__":
+
+    key = 'SADS214@@'
+
     with app.app_context():
         db.create_all()
         df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
-    app.run()
+    app.config['SECRET_KEY'] = key
+    app.run(debug=True)
+    app.config['SECRET_KEY'] = key
+    app.secret_key = key
+    csrf = CSRFProtect(app)
+    csrf.init_app(app)
+
+
+
+
