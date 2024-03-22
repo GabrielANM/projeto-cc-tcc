@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify
+from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from sklearn.preprocessing import StandardScaler
 
 import dict
 from api.dogs_view import create_dogs_blueprint
@@ -96,16 +95,7 @@ def cluster_data(df):
 def preferences():
     global df
 
-    cluster_df = df[['age',
-                     'sex',
-                     'size',
-                     'fixed',
-                     'house_trained',
-                     'special_needs',
-                     'shots_current',
-                     'env_children',
-                     'env_dogs',
-                     'env_cats', ]].copy()
+    cluster_df = df.drop(columns=['name', 'photo'])
 
     if request.method == "POST":
         data = {
@@ -130,6 +120,11 @@ def preferences():
         clustered_df = cluster_data(data_frame)
         new_row_cluster = clustered_df.iloc[-1]['cluster']
         matching_rows = clustered_df[clustered_df['cluster'] == new_row_cluster].drop(columns=['cluster'])
+
+        matching_rows = pd.merge(matching_rows, df[['id', 'name', 'photo']], on='id')
+
+        matching_rows = matching_rows.drop(matching_rows.index[-1])
+
         matching_rows = dict.convert_integer_to_string(matching_rows.to_dict(orient='records'))
 
         return render_template('suggestions.html', rows=matching_rows)

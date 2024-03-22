@@ -12,13 +12,13 @@ data_frame = pd.read_csv('new_df.csv')
 
 data_frame.drop('Unnamed: 0', axis=1, inplace=True)
 
-num_clusters = 6
+num_clusters = 8
 kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0)
 
 kmeans.fit(data_frame)
 
-colors = ['#DF2020', '#81DF20', '#2095DF', '#FFA500', '#00FFFF', '#000000']
-color_names = ['Red', 'Green', 'Blue', 'Orange', 'Cyan', 'Black']
+colors = ['#DF2020', '#81DF20', '#2095DF', '#FFA500', '#00FFFF', '#000000', '#FF00FF', '#00FF00']
+color_names = ['Red', 'Green', 'Blue', 'Orange', 'Cyan', 'Black', 'Magenta', 'Lime']
 cluster_colors = {i: (colors[i], color_names[i]) for i in range(num_clusters)}
 
 columns_to_calculate = ["age", "sex", "size", "fixed", "house_trained", "special_needs", "shots_current",
