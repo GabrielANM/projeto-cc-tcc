@@ -1,2 +1,10 @@
 
 /instance
+.idea/adocao-flask.iml
+.idea/adocao-flask.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/misc.xml
+__pycache__/dict.cpython-312.pyc
+__pycache__/forms.cpython-312.pyc
+api/__pycache__/dogs_view.cpython-312.pyc

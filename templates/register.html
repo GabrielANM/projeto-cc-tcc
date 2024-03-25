@@ -13,10 +13,53 @@
         <!-- CSRF protection -->
         {{ form.hidden_tag() }}
         <div>
-            form
+            {{ form.regCPF.label }} <br>
+            {{ form.regCPF() }}
         </div>
 
+        <div>
+            {{ form.regName.label }} <br>
+            {{ form.regName() }}
+        </div>
 
+        <div>
+            {{ form.regEmail.label }} <br>
+            {{ form.regEmail() }}
+        </div>
+
+        <div>
+            {{ form.regPhone.label }} <br>
+            {{ form.regPhone() }}
+        </div>
+
+        <div>
+            {{ form.regPassword.label }} <br>
+            {{ form.regPassword() }}
+        </div>
+
+        <div>
+            {{ form.regDateRegister.label }} <br>
+            {{ form.regDateRegister() }}
+        </div>
+
+        <div>
+            {{ form.regState.label }} <br>
+            {{ form.regState() }}
+        </div>
+
+        <div>
+            {{ form.regCity.label }} <br>
+            {{ form.regCity() }}
+        </div>
+
+        <div>
+            {{ form.regZipCode.label }} <br>
+            {{ form.regZipCode() }}
+        </div>
+
+        <div>
+            {{ form.submit() }}
+        </div>
 
     </form>
     

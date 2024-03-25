@@ -15,12 +15,15 @@
             {{ form.loginName() }}
         </div>
         <div>
-            {{ form.loginName.label}} <br>
+            {{ form.loginPwd.label}} <br>
             {{ form.loginPwd() }}
         </div>
         <div>
             {{ form.loginSubmit() }}
         </div>
     </form>
+
+    <a href="{{ url_for('user_register') }}">Cadastre-se</a>
+
 </body>
 </html>
