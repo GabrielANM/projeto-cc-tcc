@@ -140,8 +140,6 @@ def login():
 
         for user in users:
 
-            print(f"Typed: {password}\nPass {user.password}")
-
             if user.password == password:
 
                 session["name"] = user.cpf
