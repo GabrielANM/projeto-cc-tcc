@@ -145,9 +145,10 @@ def login():
                 session["name"] = user.cpf
                 session.permanent = True
                 return redirect('/')
-            else:
 
-                redirect(url_for('login'))
+
+
+        redirect(url_for('login'))
 
 
 
