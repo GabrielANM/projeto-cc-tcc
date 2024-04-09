@@ -80,6 +80,31 @@ def add_dog():
     return render_template("new_dog.html")
 
 
+@app.route('/<int:id>/update_dog', methods=["GET", "POST"])
+def update_dog(id):
+    dog = Dogs.query.filter_by(id=id).first()
+    if request.method == "POST":
+        name = request.form["name"]
+        age = request.form["age"]
+        sex = request.form["sex"]
+        size = request.form["size"]
+        fixed = request.form["fixed"]
+        house_trained = request.form["house_trained"]
+        special_needs = request.form["special_needs"]
+        shots_current = request.form["shots_current"]
+        env_children = request.form["env_children"]
+        env_dogs = request.form["env_dogs"]
+        env_cats = request.form["env_cats"]
+        photo = request.form["photo"]
+        Dogs.query.filter_by(id=id).update({"name": name, "age": age, "sex": sex, "size": size, "fixed": fixed,
+                                            "house_trained": house_trained, "special_needs": special_needs,
+                                            "shots_current": shots_current, "env_children": env_children,
+                                            "env_dogs": env_dogs, "env_cats": env_cats, "photo": photo})
+        db.session.commit()
+        return redirect(url_for("dogs"))
+    return render_template("update_dog.html", dog=dog)
+
+
 def cluster_data(df):
     imputer = SimpleImputer(strategy='mean')
     df_imputed = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
