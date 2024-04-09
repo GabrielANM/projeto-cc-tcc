@@ -1,19 +1,20 @@
 age_mapping = {
-    "Filhote": 0,
-    "Jovem": 1,
-    "Adulto": 2,
-    "Idoso": 3
+    "Adulto": 0,
+    "Filhote": 1,
+    "Idoso": 2,
+    "Jovem": 3
 }
 
 sex_mapping = {
-    "Macho": 0,
-    "Femea": 1
+    "Femea": 0,
+    "Macho": 1
 }
 
 size_mapping = {
     "Pequeno": 0,
     "Médio": 1,
     "Grande": 2,
+    "Muito Grande": 3
 }
 
 env_cats_mapping = {

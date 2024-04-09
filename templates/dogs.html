@@ -38,6 +38,10 @@
 			<td>{{dog.env_dogs}}</td>
 			<td>{{dog.env_cats}}</td>
 			<td>{{dog.photo}}</td>
+			<td>
+				<a href="{{dog.id}}/update_dog" class="btn btn-secondary btn-xs">Editar</a>
+				<a href="{{dog.id}}/remove_curso" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
+			</td>
 		</tr>
 	{% endfor %}
   </tbody>
