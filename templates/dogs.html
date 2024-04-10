@@ -40,10 +40,21 @@
 			<td>{{dog.photo}}</td>
 			<td>
 				<a href="{{dog.id}}/update_dog" class="btn btn-secondary btn-xs">Editar</a>
-				<a href="{{dog.id}}/remove_curso" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
+				<a href="{{dog.id}}/remove_dog" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
 			</td>
 		</tr>
 	{% endfor %}
   </tbody>
 </table>
+<div>
+    {% if dogs.has_prev %}
+        <a href="{{url_for('dogs', page=dogs.prev_num)}}">Página anterior</a>
+    {% else %}
+    {% endif %}
+    {% if dogs.has_next %}
+        <a href="{{url_for('dogs', page=dogs.next_num)}}">Próxima página</a>
+    {% else %}
+    {% endif %}
+</div>
+
 {% endblock conteudo %}

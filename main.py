@@ -53,7 +53,10 @@ def index():
 
 @app.route('/dogs', methods=["GET"])
 def dogs():
-    return render_template("dogs.html", dogs=Dogs.query.all())
+    page = request.args.get('page', 1, type=int)
+    per_page = 5
+    all_dogs = Dogs.query.paginate(page=page, per_page=per_page)
+    return render_template("dogs.html", dogs=all_dogs)
 
 
 @app.route('/add_dog', methods=["GET", "POST"])
@@ -103,6 +106,14 @@ def update_dog(id):
         db.session.commit()
         return redirect(url_for("dogs"))
     return render_template("update_dog.html", dog=dog)
+
+
+@app.route('/<int:id>/remove_dog', methods=["GET", "POST"])
+def remove_dog(id):
+    dog = Dogs.query.filter_by(id=id).first()
+    db.session.delete(dog)
+    db.session.commit()
+    return redirect(url_for("dogs"))
 
 
 def cluster_data(df):
