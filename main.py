@@ -102,9 +102,13 @@ def users():
 def user_register():
     form = UserRegisterForm(request.form)
     if request.method == "POST" and form.validate():
-        user = User(cpf=form.cpf.data, name=form.name.data, email=form.email.data, phone=form.phone.data,
-                    password=form.password.data, user_level=0, date_register=form.date_register.data,
-                    city=form.city.data, state=form.state.data, address=form.address.data, zipCode=form.zipCode.data)
+        existing_user = User.query.filter_by(email=form.regEmail.data).first()
+        if existing_user:
+            return "A user with this email address already exists. Please use a different email address."
+        user = User(cpf=form.regCPF.data, name=form.regName.data, email=form.regEmail.data, phone=form.regPhone.data,
+                    password=form.regPassword.data, user_level=0, date_register=form.regDateRegister.data,
+                    city=form.regCity.data, state=form.regState.data, address=form.regAddress.data,
+                    zipCode=form.regZipCode.data)
         db.session.add(user)
         db.session.commit()
         return redirect(url_for('users'))
@@ -119,7 +123,8 @@ def update_user(cpf):
         email = request.form["email"]
         phone = request.form["phone"]
         password = request.form["password"]
-        date_register = request.form["date_register"]
+        date_register_str = request.form["date_register"]
+        date_register = datetime.strptime(date_register_str, "%Y-%m-%d %H:%M:%S")
         state = request.form["state"]
         city = request.form["city"]
         address = request.form["address"]
@@ -130,6 +135,15 @@ def update_user(cpf):
         db.session.commit()
         return redirect(url_for('users'))
     return render_template("update_user.html", user=user)
+
+
+@app.route('/<string:cpf>/remove_user', methods=["GET", "POST"])
+def remove_user(cpf):
+    user = User.query.filter_by(cpf=cpf).first()
+    if user:
+        db.session.delete(user)
+        db.session.commit()
+    return redirect(url_for("users"))
 
 
 @app.route("/user/login", methods=["POST", "GET"])

@@ -32,9 +32,9 @@
 			<td>{{user.city}}</td>
 			<td>{{user.state}}</td>
 			<td>{{user.address}}</td>
-			<td>
-				<a href="{{user.id}}/update_user" class="btn btn-secondary btn-xs">Editar</a>
-				<a href="{{user.id}}/remove_user" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
+			<td class="d-flex flex-column justify-content-center">
+				<a href="{{user.cpf}}/update_user" class="btn btn-secondary btn-xs">Editar</a>
+				<a href="{{user.cpf}}/remove_user" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
 			</td>
 		</tr>
 	{% endfor %}

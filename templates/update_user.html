@@ -1,10 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+{% extends 'base.html' %}
+{% block conteudo %}
+<h1 class="my-3" style="text-align: center;">Atualizar Usuário</h1>
+<form action="{{url_for('update_user', cpf=user.cpf)}}" method="POST" class="form-control">
+  <label class="form-label">CPF</label>
+  <input class="form-control mb-2" type="text" name="cpf" value="{{user.cpf}}" required>
+  <label class="form-label">Name</label>
+  <input class="form-control mb-2" type="text" name="name" value="{{user.name}}" required>
+  <label class="form-label">Email</label>
+  <input class="form-control mb-2" type="text" name="email" value="{{user.email}}" required>
+  <label class="form-label">Phone</label>
+  <input class="form-control mb-2" type="text" name="phone" value="{{user.phone}}" required>
+  <label class="form-label">Password</label>
+  <input class="form-control mb-2" type="password" name="password" value="{{user.password}}" required>
+  <label class="form-label">Date Register</label>
+  <input class="form-control mb-2" type="text" name="date_register" value="{{user.date_register}}" required>
+  <label class="form-label">State</label>
+  <input class="form-control mb-2" type="text" name="state" value="{{user.state}}" required>
+  <label class="form-label">City</label>
+  <input class="form-control mb-2" type="text" name="city" value="{{user.city}}" required>
+  <label class="form-label">Address</label>
+  <input class="form-control mb-2" type="text" name="address" value="{{user.address}}" required>
+  <label class="form-label">Zip Code</label>
+  <input class="form-control mb-2" type="text" name="zipCode" value="{{user.zipCode}}" required>
+  <button class="my-3 btn btn-warning">Atualizar</button>
+</form>
+{% endblock conteudo %}
