@@ -146,28 +146,47 @@ def remove_user(cpf):
     return redirect(url_for("users"))
 
 
+# @app.route("/user/login", methods=["POST", "GET"])
+# def login():
+#
+#     form = LoginForm()
+#
+#     if form.validate_on_submit():
+#
+#         name = form.loginName.data
+#         password = form.loginPwd.data
+#
+#         users = User.query.all()
+#
+#         for user in users:
+#
+#             if user.password == password:
+#
+#                 session["name"] = user.cpf
+#                 session.permanent = True
+#                 return redirect('/')
+#         redirect(url_for('login'))
+#
+#     return render_template("antigologin.html", form=form)
+
+
 @app.route("/user/login", methods=["POST", "GET"])
 def login():
+    name = request.form.get("name")
+    password = request.form.get("password")
 
-    form = LoginForm()
+    login_users = User.query.all()
 
-    if form.validate_on_submit():
+    for user in login_users:
 
-        name = form.loginName.data
-        password = form.loginPwd.data
+        if user.password == password:
 
-        users = User.query.all()
+            session["name"] = user.cpf
+            session.permanent = True
+            return redirect('dogs')
+    redirect(url_for('login'))
 
-        for user in users:
-
-            if user.password == password:
-
-                session["name"] = user.cpf
-                session.permanent = True
-                return redirect('/')
-        redirect(url_for('login'))
-
-    return render_template("login.html", form=form)
+    return render_template("login.html", user=login_users)
 
 
 @app.route('/dogs', methods=["GET"])

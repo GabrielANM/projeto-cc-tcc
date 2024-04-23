@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+            <form action="{{url_for('user_register')}}" method="POST" class="form-control">
+                <h1 class="my-3">Registro</h1>
+                <!-- CSRF protection -->
+                {{ form.hidden_tag() }}
+                <div class="mb-3 form-group">
+                    {{ form.regCPF.label(class="form-label") }}
+                    {{ form.regCPF(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regName.label(class="form-label") }}
+                    {{ form.regName(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regEmail.label(class="form-label") }}
+                    {{ form.regEmail(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regPhone.label(class="form-label") }}
+                    {{ form.regPhone(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regPassword.label(class="form-label") }}
+                    {{ form.regPassword(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regDateRegister.label(class="form-label") }}
+                    {{ form.regDateRegister(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regState.label(class="form-label") }}
+                    {{ form.regState(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regCity.label(class="form-label") }}
+                    {{ form.regCity(class="form-control") }}
+                </div>
+
+                <div class="mb-3 form-group">
+                    {{ form.regZipCode.label(class="form-label") }}
+                    {{ form.regZipCode(class="form-control") }}
+                </div>
+
+                <div>
+                    {{ form.submit(class="btn btn-warning mb-3") }}
+                </div>
+
+            </form>
+
+{% endblock conteudo %}

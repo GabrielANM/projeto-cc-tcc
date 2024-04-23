@@ -1,29 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-</head>
-<body>
-    <h2>Login</h2>
+{% extends 'base.html' %}
+{% block conteudo %}
+<div class="viewport-height">
+    <h1 class="my-3" style="text-align: center;">Login</h1>
     <form method="POST">
-        <!-- CSRF protection -->
-        {{ form.hidden_tag() }}
-        <div>
-            {{ form.loginName.label }} <br>
-            {{ form.loginName() }}
+        <div class="mb-3 form-group">
+            <label for="name" class="form-label">Usuário</label>
+            <input id="name" type="text" class="form-control" placeholder="exemplo@exemplo.com" name="name"
+                   required>
         </div>
-        <div>
-            {{ form.loginPwd.label}} <br>
-            {{ form.loginPwd() }}
+        <div class="mb-3 form-group">
+            <label for="password" class="form-label">Senha</label>
+            <input id="password" type="password" class="form-control" placeholder="digite sua senha" name="password"
+                   required>
         </div>
-        <div>
-            {{ form.loginSubmit() }}
-        </div>
+
+        <button type="submit" class="btn btn-warning mb-3">Entrar</button>
     </form>
 
-    <a href="{{ url_for('user_register') }}">Cadastre-se</a>
-
-</body>
-</html>
+    <p>Ainda não possui cadastro? <a href="{{ url_for('user_register') }}">Cadastre-se</a></p>
+</div>
+{% endblock conteudo %}
