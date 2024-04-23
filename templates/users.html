@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 style="text-align: center;">Lista de Usuários</h2>
+<hr>
+<a href="{{url_for('user_register')}}" class="btn btn-secondary">Adicionar Usuário</a>
+<br><br>
+<table class="table table-bordered table-hover">
+	<thead class="table-dark">
+		<tr>
+		  <th scope="col">CPF</th>
+		  <th scope="col">Name</th>
+		  <th scope="col">Email</th>
+		  <th scope="col">Phone</th>
+		  <th scope="col">Password</th>
+		  <th scope="col">User Level</th>
+		  <th scope="col">Date Register</th>
+		  <th scope="col">City</th>
+		  <th scope="col">State</th>
+		  <th scope="col">Address</th>
+		</tr>
+	</thead>
+  <tbody>
+	{% for user in users %}
+		<tr>
+			<td>{{user.cpf}}</td>
+			<td>{{user.name}}</td>
+			<td>{{user.email}}</td>
+			<td>{{user.phone}}</td>
+			<td>{{user.password}}</td>
+			<td>{{user.user_level}}</td>
+			<td>{{user.date_register}}</td>
+			<td>{{user.city}}</td>
+			<td>{{user.state}}</td>
+			<td>{{user.address}}</td>
+			<td>
+				<a href="{{user.id}}/update_user" class="btn btn-secondary btn-xs">Editar</a>
+				<a href="{{user.id}}/remove_user" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
+			</td>
+		</tr>
+	{% endfor %}
+  </tbody>
+</table>
+<div>
+    {% if users.has_prev %}
+        <a href="{{url_for('users', page=users.prev_num)}}">Página anterior</a>
+    {% else %}
+    {% endif %}
+    {% if users.has_next %}
+        <a href="{{url_for('users', page=users.next_num)}}">Próxima página</a>
+    {% else %}
+    {% endif %}
+</div>
+
+{% endblock conteudo %}

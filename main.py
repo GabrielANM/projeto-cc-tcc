@@ -1,6 +1,10 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify, session
+from wtforms import StringField, SubmitField, PasswordField, validators
 from flask_sqlalchemy import SQLAlchemy
-
+from sklearn.preprocessing import StandardScaler
+from flask_wtf.csrf import CSRFProtect
+from datetime import datetime
+from forms import *
 import dict
 from api.dogs_view import create_dogs_blueprint
 import pandas as pd
@@ -9,7 +13,9 @@ from sklearn.impute import SimpleImputer
 
 app = Flask("Adoption")
 app.config['JSON_SORT_KEYS'] = False
+app.config['PERMANENT_SESSION_LIFETIME'] = 86400
 app.register_blueprint(create_dogs_blueprint())
+
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///adoption.sqlite3'
 db = SQLAlchemy(app)
@@ -46,9 +52,108 @@ class Dogs(db.Model):
         self.photo = photo
 
 
+class User(db.Model):
+
+    cpf = db.Column(db.String(11), primary_key=True, nullable=False)
+    name = db.Column(db.String(50), primary_key=True, nullable=False)
+    email = db.Column(db.String(40), nullable=False, unique=True)
+    phone = db.Column(db.String(13))
+    password = db.Column (db.String(50), nullable=False)
+    user_level = db.Column (db.Integer, nullable=False)
+    date_register = db.Column(db.DateTime, default=datetime.now())
+    city = db.Column(db.String(29))
+    state = db.Column(db.String(15))
+    address = db.Column(db.String(50))
+    zipCode = db.Column(db.String(10))
+
+    def __repr__(self):
+        return f'Name: {self.name}'
+
+    def __init__(self, cpf, name, email, phone, password, user_level, date_register, city, state,
+                 address, zipCode):
+        self.cpf = cpf
+        self.name = name
+        self.email = email
+        self.phone = phone
+        self.password = password
+        self.user_level = user_level
+        self.date_register = date_register
+        self.city = city
+        self.state = state
+        self.address = address
+        self.zipCode = zipCode
+
+
 @app.route('/')
 def index():
-    return render_template("index.html")
+    name = session.get("name")
+    return render_template("index.html", name=name)
+
+
+@app.route('/users', methods=["GET"])
+def users():
+    page = request.args.get('page', 1, type=int)
+    per_page = 5
+    all_users = User.query.paginate(page=page, per_page=per_page)
+    return render_template("users.html", users=all_users)
+
+
+@app.route("/user/register", methods=["POST", "GET"])
+def user_register():
+    form = UserRegisterForm(request.form)
+    if request.method == "POST" and form.validate():
+        user = User(cpf=form.cpf.data, name=form.name.data, email=form.email.data, phone=form.phone.data,
+                    password=form.password.data, user_level=0, date_register=form.date_register.data,
+                    city=form.city.data, state=form.state.data, address=form.address.data, zipCode=form.zipCode.data)
+        db.session.add(user)
+        db.session.commit()
+        return redirect(url_for('users'))
+    return render_template("register.html", form=form)
+
+
+@app.route('/<string:cpf>/update_user', methods=["GET", "POST"])
+def update_user(cpf):
+    user = User.query.filter_by(cpf=cpf).first()
+    if request.method == "POST":
+        name = request.form["name"]
+        email = request.form["email"]
+        phone = request.form["phone"]
+        password = request.form["password"]
+        date_register = request.form["date_register"]
+        state = request.form["state"]
+        city = request.form["city"]
+        address = request.form["address"]
+        zipCode = request.form["zipCode"]
+        User.query.filter_by(cpf=cpf).update({"name": name, "email": email, "phone": phone, "password": password,
+                                              "date_register": date_register, "state": state, "city": city,
+                                              "address": address, "zipCode": zipCode})
+        db.session.commit()
+        return redirect(url_for('users'))
+    return render_template("update_user.html", user=user)
+
+
+@app.route("/user/login", methods=["POST", "GET"])
+def login():
+
+    form = LoginForm()
+
+    if form.validate_on_submit():
+
+        name = form.loginName.data
+        password = form.loginPwd.data
+
+        users = User.query.all()
+
+        for user in users:
+
+            if user.password == password:
+
+                session["name"] = user.cpf
+                session.permanent = True
+                return redirect('/')
+        redirect(url_for('login'))
+
+    return render_template("login.html", form=form)
 
 
 @app.route('/dogs', methods=["GET"])
@@ -169,7 +274,16 @@ def preferences():
 
 
 if __name__ == "__main__":
+
+    key = 'SADS214@@'
+
     with app.app_context():
         db.create_all()
         df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
-    app.run()
+    app.config['SECRET_KEY'] = key
+    app.config["SESSION_PERMANENT"] = False
+    app.config["SESSION_TYPE"] = "filesystem"
+    app.run(debug=True)
+    app.secret_key = key
+    csrf = CSRFProtect(app)
+    csrf.init_app(app)
