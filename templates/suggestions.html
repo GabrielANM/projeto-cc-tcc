@@ -1,32 +1,32 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-<h2 style="text-align: center;">Sugestões para adoção responsável</h2>
-<hr>
-<br><br>
-<div class="container">
-    <div class="row">
-        {% for row in rows %}
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="{{row.photo}}" class="card-img-top" alt="Foto do cachorro">
-                <div class="card-body">
-                    <h5 class="card-title">{{row.name}}</h5>
-                    <p class="card-text">
-                        <strong>Idade:</strong> {{row.age}}<br>
-                        <strong>Sexo:</strong> {{row.sex}}<br>
-                        <strong>Tamanho:</strong> {{row.size}}<br>
-                        <strong>Castrado:</strong> {{row.fixed}}<br>
-                        <strong>Treinado para casa:</strong> {{row.house_trained}}<br>
-                        <strong>Necessidades especiais:</strong> {{row.special_needs}}<br>
-                        <strong>Vacinação em dia:</strong> {{row.shots_current}}<br>
-                        <strong>Convive com crianças:</strong> {{row.env_children}}<br>
-                        <strong>Convive com cachorros:</strong> {{row.env_dogs}}<br>
-                        <strong>Convive com gatos:</strong> {{row.env_cats}}
-                    </p>
+<div class="viewport-height">
+    <h1 class="my-3" style="text-align: center;">Sugestões para adoção responsável</h1>
+    <div class="container">
+        <div class="row">
+            {% for row in rows %}
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{row.photo}}" class="card-img-top" alt="Foto do cachorro">
+                    <div class="card-body">
+                        <h5 class="card-title">{{row.name}}</h5>
+                        <p class="card-text">
+                            <strong>Idade:</strong> {{row.age}}<br>
+                            <strong>Sexo:</strong> {{row.sex}}<br>
+                            <strong>Tamanho:</strong> {{row.size}}<br>
+                            <strong>Castrado:</strong> {{row.fixed}}<br>
+                            <strong>Treinado para casa:</strong> {{row.house_trained}}<br>
+                            <strong>Necessidades especiais:</strong> {{row.special_needs}}<br>
+                            <strong>Vacinação em dia:</strong> {{row.shots_current}}<br>
+                            <strong>Convive com crianças:</strong> {{row.env_children}}<br>
+                            <strong>Convive com cachorros:</strong> {{row.env_dogs}}<br>
+                            <strong>Convive com gatos:</strong> {{row.env_cats}}
+                        </p>
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
 {% endblock conteudo %}

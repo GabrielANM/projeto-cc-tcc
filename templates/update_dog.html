@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-<h2 style="text-align: center;">Atualizar Cachorro</h2>
-<hr>
+<h1 class="my-3" style="text-align: center;">Atualizar Cachorro</h1>
 {%- for mensagem in get_flashed_messages() %}
 	<div class="alert alert-danger">
 		{{mensagem}}
@@ -9,30 +8,30 @@
 {%- endfor %}
 
 <form action="{{url_for('update_dog', id=dog.id)}}" method="POST" class="form-control">
-	<label>Nome</label>
-	<input class="form-control" type="text" name="name" value="{{dog.name}}" required>
-	<label>Idade</label>
-	<input class="form-control" type="text" name="age" value="{{dog.age}}" required>
-	<label>Sexo</label>
-	<input class="form-control" type="text" name="sex" value="{{dog.sex}}" required>
-	<label>Tamanho</label>
-	<input class="form-control" type="text" name="size" value="{{dog.size}}" required>
-	<label>Castrado</label>
-	<input class="form-control" type="text" name="fixed" value="{{dog.fixed}}" required>
-	<label>Treinado para Casa</label>
-	<input class="form-control" type="text" name="house_trained" value="{{dog.house_trained}}" required>
-	<label>Necessidades Especiais</label>
-	<input class="form-control" type="text" name="special_needs" value="{{dog.special_needs}}" required>
-	<label>Vacinas Atuais</label>
-	<input class="form-control" type="text" name="shots_current" value="{{dog.shots_current}}" required>
-	<label>Ambiente com Crianças</label>
-	<input class="form-control" type="text" name="env_children" value="{{dog.env_children}}" required>
-	<label>Ambiente com Outros Cachorros</label>
-	<input class="form-control" type="text" name="env_dogs" value="{{dog.env_dogs}}" required>
-	<label>Ambiente com Gatos</label>
-	<input class="form-control" type="text" name="env_cats" value="{{dog.env_cats}}" required>
-	<label>Foto</label>
-	<input class="form-control" type="text" name="photo" value="{{dog.photo}}" required>
-	<button class="btn btn-success">Atualizar</button>
+	<label class="form-label">Nome</label>
+	<input class="form-control mb-2" type="text" name="name" value="{{dog.name}}" required>
+	<label class="form-label">Idade</label>
+	<input class="form-control mb-2" type="text" name="age" value="{{dog.age}}" required>
+	<label class="form-label">Sexo</label>
+	<input class="form-control mb-2" type="text" name="sex" value="{{dog.sex}}" required>
+	<label class="form-label">Tamanho</label>
+	<input class="form-control mb-2" type="text" name="size" value="{{dog.size}}" required>
+	<label class="form-label">Castrado</label>
+	<input class="form-control mb-2" type="text" name="fixed" value="{{dog.fixed}}" required>
+	<label class="form-label">Treinado para Casa</label>
+	<input class="form-control mb-2" type="text" name="house_trained" value="{{dog.house_trained}}" required>
+	<label class="form-label">Necessidades Especiais</label>
+	<input class="form-control mb-2" type="text" name="special_needs" value="{{dog.special_needs}}" required>
+	<label class="form-label">Vacinas Atuais</label>
+	<input class="form-control mb-2" type="text" name="shots_current" value="{{dog.shots_current}}" required>
+	<label class="form-label">Ambiente com Crianças</label>
+	<input class="form-control mb-2" type="text" name="env_children" value="{{dog.env_children}}" required>
+	<label class="form-label">Ambiente com Outros Cachorros</label>
+	<input class="form-control mb-2" type="text" name="env_dogs" value="{{dog.env_dogs}}" required>
+	<label class="form-label">Ambiente com Gatos</label>
+	<input class="form-control mb-2" type="text" name="env_cats" value="{{dog.env_cats}}" required>
+	<label class="form-label">Foto</label>
+	<input class="form-control mb-2" type="text" name="photo" value="{{dog.photo}}" required>
+	<button class="my-3 btn btn-warning">Atualizar</button>
 </form>
 {% endblock conteudo %}

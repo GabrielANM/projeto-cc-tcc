@@ -31,3 +31,7 @@ table {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+.viewport-height{
+    min-height: 85vh;
+}
