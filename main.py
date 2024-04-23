@@ -287,17 +287,15 @@ def preferences():
     return render_template("preferences.html")
 
 
-if __name__ == "__main__":
 
-    key = 'SADS214@@'
-
-    with app.app_context():
-        db.create_all()
-        df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
-    app.config['SECRET_KEY'] = key
-    app.config["SESSION_PERMANENT"] = False
-    app.config["SESSION_TYPE"] = "filesystem"
-    app.run(debug=True)
-    app.secret_key = key
-    csrf = CSRFProtect(app)
-    csrf.init_app(app)
+key = 'SADS214@@'
+with app.app_context():
+    db.create_all()
+    df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
+app.config['SECRET_KEY'] = key
+app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_TYPE"] = "filesystem"
+app.run(debug=True)
+app.secret_key = key
+csrf = CSRFProtect(app)
+csrf.init_app(app)
