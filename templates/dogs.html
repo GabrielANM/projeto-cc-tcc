@@ -1,49 +1,50 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-<h2 style="text-align: center;">Lista de Cachorros</h2>
+<h1 class="my-3" style="text-align: center;">Lista de Cachorros</h1>
 <hr>
-<a href="{{url_for('add_dog')}}" class="btn btn-secondary">Adicionar Cachorro</a>
+<a href="{{url_for('add_dog')}}" class="btn btn-warning">Adicionar Cachorro</a>
 <br><br>
 <table class="table table-bordered table-hover">
-	<thead class="table-dark">
-	    <tr>
-	      <th scope="col">Id</th>
-	      <th scope="col">Nome</th>
-	      <th scope="col">Idade</th>
-	      <th scope="col">Sexo</th>
-          <th scope="col">Tamanho</th>
-	      <th scope="col">Castrado</th>
-	      <th scope="col">Treinado para casa</th>
-	      <th scope="col">Necessidades especiais</th>
-	      <th scope="col">Vacinação em dia</th>
-	      <th scope="col">Convive com crianças</th>
-	      <th scope="col">Convive com cachorros</th>
-	      <th scope="col">Convive com gatos</th>
-          <th scope="col">Foto</th>
-	    </tr>
+    <thead>
+        <tr>
+          <th  class="bg-warning" scope="col">Id</th>
+          <th  class="bg-warning" scope="col">Nome</th>
+          <th  class="bg-warning" scope="col">Idade</th>
+          <th  class="bg-warning" scope="col">Sexo</th>
+          <th  class="bg-warning" scope="col">Tamanho</th>
+          <th  class="bg-warning" scope="col">Castrado</th>
+          <th  class="bg-warning" scope="col">Treinado para casa</th>
+          <th  class="bg-warning" scope="col">Necessidades especiais</th>
+          <th  class="bg-warning" scope="col">Vacinação em dia</th>
+          <th  class="bg-warning" scope="col">Convive com crianças</th>
+          <th  class="bg-warning" scope="col">Convive com cachorros</th>
+          <th  class="bg-warning" scope="col">Convive com gatos</th>
+          <th  class="bg-warning" scope="col">Foto</th>
+          <th  class="bg-warning" scope="col">Ação</th>
+        </tr>
   </thead>
   <tbody>
-	{% for dog in dogs %}
-		<tr>
-			<td>{{dog.id}}</td>
-			<td>{{dog.name}}</td>
-			<td>{{dog.age}}</td>
-			<td>{{dog.sex}}</td>
+    {% for dog in dogs %}
+        <tr>
+            <td>{{dog.id}}</td>
+            <td>{{dog.name}}</td>
+            <td>{{dog.age}}</td>
+            <td>{{dog.sex}}</td>
             <td>{{dog.size}}</td>
-			<td>{{dog.fixed}}</td>
-			<td>{{dog.house_trained}}</td>
-			<td>{{dog.special_needs}}</td>
-			<td>{{dog.shots_current}}</td>
-			<td>{{dog.env_children}}</td>
-			<td>{{dog.env_dogs}}</td>
-			<td>{{dog.env_cats}}</td>
-			<td>{{dog.photo}}</td>
-			<td>
-				<a href="{{dog.id}}/update_dog" class="btn btn-secondary btn-xs">Editar</a>
-				<a href="{{dog.id}}/remove_curso" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
-			</td>
-		</tr>
-	{% endfor %}
+            <td>{{dog.fixed}}</td>
+            <td>{{dog.house_trained}}</td>
+            <td>{{dog.special_needs}}</td>
+            <td>{{dog.shots_current}}</td>
+            <td>{{dog.env_children}}</td>
+            <td>{{dog.env_dogs}}</td>
+            <td>{{dog.env_cats}}</td>
+            <td class="break_line">{{dog.photo}}</td>
+            <td>
+                <a href="{{dog.id}}/update_dog" class="btn btn-secondary btn-xs">Editar</a>
+                <a href="{{dog.id}}/remove_curso" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
+            </td>
+        </tr>
+    {% endfor %}
   </tbody>
 </table>
 {% endblock conteudo %}

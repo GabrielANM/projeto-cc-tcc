@@ -21,3 +21,13 @@
   background-image: url("https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia26393/racas-de-caes-cpt.jpg");
   background-size: cover;
 }
+
+table {
+ table-layout: fixed; /* Use fixed table layout for better control over column widths. */
+}
+
+.break_line{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
