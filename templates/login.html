@@ -2,10 +2,10 @@
 {% block conteudo %}
 <div class="viewport-height">
     <h1 class="my-3" style="text-align: center;">Login</h1>
-    <form method="POST">
+    <form action="{{url_for('login')}}" method="POST" class="form-control">
         <div class="mb-3 form-group">
-            <label for="name" class="form-label">Usuário</label>
-            <input id="name" type="text" class="form-control" placeholder="exemplo@exemplo.com" name="name"
+            <label for="email" class="form-label">Usuário</label>
+            <input id="email" type="text" class="form-control" placeholder="exemplo@exemplo.com" name="email"
                    required>
         </div>
         <div class="mb-3 form-group">

@@ -170,23 +170,19 @@ def remove_user(cpf):
 #     return render_template("antigologin.html", form=form)
 
 
-@app.route("/user/login", methods=["POST", "GET"])
+@app.route("/user/login", methods=["GET", "POST"])
 def login():
-    name = request.form.get("name")
+    email = request.form.get("email")
     password = request.form.get("password")
 
-    login_users = User.query.all()
+    user = User.query.filter_by(email=email).first()
 
-    for user in login_users:
-
-        if user.password == password:
-
-            session["name"] = user.cpf
-            session.permanent = True
-            return redirect('dogs')
-    redirect(url_for('login'))
-
-    return render_template("login.html", user=login_users)
+    if user and user.password == password:
+        session["email"] = user.email
+        session.permanent = True
+        return redirect(url_for('index'))
+    else:
+        return render_template("login.html", user=user)
 
 
 @app.route('/dogs', methods=["GET"])
@@ -306,7 +302,6 @@ def preferences():
     return render_template("preferences.html")
 
 
-
 key = 'SADS214@@'
 with app.app_context():
     db.create_all()
@@ -314,7 +309,7 @@ with app.app_context():
 app.config['SECRET_KEY'] = key
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
-app.run(debug=True)
+app.run()
 app.secret_key = key
 csrf = CSRFProtect(app)
 csrf.init_app(app)
