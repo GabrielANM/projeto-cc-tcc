@@ -10,6 +10,7 @@ from api.dogs_view import create_dogs_blueprint
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.impute import SimpleImputer
+import numpy as np
 
 app = Flask("Adoption")
 app.config['JSON_SORT_KEYS'] = False
@@ -253,10 +254,8 @@ def remove_dog(id):
 def cluster_data(df):
     imputer = SimpleImputer(strategy='mean')
     df_imputed = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
-    num_clusters = 2
-    kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0).fit(df_imputed)
     df_clustered = pd.DataFrame(df_imputed, columns=df.columns)
-    df_clustered['cluster'] = kmeans.labels_
+    df_clustered['cluster'] = KMeans(n_clusters=num_clusters).fit_predict(df_imputed)
 
     return df_clustered
 
@@ -265,10 +264,9 @@ def cluster_data(df):
 def preferences():
     global df
 
-    cluster_df = df.drop(columns=['name', 'photo'])
-
     if request.method == "POST":
         data = {
+            "id": df['id'].max() + 1,  # Add this line
             "age": request.form.get("age"),
             "sex": request.form.get("sex"),
             "size": request.form.get("size"),
@@ -283,15 +281,19 @@ def preferences():
 
         new_row = pd.DataFrame([data])
 
-        data_frame = pd.concat([cluster_df, new_row], ignore_index=True)
+        new_row = dict.convert_string_to_integer(new_row)
 
-        data_frame = dict.convert_string_to_integer(data_frame)
+        data_frame = pd.concat([df, new_row], ignore_index=True)
+
+        # Retrain the KMeans model with the new data
+        kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0)
+        kmeans.fit(data_frame)
 
         clustered_df = cluster_data(data_frame)
         new_row_cluster = clustered_df.iloc[-1]['cluster']
         matching_rows = clustered_df[clustered_df['cluster'] == new_row_cluster].drop(columns=['cluster'])
 
-        matching_rows = pd.merge(matching_rows, df[['id', 'name', 'photo']], on='id')
+        matching_rows = pd.merge(matching_rows, original_df[['id', 'name', 'photo']], on='id')
 
         matching_rows = matching_rows.drop(matching_rows.index[-1])
 
@@ -306,10 +308,18 @@ key = 'SADS214@@'
 with app.app_context():
     db.create_all()
     df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
+    df = dict.convert_string_to_integer(df)
+
+    num_clusters = 12
+    kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0)
+
+    original_df = df.copy()
+    df = df.drop(columns=['name', 'photo'])
+
+    kmeans.fit(df)
+
 app.config['SECRET_KEY'] = key
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 app.run()
 app.secret_key = key
-# csrf = CSRFProtect(app)
-# csrf.init_app(app)

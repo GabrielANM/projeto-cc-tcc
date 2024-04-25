@@ -1,8 +1,8 @@
 age_mapping = {
-    "Adulto": 0,
-    "Filhote": 1,
-    "Idoso": 2,
-    "Jovem": 3
+    "Filhote": 0,
+    "Jovem": 1,
+    "Adulto": 2,
+    "Idoso": 3,
 }
 
 sex_mapping = {
