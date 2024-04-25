@@ -310,7 +310,7 @@ with app.app_context():
     df = pd.read_sql_query("SELECT * FROM dogs", db.engine)
     df = dict.convert_string_to_integer(df)
 
-    num_clusters = 1
+    num_clusters = 12
     kmeans = KMeans(n_clusters=num_clusters, init='k-means++', random_state=0)
 
     original_df = df.copy()
