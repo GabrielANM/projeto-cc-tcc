@@ -35,3 +35,8 @@ table {
 .viewport-height{
     min-height: 85vh;
 }
+
+.image_sized{
+max-width: 286px;
+max-height: 171.59px;
+}
