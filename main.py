@@ -10,7 +10,7 @@ from api.dogs_view import create_dogs_blueprint
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.impute import SimpleImputer
-import numpy as np
+from functools import wraps
 
 app = Flask("Adoption")
 app.config['JSON_SORT_KEYS'] = False
@@ -85,6 +85,16 @@ class User(db.Model):
         self.zipCode = zipCode
 
 
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        user_level = session.get('user_level', 0)
+        if user_level != 1:
+            return redirect(url_for('index'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+
 @app.route('/')
 def index():
     name = session.get("name")
@@ -92,6 +102,7 @@ def index():
 
 
 @app.route('/users', methods=["GET"])
+@admin_required
 def users():
     page = request.args.get('page', 1, type=int)
     per_page = 5
@@ -100,12 +111,13 @@ def users():
 
 
 @app.route("/user/register", methods=["POST", "GET"])
+@admin_required
 def user_register():
     form = UserRegisterForm(request.form)
     if request.method == "POST" and form.validate():
         existing_user = User.query.filter_by(email=form.regEmail.data).first()
         if existing_user:
-            return "A user with this email address already exists. Please use a different email address."
+            return "Um usuário com esse email ja existe. Por favor utilize um endereço de email diferente"
         user = User(cpf=form.regCPF.data, name=form.regName.data, email=form.regEmail.data, phone=form.regPhone.data,
                     password=form.regPassword.data, user_level=0, date_register=form.regDateRegister.data,
                     city=form.regCity.data, state=form.regState.data, address=form.regAddress.data,
@@ -117,6 +129,7 @@ def user_register():
 
 
 @app.route('/<string:cpf>/update_user', methods=["GET", "POST"])
+@admin_required
 def update_user(cpf):
     user = User.query.filter_by(cpf=cpf).first()
     if request.method == "POST":
@@ -124,6 +137,7 @@ def update_user(cpf):
         email = request.form["email"]
         phone = request.form["phone"]
         password = request.form["password"]
+        user_level = int(request.form["user_level"])
         date_register_str = request.form["date_register"]
         date_register = datetime.strptime(date_register_str, "%Y-%m-%d %H:%M:%S")
         state = request.form["state"]
@@ -131,14 +145,15 @@ def update_user(cpf):
         address = request.form["address"]
         zipCode = request.form["zipCode"]
         User.query.filter_by(cpf=cpf).update({"name": name, "email": email, "phone": phone, "password": password,
-                                              "date_register": date_register, "state": state, "city": city,
-                                              "address": address, "zipCode": zipCode})
+                                              "user_level": user_level,"date_register": date_register, "state": state,
+                                              "city": city, "address": address, "zipCode": zipCode})
         db.session.commit()
         return redirect(url_for('users'))
     return render_template("update_user.html", user=user)
 
 
 @app.route('/<string:cpf>/remove_user', methods=["GET", "POST"])
+@admin_required
 def remove_user(cpf):
     user = User.query.filter_by(cpf=cpf).first()
     if user:
@@ -180,13 +195,21 @@ def login():
 
     if user and user.password == password:
         session["email"] = user.email
+        session["user_level"] = user.user_level
         session.permanent = True
         return redirect(url_for('index'))
     else:
         return render_template("login.html", user=user)
 
 
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for('login'))
+
+
 @app.route('/dogs', methods=["GET"])
+@admin_required
 def dogs():
     page = request.args.get('page', 1, type=int)
     per_page = 5
@@ -195,6 +218,7 @@ def dogs():
 
 
 @app.route('/add_dog', methods=["GET", "POST"])
+@admin_required
 def add_dog():
     name = request.form.get("name")
     age = request.form.get("age")
@@ -219,6 +243,7 @@ def add_dog():
 
 
 @app.route('/<int:id>/update_dog', methods=["GET", "POST"])
+@admin_required
 def update_dog(id):
     dog = Dogs.query.filter_by(id=id).first()
     if request.method == "POST":
@@ -244,6 +269,7 @@ def update_dog(id):
 
 
 @app.route('/<int:id>/remove_dog', methods=["GET", "POST"])
+@admin_required
 def remove_dog(id):
     dog = Dogs.query.filter_by(id=id).first()
     db.session.delete(dog)

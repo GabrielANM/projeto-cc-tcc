@@ -40,13 +40,15 @@
 					Bem vindo(a)!
 				 </button>
 				 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-					 <li><a class="dropdown-item" href="#">Informaçoes pessoais</a></li>
 <!--					 altera preferencias e cadastro de acordo com o perfil de pessoa-->
 <!--					 adicionar uma pagina de preferencias existentes com botao de alteração-->
 					 <li><a class="dropdown-item" href="{{url_for('preferences')}}">Preferencias</a></li>
-					 <li><a class="dropdown-item" href="{{url_for('dogs')}}">Cadastro de cachorros</a></li>
+					 {% if session.user_level == 1 %}
+					 	<li><a class="dropdown-item" href="{{url_for('dogs')}}">Cadastro de cachorros</a></li>
+					 	<li><a class="dropdown-item" href="#">Informaçoes pessoais</a></li>
+					 {% endif %}
 					 <li><hr class="dropdown-divider"></li>
-					 <li><a class="dropdown-item" href="#">Sair</a></li>
+					 <li><a class="dropdown-item" href="{{ url_for('logout') }}">Sair</a></li>
 				 </ul>
 			  </div>
 

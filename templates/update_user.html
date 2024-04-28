@@ -22,6 +22,8 @@
   <input class="form-control mb-2" type="text" name="address" value="{{user.address}}" required>
   <label class="form-label">Zip Code</label>
   <input class="form-control mb-2" type="text" name="zipCode" value="{{user.zipCode}}" required>
+  <label class="form-label">User Level</label>
+  <input class="form-control mb-2" type="number" name="user_level" value="{{user.user_level}}" min="0" max="1" required>
   <button class="my-3 btn btn-warning">Atualizar</button>
 </form>
 {% endblock conteudo %}
