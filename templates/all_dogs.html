@@ -1,10 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% block conteudo %}
+<div class="viewport-height">
+    <h1 class="my-3" style="text-align: center;">Lista de todos os cachorros disponiveis para adoção</h1>
+    <div class="container">
+        <div class="row">
+            {% for dog in dogs %}
+            <div class="col-md-4 d-flex justify-content-center mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{dog.photo}}" class="card-img-top image_sized" alt="Dog photo">
+                    <div class="card-body">
+                        <h5 class="card-title">{{dog.name}}</h5>
+                        <p class="card-text">
+                            <strong>Idade:</strong> {{dog.age}}<br>
+                            <strong>Sexo:</strong> {{dog.sex}}<br>
+                            <strong>Tamanho:</strong> {{dog.size}}<br>
+                            <strong>Castrado:</strong> {{dog.fixed}}<br>
+                            <strong>Treinado para casa:</strong> {{dog.house_trained}}<br>
+                            <strong>Necessidades especiais:</strong> {{dog.special_needs}}<br>
+                            <strong>Vacinação em dia:</strong> {{dog.shots_current}}<br>
+                            <strong>Convive com crianças:</strong> {{dog.env_children}}<br>
+                            <strong>Convive com cachorros:</strong> {{dog.env_dogs}}<br>
+                            <strong>Convive com gatos:</strong> {{dog.env_cats}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock conteudo %}

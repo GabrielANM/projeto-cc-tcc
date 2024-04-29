@@ -12,6 +12,10 @@
   <input class="form-control mb-2" type="text" name="phone" value="{{user.phone}}" required>
   <label class="form-label">Password</label>
   <input class="form-control mb-2" type="password" name="password" value="{{user.password}}" required>
+  {% if session.user_level == 1 %}
+    <label class="form-label">User Level</label>
+    <input class="form-control mb-2" type="number" name="user_level" value="{{user.user_level}}" min="0" max="1" required>
+  {% endif %}
   <label class="form-label">Date Register</label>
   <input class="form-control mb-2" type="text" name="date_register" value="{{user.date_register}}" required>
   <label class="form-label">State</label>
@@ -22,8 +26,7 @@
   <input class="form-control mb-2" type="text" name="address" value="{{user.address}}" required>
   <label class="form-label">Zip Code</label>
   <input class="form-control mb-2" type="text" name="zipCode" value="{{user.zipCode}}" required>
-  <label class="form-label">User Level</label>
-  <input class="form-control mb-2" type="number" name="user_level" value="{{user.user_level}}" min="0" max="1" required>
+
   <button class="my-3 btn btn-warning">Atualizar</button>
 </form>
 {% endblock conteudo %}

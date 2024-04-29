@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block conteudo %}
+<h1>Informações do usuário</h1>
+<p><strong>Name:</strong> {{ user.name }}</p>
+<p><strong>Email:</strong> {{ user.email }}</p>
+<p><strong>Phone:</strong> {{ user.phone }}</p>
+<p><strong>Password:</strong> {{ user.password }}</p>
+{% if session.user_level == 1 %}
+    <p><strong>User Level:</strong> {{ user.user_level }}</p>
+{% endif %}
+<p><strong>Date Registered:</strong> {{ user.date_register.strftime("%Y-%m-%d %H:%M:%S") }}</p>
+<p><strong>City:</strong> {{ user.city }}</p>
+<p><strong>State:</strong> {{ user.state }}</p>
+<p><strong>Address:</strong> {{ user.address }}</p>
+<p><strong>Zip Code:</strong> {{ user.zipCode }}</p>
+
+<!-- Update button -->
+<a href="{{user.cpf}}/update_user" class="btn btn-secondary btn-xs px-3">Editar</a>
+
+<!-- Delete button -->
+<form method="POST" action="{{ url_for('remove_user', cpf=user.cpf) }}">
+    <input type="submit" value="Remover" class="btn btn-danger">
+</form>
+{% endblock conteudo %}

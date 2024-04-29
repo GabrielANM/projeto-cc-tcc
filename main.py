@@ -95,6 +95,20 @@ def admin_required(f):
     return decorated_function
 
 
+def user_permission_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        user_level = session.get('user_level', 0)
+        user_cpf = session.get('cpf')
+        target_user_cpf = kwargs.get('cpf')
+
+        if user_level == 1 or user_cpf == target_user_cpf:
+            return f(*args, **kwargs)
+        else:
+            return redirect(url_for('index'))
+    return decorated_function
+
+
 @app.route('/')
 def index():
     name = session.get("name")
@@ -111,7 +125,6 @@ def users():
 
 
 @app.route("/user/register", methods=["POST", "GET"])
-@admin_required
 def user_register():
     form = UserRegisterForm(request.form)
     if request.method == "POST" and form.validate():
@@ -129,7 +142,7 @@ def user_register():
 
 
 @app.route('/<string:cpf>/update_user', methods=["GET", "POST"])
-@admin_required
+@user_permission_required
 def update_user(cpf):
     user = User.query.filter_by(cpf=cpf).first()
     if request.method == "POST":
@@ -137,29 +150,47 @@ def update_user(cpf):
         email = request.form["email"]
         phone = request.form["phone"]
         password = request.form["password"]
-        user_level = int(request.form["user_level"])
+        if user.user_level == 1:
+            user_level = int(request.form["user_level"])
         date_register_str = request.form["date_register"]
         date_register = datetime.strptime(date_register_str, "%Y-%m-%d %H:%M:%S")
         state = request.form["state"]
         city = request.form["city"]
         address = request.form["address"]
         zipCode = request.form["zipCode"]
-        User.query.filter_by(cpf=cpf).update({"name": name, "email": email, "phone": phone, "password": password,
-                                              "user_level": user_level,"date_register": date_register, "state": state,
-                                              "city": city, "address": address, "zipCode": zipCode})
+        if user.user_level == 1:
+            User.query.filter_by(cpf=cpf).update({"name": name, "email": email, "phone": phone, "password": password,
+                                                  "user_level": user_level,"date_register": date_register, "state": state,
+                                                  "city": city, "address": address, "zipCode": zipCode})
+        else:
+            User.query.filter_by(cpf=cpf).update({"name": name, "email": email, "phone": phone, "password": password,
+                                                  "date_register": date_register, "state": state,
+                                                  "city": city, "address": address, "zipCode": zipCode})
         db.session.commit()
-        return redirect(url_for('users'))
+        if session.get("user_level") == 1:
+            return redirect(url_for('users'))
+        else:
+            return redirect(url_for('user_info'))
     return render_template("update_user.html", user=user)
 
 
 @app.route('/<string:cpf>/remove_user', methods=["GET", "POST"])
-@admin_required
+@user_permission_required
 def remove_user(cpf):
     user = User.query.filter_by(cpf=cpf).first()
     if user:
         db.session.delete(user)
         db.session.commit()
     return redirect(url_for("users"))
+
+
+@app.route('/user_info', methods=["GET", "POST"])
+def user_info():
+    email = session.get("email")
+    if email is None:
+        return redirect(url_for('login'))
+    user = User.query.filter_by(email=email).first()
+    return render_template("user_info.html", user=user)
 
 
 # @app.route("/user/login", methods=["POST", "GET"])
@@ -196,6 +227,7 @@ def login():
     if user and user.password == password:
         session["email"] = user.email
         session["user_level"] = user.user_level
+        session["cpf"] = user.cpf
         session.permanent = True
         return redirect(url_for('index'))
     else:
@@ -275,6 +307,12 @@ def remove_dog(id):
     db.session.delete(dog)
     db.session.commit()
     return redirect(url_for("dogs"))
+
+
+@app.route('/all_dogs', methods=["GET"])
+def all_dogs():
+    all_dogs = Dogs.query.all()
+    return render_template("all_dogs.html", dogs=all_dogs)
 
 
 def cluster_data(df):
