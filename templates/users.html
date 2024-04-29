@@ -1,54 +1,59 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-<h2 style="text-align: center;">Lista de Usuários</h2>
-<hr>
-<a href="{{url_for('user_register')}}" class="btn btn-secondary">Adicionar Usuário</a>
-<br><br>
-<table class="table table-bordered table-hover">
-	<thead class="table-dark">
-		<tr>
-		  <th scope="col">CPF</th>
-		  <th scope="col">Name</th>
-		  <th scope="col">Email</th>
-		  <th scope="col">Phone</th>
-		  <th scope="col">Password</th>
-		  <th scope="col">User Level</th>
-		  <th scope="col">Date Register</th>
-		  <th scope="col">City</th>
-		  <th scope="col">State</th>
-		  <th scope="col">Address</th>
-		</tr>
-	</thead>
-  <tbody>
-	{% for user in users %}
-		<tr>
-			<td>{{user.cpf}}</td>
-			<td>{{user.name}}</td>
-			<td>{{user.email}}</td>
-			<td>{{user.phone}}</td>
-			<td>{{user.password}}</td>
-			<td>{{user.user_level}}</td>
-			<td>{{user.date_register}}</td>
-			<td>{{user.city}}</td>
-			<td>{{user.state}}</td>
-			<td>{{user.address}}</td>
-			<td class="d-flex flex-column justify-content-center">
-				<a href="{{user.cpf}}/update_user" class="btn btn-secondary btn-xs">Editar</a>
-				<a href="{{user.cpf}}/remove_user" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Remover</a>
-			</td>
-		</tr>
-	{% endfor %}
-  </tbody>
-</table>
-<div>
-    {% if users.has_prev %}
-        <a href="{{url_for('users', page=users.prev_num)}}">Página anterior</a>
-    {% else %}
-    {% endif %}
-    {% if users.has_next %}
-        <a href="{{url_for('users', page=users.next_num)}}">Próxima página</a>
-    {% else %}
-    {% endif %}
-</div>
+<div class="viewport-height">
+	<h1 class="my-3" style="text-align: center;">Lista de Usuários</h1>
+	<a href="{{url_for('user_register')}}" class="btn btn-warning mt-3 mb-4">Adicionar Usuário</a>
 
+	<table class="table table-bordered table-hover">
+		<thead>
+			<tr>
+			  <th class="bg-warning" scope="col">CPF</th>
+			  <th class="bg-warning" scope="col">Name</th>
+			  <th class="bg-warning" scope="col">Email</th>
+			  <th class="bg-warning" scope="col">Phone</th>
+			  <th class="bg-warning" scope="col">Password</th>
+			  <th class="bg-warning" scope="col">User Level</th>
+			  <th class="bg-warning" scope="col">Date Register</th>
+			  <th class="bg-warning" scope="col">City</th>
+			  <th class="bg-warning" scope="col">State</th>
+			  <th class="bg-warning" scope="col">Address</th>
+			  <th  class="bg-warning" scope="col">Ação</th>
+			</tr>
+		</thead>
+	  <tbody>
+		{% for user in users %}
+			<tr>
+				<td>{{user.cpf}}</td>
+				<td>{{user.name}}</td>
+				<td class="break_line">{{user.email}}</td>
+				<td>{{user.phone}}</td>
+				<td>{{user.password}}</td>
+				<td>{{user.user_level}}</td>
+				<td>{{user.date_register}}</td>
+				<td>{{user.city}}</td>
+				<td>{{user.state}}</td>
+				<td>{{user.address}}</td>
+				<td class="d-flex flex-column justify-content-center">
+					<a href="{{user.cpf}}/update_user" class="btn btn-secondary btn-xs px-3">Editar</a>
+					<a href="{{user.cpf}}/remove_user" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs"><small>Remover</small></a>
+				</td>
+			</tr>
+		{% endfor %}
+	  </tbody>
+	</table>
+	<div class="d-flex justify-content-center">
+		{% if users.has_prev %}
+			<a href="{{url_for('users', page=users.prev_num)}}"><i class="bi bi-chevron-compact-left"></i> Página anterior</a>
+		{% else %}
+		{% endif %}
+		{% if users.has_prev and users.has_next %}
+            <a class="mx-1" href=""> | </a>
+        {% else %}
+		{% endif %}
+		{% if users.has_next %}
+			<a href="{{url_for('users', page=users.next_num)}}">Próxima página <i class="bi bi-chevron-compact-right"></i></a>
+		{% else %}
+		{% endif %}
+	</div>
+</div>
 {% endblock conteudo %}

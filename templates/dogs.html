@@ -47,14 +47,19 @@
         {% endfor %}
       </tbody>
     </table>
-    <div>
-    {% if dogs.has_prev %}
-        <a href="{{url_for('dogs', page=dogs.prev_num)}}">Página anterior</a>
-    {% else %}
-    {% endif %}
-    {% if dogs.has_next %}
-        <a href="{{url_for('dogs', page=dogs.next_num)}}">Próxima página</a>
-    {% else %}
-    {% endif %}
+    <div class="d-flex justify-content-center">
+        {% if dogs.has_prev %}
+            <a href="{{url_for('dogs', page=dogs.prev_num)}}"><i class="bi bi-chevron-compact-left"></i> Página anterior</a>
+        {% else %}
+        {% endif %}
+        {% if dogs.has_prev and dogs.has_next %}
+            <a class="mx-1" href=""> | </a>
+        {% else %}
+        {% endif %}
+        {% if dogs.has_next %}
+            <a href="{{url_for('dogs', page=dogs.next_num)}}">Próxima página <i class="bi bi-chevron-compact-right"></i></a>
+        {% else %}
+        {% endif %}
+    </div>
 </div>
 {% endblock conteudo %}
