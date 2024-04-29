@@ -23,27 +23,30 @@
 				  	</div>
 			  		<div class="justify-content-end">
 		<!--			  alterar entre logado e deslogado-->
-		<!--			<form>-->
-		<!--			  <button class="btn btn-sm btn-outline-secondary" type="button">Login / Cadastro</button>-->
-		<!--			</form>-->
-						  <div class="dropdown">
-							 <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-								Bem vindo(a)!
-							 </button>
-							 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-								 <li><a class="dropdown-item" href="{{url_for('all_dogs')}}">Todos os Cachorros</a></li>
-								 <li><a class="dropdown-item" href="{{url_for('user_info')}}">Informaçoes pessoais</a></li>
-			<!--					 altera preferencias e cadastro de acordo com o perfil de pessoa-->
-			<!--					 adicionar uma pagina de preferencias existentes com botao de alteração-->
-								 <li><a class="dropdown-item" href="{{url_for('preferences')}}">Preferencias</a></li>
-								 {% if session.user_level == 1 %}
-									 <li><a class="dropdown-item" href="{{url_for('dogs')}}">Cadastro de cachorros</a></li>
-									 <li><a class="dropdown-item" href="{{url_for('users')}}">Cadastro de usuários</a></li>
-								 {% endif %}
-								 <li><hr class="dropdown-divider"></li>
-					 			 <li><a class="dropdown-item" href="{{ url_for('logout') }}">Sair</a></li>
-							 </ul>
-						  </div>
+						  {% if session.email %}
+							  <div class="dropdown">
+									 <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+										Bem vindo(a)!
+									 </button>
+									 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+										 <li><a class="dropdown-item" href="{{url_for('all_dogs')}}">Todos os Cachorros</a></li>
+										 <li><a class="dropdown-item" href="{{url_for('user_info')}}">Informaçoes pessoais</a></li>
+					<!--					 altera preferencias e cadastro de acordo com o perfil de pessoa-->
+					<!--					 adicionar uma pagina de preferencias existentes com botao de alteração-->
+										 <li><a class="dropdown-item" href="{{url_for('preferences')}}">Preferencias</a></li>
+										 {% if session.user_level == 1 %}
+											 <li><a class="dropdown-item" href="{{url_for('dogs')}}">Cadastro de cachorros</a></li>
+											 <li><a class="dropdown-item" href="{{url_for('users')}}">Cadastro de usuários</a></li>
+										 {% endif %}
+										 <li><hr class="dropdown-divider"></li>
+										 <li><a class="dropdown-item" href="{{ url_for('logout') }}">Sair</a></li>
+									 </ul>
+							  </div>
+						  {% else %}
+							  <a href="{{ url_for('login') }}">
+								  <button class="btn btn-sm btn-outline-secondary" type="button">Login / Cadastro</button>
+							  </a>
+						  {% endif %}
 					</div>
 			  	</div>
 			</nav>
