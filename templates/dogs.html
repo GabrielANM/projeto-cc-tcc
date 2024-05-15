@@ -2,7 +2,7 @@
 {% block conteudo %}
 <div class="viewport-height">
     <h1 class="my-3" style="text-align: center;">Lista de Cachorros</h1>
-    <a href="{{url_for('add_dog')}}" class="btn btn-warning mt-3 mb-4">Adicionar Cachorro</a>
+    <a href="{{url_for('bp.add_dog')}}" class="btn btn-warning mt-3 mb-4">Adicionar Cachorro</a>
 
     <table class="table table-bordered table-hover">
         <thead>
@@ -49,11 +49,11 @@
     </table>
     <div>
     {% if dogs.has_prev %}
-        <a href="{{url_for('dogs', page=dogs.prev_num)}}">Página anterior</a>
+        <a href="{{url_for('bp.dogs', page=dogs.prev_num)}}">Página anterior</a>
     {% else %}
     {% endif %}
     {% if dogs.has_next %}
-        <a href="{{url_for('dogs', page=dogs.next_num)}}">Próxima página</a>
+        <a href="{{url_for('bp.dogs', page=dogs.next_num)}}">Próxima página</a>
     {% else %}
     {% endif %}
 </div>

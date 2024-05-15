@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, PasswordField, IntegerField, DateTimeField, DateField
 from wtforms.validators import DataRequired
-from flask_sqlalchemy  import SQLAlchemy
+
 
 
 class LoginForm(FlaskForm):

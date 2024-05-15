@@ -53,7 +53,7 @@
 
     <main>
         <section>
-            <form action="{{url_for('user_register')}}" method="POST" class="form-control">
+            <form action="{{url_for('bp.user_register')}}" method="POST" class="form-control">
                 <h1 class="my-3">Registro</h1>
                 <!-- CSRF protection -->
                 {{ form.hidden_tag() }}

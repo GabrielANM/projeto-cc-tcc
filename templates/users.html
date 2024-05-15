@@ -2,7 +2,7 @@
 {% block conteudo %}
 <h2 style="text-align: center;">Lista de Usuários</h2>
 <hr>
-<a href="{{url_for('user_register')}}" class="btn btn-secondary">Adicionar Usuário</a>
+<a href="{{url_for('bp.user_register')}}" class="btn btn-secondary">Adicionar Usuário</a>
 <br><br>
 <table class="table table-bordered table-hover">
 	<thead class="table-dark">
@@ -42,11 +42,11 @@
 </table>
 <div>
     {% if users.has_prev %}
-        <a href="{{url_for('users', page=users.prev_num)}}">Página anterior</a>
+        <a href="{{url_for('bp.users', page=users.prev_num)}}">Página anterior</a>
     {% else %}
     {% endif %}
     {% if users.has_next %}
-        <a href="{{url_for('users', page=users.next_num)}}">Próxima página</a>
+        <a href="{{url_for('bp.users', page=users.next_num)}}">Próxima página</a>
     {% else %}
     {% endif %}
 </div>
