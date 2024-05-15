@@ -7,7 +7,7 @@
 	</div>
 {%- endfor %}
 
-<form action="{{url_for('update_dog', id=dog.id)}}" method="POST" class="form-control">
+<form action="{{url_for('bp.update_dog', id=dog.id)}}" method="POST" class="form-control">
 	<label class="form-label">Nome</label>
 	<input class="form-control mb-2" type="text" name="name" value="{{dog.name}}" required>
 	<label class="form-label">Idade</label>

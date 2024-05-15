@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block conteudo %}
 <h1 class="my-3" style="text-align: center;">Atualizar Usuário</h1>
-<form action="{{url_for('update_user', cpf=user.cpf)}}" method="POST" class="form-control">
+<form action="{{url_for('bp.update_user', cpf=user.cpf)}}" method="POST" class="form-control">
   <label class="form-label">CPF</label>
   <input class="form-control mb-2" type="text" name="cpf" value="{{user.cpf}}" required>
   <label class="form-label">Name</label>
